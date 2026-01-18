@@ -1,0 +1,30 @@
+raceid: 22
+name: robot
+description: An arcane-mechanical construct of gears, steam, and rune-etched plating.
+defaultalignment: 0
+buffids:
+  - 29 # Night Vision
+size: large
+unarmedname: metal fists
+tnlscale: 1.2
+angrycommands:
+  - emote emits a threatening series of clicks and whirs.
+  - emote 's optical sensors glow red as it locks onto its target.
+tameable: false
+stats:
+  strength:
+    base: 4
+  speed:
+    base: -1
+  smarts:
+    base: 1
+  vitality:
+    base: 4
+  perception:
+    base: 2
+  mysticism:
+    base: 0
+damage:
+  attacks: 2
+  diceroll: 2d6
+disabledslots: ['head', 'neck', 'body', 'belt', 'gloves', 'ring', 'legs', 'feet']
