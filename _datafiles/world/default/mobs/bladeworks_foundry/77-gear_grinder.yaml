@@ -31,6 +31,3 @@ character:
   level: 9
   alignment: -30
   gold: 15
-  equipment:
-    body:
-      itemid: 20012

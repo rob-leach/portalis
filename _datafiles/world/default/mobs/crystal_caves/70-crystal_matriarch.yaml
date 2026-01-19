@@ -34,14 +34,8 @@ character:
   alignment: 30
   gold: 100
   equipment:
-    head:
-      itemid: 20018
-    neck:
-      itemid: 20017
     body:
       itemid: 20012
-    ring:
-      itemid: 20015
   items:
     - itemid: 20046
     - itemid: 20047
