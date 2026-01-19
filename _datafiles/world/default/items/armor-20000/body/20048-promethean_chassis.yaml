@@ -7,8 +7,9 @@ description: This suit of armor was forged from salvaged plates of the Voltaic
   crackles across its surface, and the armor seems to repair minor damage
   on its own over time. Wearing it fills you with a strange confidence,
   as if the Promethean's indomitable will has become your own.
-type: armor
-subtype: body
+type: body
+subtype: wearable
+damagereduction: 15
 value: 3500
 statmods:
   strength: 2

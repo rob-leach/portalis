@@ -1,0 +1,34 @@
+mobid: 90
+zone: Frostfang
+itemdropchance: 0
+hostile: false
+maxwander: 10
+homeroomid: 61
+groups:
+  - frostfang-npc
+  - quest-giver
+idlecommands:
+  - 'say Have you heard? Crystal caves have been discovered beyond the West Gate! Flora found them while gathering herbs.'
+  - emote strokes his long beard thoughtfully.
+  - 'say The Bladeworks Foundry has reopened! Bert claims he saw constructs still working the forges.'
+  - 'say Adventurers seeking glory should explore the new zones. Crystal Caves for the young, the Foundry for the seasoned.'
+  - emote pulls out a worn map and studies it intently.
+  - 'say I have catalogued many dungeons in my time. These new discoveries are most exciting!'
+  - emote adjusts his pointed hat.
+  - 'say The Bladeworks Foundry... they say there are only THREE of some legendary blade there. Most curious.'
+  - 'say Crystal formations of unusual magical potency have been reported in the caves. Spelunkers beware!'
+  - emote mutters something about "initiative order" under his breath.
+activitylevel: 30
+character:
+  name: Galstaff, Sorcerer of Light
+  description: This elderly wizard wears flowing robes of deep blue adorned with silver
+    stars and moons. His long white beard reaches nearly to his waist, and his
+    pointed hat sits slightly askew atop his head. He carries a gnarled oak staff
+    topped with a softly glowing crystal, and a worn leather satchel bulges with
+    scrolls and maps. His eyes twinkle with barely contained enthusiasm as he
+    speaks of dungeons, monsters, and legendary treasures. He seems to know an
+    awful lot about the layout of the world, almost as if he designed it himself.
+  raceid: 1
+  level: 20
+  alignment: 100
+  gold: 50
