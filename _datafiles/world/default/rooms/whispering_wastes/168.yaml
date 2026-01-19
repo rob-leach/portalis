@@ -17,13 +17,14 @@ exits:
     roomid: 167
   northwest:
     roomid: 169
-  south:
-    roomid: 3001
+  down:
+    roomid: 2001
 nouns:
-  foundry: Through the swirling snow to the south, you can barely make out the massive
-    iron doors of an abandoned building. Strange heat emanates from within, and the
-    faint sound of grinding machinery can be heard.
-  building: The building to the south is clearly industrial in nature - iron walls,
-    smoke stacks, and massive doors. This must be the legendary Bladeworks Foundry.
+  opening: A dark opening in the frost-covered ground reveals a passage descending into
+    the earth. A faint blue glow and warm air emanate from within.
+  cave: The cave entrance beckons with its strange blue glow. Warm air drifts up,
+    a stark contrast to the frozen landscape. Local legends speak of crystal caves
+    beneath the frozen ground.
+  hole: A dark passage descends into the earth. You can feel warm air rising from below.
 idlemessages:
 - The wind howls from every direction.

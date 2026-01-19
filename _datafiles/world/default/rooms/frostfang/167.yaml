@@ -8,25 +8,18 @@ description: Outside of the frost-covered gates to the west of Frostfang, the bi
   under the thick blanket of white. The howling wind carries faint, eerie whispers,
   hinting at the mysteries and dangers hidden within this relentless winter storm.
   To your left and right, the silhouettes of frozen structures emerge sporadically
-  from the blizzard, like ghostly sentinels watching over this desolate expanse. At
-  your feet, a dark opening in the frost-covered ground reveals a passage descending
-  into the earth, from which a faint blue glow and warm air emanate.
+  from the blizzard, like ghostly sentinels watching over this desolate expanse.
 mapsymbol: "○"
 maplegend: Outside
 biome: outdoors
 exits:
   east:
     roomid: 35
-  down:
-    roomid: 2001
   west:
     roomid: 168
 nouns:
-  opening: The opening in the ground is just large enough to descend into. Strange blue
-    light pulses from within. Local legends speak of crystal caves beneath the frozen ground.
-  cave: The cave entrance beckons with its strange blue glow. Warm air drifts up,
-    a stark contrast to the frozen landscape.
-  hole: A dark passage descends into the earth. You can feel warm air rising from below.
+  structures: The frozen structures in the distance are impossible to make out through
+    the swirling snow. They could be ruins, or tricks of the light.
 idlemessages:
 - The icy wind envelopes you.
 - The gate creaks in the wind.
