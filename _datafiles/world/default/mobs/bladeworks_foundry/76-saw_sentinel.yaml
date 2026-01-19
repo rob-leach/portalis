@@ -30,3 +30,5 @@ character:
   level: 8
   alignment: -20
   gold: 12
+  items:
+    - itemid: 10022
