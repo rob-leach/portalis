@@ -1,0 +1,7 @@
+buffid: 42
+name: Acorn Snack
+description: A nutty energy boost warms you.
+triggerrate: 1 round
+triggercount: 3
+statmods:
+  vitality: 1

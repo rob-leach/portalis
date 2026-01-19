@@ -1,0 +1,34 @@
+mobid: 82
+zone: Squirrel Tree
+itemdropchance: 10
+hostile: false
+maxwander: 2
+groups:
+  - squirrel-tree-creature
+  - squirrel
+combatcommands:
+  - 'callforhelp 2:angry squirrel:shrieks, calling for backup!'
+  - 'emote chatters furiously and bites!'
+  - ''
+idlecommands:
+  - emote chatters angrily at you.
+  - emote stuffs an acorn into its cheeks.
+  - emote flicks its bushy tail in agitation.
+  - emote scratches at the wood with tiny claws.
+  - ''
+  - ''
+activitylevel: 20
+character:
+  name: angry squirrel
+  description: This plump russet squirrel is absolutely FURIOUS at your intrusion into
+    its territory. Its beady black eyes glare at you with surprising intensity, and
+    its bushy tail puffs up to twice its normal size in a display of aggression. Tiny
+    but razor-sharp teeth are bared in a perpetual snarl, and its claws click menacingly
+    against the wood. What it lacks in size, it makes up for in sheer territorial rage
+    and an apparent willingness to call every friend it has to swarm intruders.
+  raceid: 10
+  level: 5
+  alignment: 0
+  gold: 1
+hates:
+  - intruders

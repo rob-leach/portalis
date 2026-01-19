@@ -1,0 +1,13 @@
+name: Squirrel Tree
+roomid: 4001
+autoscale:
+  minimum: 5
+  maximum: 8
+idlemessages:
+  - Angry chittering echoes from somewhere above.
+  - Acorn shells crunch underfoot.
+  - Small claws scrape against bark in the darkness.
+  - A squirrel's tail disappears around a branch.
+  - The tree creaks and sways gently.
+  - Distant squirrel shrieks carry through the hollow trunk.
+defaultbiome: dungeon

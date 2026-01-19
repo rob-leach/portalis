@@ -1,0 +1,28 @@
+roomid: 4001
+zone: Squirrel Tree
+title: Tree Entry Hall
+description: You have climbed through the trap door in the ceiling of the Snarky Squirrel
+  Commons and found yourself in a hollow space within an impossibly large tree trunk.
+  The interior walls are smooth, worn wood with claw marks scoring every surface. Acorn
+  shells litter the floor, crunching underfoot with each step. Dim light filters down
+  from above, revealing a narrow passage ascending into the tree. The air smells of
+  sap, fur, and something territorial. This appears to be the entryway to whatever
+  creature calls this tree home - and judging by the angry chittering echoing from
+  above, the occupants are not pleased with your intrusion.
+mapsymbol: E
+biome: dungeon
+exits:
+  down:
+    roomid: 1004
+  up:
+    roomid: 4002
+idlemessages:
+- Acorn shells crunch as something shifts above.
+- Tiny eyes glint from the darkness overhead.
+- The trap door rattles as wind whistles through.
+- Claw marks on the walls seem fresh.
+nouns:
+  walls: The interior walls are smooth wood scarred with countless claw marks. Generations
+    of squirrels have called this tree home.
+  shells: Countless acorn shells litter the floor - the remnants of many squirrel meals.
+  trap door: The trap door leads back down to the Snarky Squirrel Commons below.

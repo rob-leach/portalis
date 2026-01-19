@@ -1,0 +1,33 @@
+roomid: 4002
+zone: Squirrel Tree
+title: Trunk Ascent
+description: The passage narrows as you climb higher through the hollow trunk. Wooden
+  footholds have been gnawed into the walls, forming a crude ladder spiraling upward.
+  Small nooks and crannies pock the interior, each stuffed with acorns, bits of cloth,
+  or unidentifiable treasures squirrels deemed worthy of hoarding. The chittering grows
+  louder here, and you catch glimpses of russet fur darting through gaps in the wood.
+  The squirrels know you are here, and they are not happy about it.
+mapsymbol: '*'
+biome: dungeon
+exits:
+  down:
+    roomid: 4001
+  up:
+    roomid: 4003
+spawninfo:
+- mobid: 82
+  message: An angry squirrel drops from a nook above!
+  respawnrate: 3 real minutes
+- mobid: 82
+  message: A squirrel scrambles out of a crack in the wall!
+  respawnrate: 4 real minutes
+idlemessages:
+- A squirrel chatters angrily from somewhere above.
+- Something scurries across the wall nearby.
+- Acorns rattle in their hiding spots.
+- The wood creaks ominously under your weight.
+nouns:
+  nooks: Each nook is packed with squirrel treasures - mostly acorns, but occasionally
+    something shinier gleams from within.
+  footholds: The gnawed footholds make climbing easier, though they were clearly not
+    designed for human feet.

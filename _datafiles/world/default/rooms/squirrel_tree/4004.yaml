@@ -1,0 +1,33 @@
+roomid: 4004
+zone: Squirrel Tree
+title: Upper Trunk
+description: You have climbed into the upper reaches of the tree trunk, where the wood
+  thins and daylight filters through cracks in the bark. The passage continues upward
+  toward what must be the canopy, but the going is treacherous - the footholds are
+  smaller here, clearly designed for creatures far lighter than you. Squirrel activity
+  has intensified; you can see them darting along branches visible through gaps in the
+  trunk, their chittering reaching a fever pitch at your continued intrusion.
+mapsymbol: '*'
+biome: dungeon
+exits:
+  down:
+    roomid: 4003
+  up:
+    roomid: 4007
+spawninfo:
+- mobid: 82
+  message: A squirrel leaps from a crack in the trunk!
+  respawnrate: 3 real minutes
+- mobid: 82
+  message: Another defender scrambles down from above!
+  respawnrate: 3 real minutes
+idlemessages:
+- Light flickers as squirrels pass by outside the trunk.
+- The wood groans under your weight.
+- Angry chittering echoes from the canopy above.
+- A squirrel pauses to glare at you before disappearing.
+nouns:
+  cracks: Light streams through cracks in the bark. You can see branches and leaves
+    swaying outside.
+  footholds: The footholds up here are barely more than scratches in the wood. The
+    squirrels clearly prefer lighter visitors.
