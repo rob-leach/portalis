@@ -8,6 +8,14 @@ description: Encircling the city of Frostfang, the ramparts stand as a formidabl
 mapsymbol: ♜
 maplegend: Wall
 biome: city
+nouns:
+  stones: The massive stone blocks show centuries of weathering. Between two loose
+    stones, there appears to be a small gap.
+  crenellations: The crenellations provide cover for defenders. Years of use have
+    worn smooth grooves into the stone.
+stash:
+- itemid: 103
+  difficulty: 2
 exits:
   north:
     roomid: 823
