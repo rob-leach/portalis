@@ -1,0 +1,14 @@
+itemid: 10023
+name: piston mace
+namesimple: mace
+description: This heavy weapon was once part of a steam golem's arm. The piston
+  mechanism still functions, adding extra force to each swing. Small vents
+  release puffs of residual steam with every strike.
+type: weapon
+hands: 2
+subtype: bludgeoning
+damage:
+  diceroll: 2d6
+value: 450
+statmods:
+  strength: 2

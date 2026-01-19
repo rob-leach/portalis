@@ -1,0 +1,56 @@
+mobid: 79
+zone: Bladeworks Foundry
+itemdropchance: 100
+hostile: true
+maxwander: 0
+groups:
+  - bladeworks-construct
+  - zone-boss
+idlecommands:
+  - emote crackles with lightning, arcs jumping between its blade-covered form.
+  - emote turns its head slowly, scanning for intruders.
+  - say WHO DARES ENTER THE HALL OF ENDLESS BLADES?
+  - emote raises one massive arm, electricity dancing along its fingers.
+  - emote's internal dynamo hums with barely contained power.
+combatcommands:
+  - 'emote channels lightning through its blade-arms in a devastating strike!'
+  - 'emote slams the ground, sending electricity arcing across the floor!'
+  - 'emote overloads, releasing a blinding pulse of electrical energy!'
+  - 'emote roars with a sound like thunder and grinding gears!'
+  - 'callforhelp 2:steam golem:sends a surge of power through the foundry''s systems!'
+activitylevel: 15
+character:
+  name: Voltaic Promethean
+  description: The Voltaic Promethean is the foundry's ultimate creation, a
+    fifteen-foot titan of steel and lightning that was meant to revolutionize
+    both warfare and industry. Its body is covered in interlocking blades that
+    serve as both armor and weapon, each one capable of channeling the electrical
+    energy that animates its form. A central dynamo in its chest generates
+    constant power, visible through gaps in its armor as crackling blue-white
+    lightning. Its eyes are twin orbs of pure electrical discharge, seeing
+    through currents rather than light. The Promethean was designed to think,
+    to create, to forge new weapons from raw materials using only its own body.
+    Instead, it became the instrument of the foundry's downfall - a creation
+    too powerful to control, too intelligent to serve. Now it rules the Hall
+    of Endless Blades, a steel god awaiting challengers.
+  raceid: 22
+  level: 15
+  alignment: -50
+  gold: 200
+  equipment:
+    weapon:
+      itemid: 10003
+    offhand:
+      itemid: 10003
+    body:
+      itemid: 20012
+    head:
+      itemid: 20018
+    neck:
+      itemid: 20017
+  items:
+    - itemid: 10025
+    - itemid: 20048
+hates:
+  - thieves
+  - assassins

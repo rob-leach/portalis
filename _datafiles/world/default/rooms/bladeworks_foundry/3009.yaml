@@ -1,0 +1,36 @@
+roomid: 3009
+zone: Bladeworks Foundry
+title: Tempering Pools
+description: A series of deep pools fill this chamber, once used for quenching
+  and tempering hot-forged blades. Some pools still bubble with mysterious oils,
+  others hold stagnant water that gleams with metallic rainbows. Chains and
+  hooks hang from the ceiling, designed to lower blades into the pools with
+  precise timing. The walls are scorched from decades of hot metal being plunged
+  into liquid. A massive sword-chandelier hangs directly over the central pool,
+  its glass blades dripping with condensation from the steam that constantly
+  rises from below.
+mapsymbol: 'T'
+maplegend: Tempering
+biome: dungeon
+exits:
+  west:
+    roomid: 3005
+  south:
+    roomid: 3011
+spawninfo:
+- mobid: 76
+  message: A saw sentinel emerges from the steam, dripping with tempering oil.
+  respawnrate: 4 real minutes
+  maxcount: 1
+nouns:
+  pools: The tempering pools range from oil to water to mysterious alchemical
+    solutions. Some still bubble with residual heat.
+  chains: Heavy chains with blade-hooks hang from the ceiling, rusted but
+    still functional.
+  chandelier: The central chandelier drips constantly with condensation, its
+    glass blades weeping in the humid air.
+idlemessages:
+- Steam rises from a pool as something hot falls into it somewhere.
+- Chains rattle as the building settles.
+- Bubbles rise from the depths of an oil pool.
+- The chandelier drips steadily into the pool below.

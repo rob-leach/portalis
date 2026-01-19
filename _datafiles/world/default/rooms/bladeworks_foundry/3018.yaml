@@ -1,0 +1,38 @@
+roomid: 3018
+zone: Bladeworks Foundry
+title: The Control Nexus
+description: This chamber houses the magical and mechanical systems that control
+  the foundry's constructs. Crystal matrices pulse with arcane energy, connected
+  to copper wires that snake throughout the building. Control panels line the
+  walls, their levers and dials still active. This is where the constructs
+  received their orders - and where, presumably, something went terribly wrong.
+  A massive central crystal, cracked and flickering, seems to be the source
+  of the constructs' continued animation. The sword-chandeliers here incorporate
+  crystal elements, their blades humming with residual magical energy.
+mapsymbol: 'C'
+maplegend: Control
+biome: dungeon
+exits:
+  north:
+    roomid: 3016
+  south:
+    roomid: 3020
+spawninfo:
+- mobid: 78
+  message: A steam golem steps away from a control panel, venting pressure.
+  respawnrate: 5 real minutes
+  maxcount: 1
+nouns:
+  matrices: Crystal matrices pulse with arcane energy, the magical heart of
+    the construct control system.
+  panels: Control panels display readings and accept inputs, though their
+    purposes are no longer clear.
+  crystal: The central crystal is cracked but still functional. Its light
+    pulses in rhythm with construct activity throughout the foundry.
+  wires: Copper wires thick as arms snake from the crystal to every corner
+    of the facility.
+idlemessages:
+- A crystal matrix pulses brighter, then dims.
+- Control panel dials spin without input.
+- The central crystal flickers, and distant constructs pause momentarily.
+- Arcane energy crackles along the copper wiring.
