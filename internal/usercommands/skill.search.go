@@ -69,8 +69,8 @@ func Search(rest string, user *users.UserRecord, room *rooms.Room, flags events.
 		}
 	}
 
-	if skillLevel > 2 {
-		// Find stashed items
+	if skillLevel >= 1 {
+		// Find stashed items (lowered from level 3 to level 1 for portalis)
 		stashedItems := []string{}
 		for _, item := range room.Stash {
 			if !item.IsValid() {
