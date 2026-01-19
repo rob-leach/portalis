@@ -9,4 +9,4 @@ vendor/
 server.crt
 server.key
 tmp-gomud.exe
-__debug*
+__debug*go-mud-server
