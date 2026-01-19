@@ -1,0 +1,42 @@
+mobid: 83
+zone: Squirrel Tree
+itemdropchance: 100
+hostile: true
+maxwander: 0
+groups:
+  - squirrel-tree-creature
+  - squirrel
+  - zone-boss
+combatcommands:
+  - 'callforhelp 4:angry squirrel:lets out a royal shriek that summons his subjects!'
+  - 'emote strikes with regal fury!'
+  - 'emote adjusts his acorn crown and attacks!'
+  - ''
+idlecommands:
+  - emote surveys his domain from atop the throne of twigs.
+  - emote adjusts the acorn crown upon his head.
+  - say You dare enter my kingdom uninvited? Foolish creature.
+  - emote flicks his scarred tail imperiously.
+  - ''
+activitylevel: 15
+character:
+  name: Squirrel King
+  description: This battle-scarred squirrel stands larger than any of his subjects,
+    his russet fur streaked with silver and marked by the scars of countless territorial
+    disputes. One eye is milky white from an old wound, but the other burns with fierce
+    intelligence and fury. Upon his head rests a crown woven from acorn caps, held
+    together with bits of spider silk and bark - crude but unmistakably regal. His
+    bushy tail, torn and scarred but still magnificent, sweeps behind him like a
+    banner of war. This is no ordinary squirrel - this is a king who has clawed his
+    way to the top of the tree through tooth and claw, and he will not suffer
+    trespassers in his domain.
+  raceid: 10
+  level: 7
+  alignment: -10
+  gold: 25
+  items:
+    - itemid: 29
+hates:
+  - intruders
+  - humans
+  - elves

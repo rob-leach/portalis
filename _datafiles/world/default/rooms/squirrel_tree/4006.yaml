@@ -1,0 +1,38 @@
+roomid: 4006
+zone: Squirrel Tree
+title: Western Cache
+description: Another storage chamber branches off to the west, this one older and more
+  established than its eastern counterpart. The acorn piles here have been carefully
+  organized and maintained, sorted by size and freshness with an almost obsessive
+  precision. Strange treasures glint among the nuts - bits of glass, a tarnished coin,
+  a child's marble - trinkets the squirrels found shiny enough to hoard alongside their
+  food. The guardians here are older, more experienced, and even more territorial.
+mapsymbol: '*'
+biome: dungeon
+exits:
+  east:
+    roomid: 4003
+spawninfo:
+- mobid: 82
+  message: An elder squirrel defends its carefully sorted hoard!
+  respawnrate: 3 real minutes
+- mobid: 82
+  message: A scarred squirrel emerges from the treasure pile!
+  respawnrate: 4 real minutes
+stash:
+- itemid: 30016
+  chance: 70
+- itemid: 30016
+  chance: 70
+- itemid: 30016
+  chance: 50
+idlemessages:
+- A squirrel carefully repositions an acorn, then repositions it again.
+- Something shiny catches the light from within a hoard pile.
+- The elder squirrels watch you with cold, calculating eyes.
+- An acorn rolls across the floor, immediately retrieved by a frantic squirrel.
+nouns:
+  treasures: Among the acorns you spot bits of glass, coins, and other shiny objects.
+    The squirrels have eclectic taste in treasure.
+  piles: The acorn piles are sorted with remarkable precision - large nuts here, small
+    nuts there, fresh separate from aging.
