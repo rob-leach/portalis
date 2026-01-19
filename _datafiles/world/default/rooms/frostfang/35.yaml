@@ -44,6 +44,8 @@ nouns:
     and poised, but its head is that of a majestic eagle with sharp, piercing eyes
     and a beak that looks ready to snap. Its wings, though folded, span wide, hinting
     at the power they hold when unfurled.
+stash:
+- itemid: 103
 idlemessages:
 - You hear the wind howling outside the gate.
 - The wind whistles through the arrow slits in the watchtowers.

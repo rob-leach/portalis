@@ -25,3 +25,12 @@ spawninfo:
 - mobid: 90
   message: Galstaff shuffles in, muttering about dungeon layouts.
   respawnrate: 5 real minutes
+nouns:
+  hearth: The roaring hearth crackles with warmth, flames dancing merrily. A few
+    coins have fallen between the hearthstones over the years.
+  tables: Well-worn wooden tables bear the marks of countless meals, tankard rings,
+    and the occasional knife gouge from an animated storyteller.
+  floorboards: The wooden floorboards creak pleasantly underfoot. One near the hearth
+    seems slightly loose.
+stash:
+- itemid: 30001

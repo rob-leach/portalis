@@ -13,6 +13,15 @@ biome: city
 exits:
   northwest:
     roomid: 1
+nouns:
+  bar: The bar is cluttered with half-empty mugs and suspicious stains. The bartender
+    keeps one eye on the stage and one on the crowd.
+  stage: A rickety wooden platform where dreams go to die. The boards are worn smooth
+    by countless hopeful feet.
+  benches: The benches have seen better days, their wood scarred with carved initials
+    and the occasional crude drawing.
+stash:
+- itemid: 30001
 idlemessages:
 - Someone on stage tells a joke. Nobody laughs.
 - Scattered applause, possibly sarcastic.

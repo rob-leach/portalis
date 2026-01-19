@@ -1,0 +1,28 @@
+itemid: 103
+name: crumpled note
+namesimple: paper
+description: A weathered note tucked into an unlikely hiding spot. Someone has written
+  on it in careful handwriting.
+type: readable
+subtype: prose
+value: 5
+readtext: |
+  Welcome to the Portalis Geo Caching Club!
+
+  You found one of our hidden caches! We are a group of adventurers
+  who hide small treasures throughout the realm for others to discover.
+
+  Rules of the Club:
+  1. Take something, leave something
+  2. Sign the log (if you find one)
+  3. Tell no one the location
+  4. Happy hunting!
+
+  Cache #47 - "The Watchful Eyes"
+  Hidden by: Thornwick the Wanderer
+  Date: Year of the Frozen Moon
+
+  Finders:
+  - Bramble Quickfoot
+  - Sir Reginald the Persistent
+  - ???

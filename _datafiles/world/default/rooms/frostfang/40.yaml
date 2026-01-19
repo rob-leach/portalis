@@ -15,3 +15,13 @@ exits:
     roomid: 39
   north:
     roomid: 41
+nouns:
+  shelves: Towering shelves reach toward the ceiling, laden with ancient tomes and
+    dusty scrolls. Some look undisturbed for decades.
+  library: The vast library contains knowledge from across the realm. Scholars once
+    spent lifetimes studying here.
+  carpets: Plush carpets muffle footsteps and add warmth to the scholarly atmosphere.
+  tapestries: Vibrant tapestries depict maritime adventures and distant lands, their
+    colors still bright despite their age.
+stash:
+- itemid: 30001

@@ -18,3 +18,11 @@ exits:
     roomid: 732
   southwest:
     roomid: 27
+nouns:
+  shanties: The shanties are held together by hope and desperation. Each one is a
+    testament to the resourcefulness of the poor.
+  tents: Makeshift tents provide meager shelter. Someone has hidden supplies nearby.
+  ground: The uneven ground is littered with debris. Sharp eyes might spot something
+    useful among the refuse.
+stash:
+- itemid: 30001
