@@ -29,4 +29,6 @@ character:
   raceid: 22
   level: 8
   alignment: -20
-  gold: 12
+  gold: 5
+  items:
+    - itemid: 10022

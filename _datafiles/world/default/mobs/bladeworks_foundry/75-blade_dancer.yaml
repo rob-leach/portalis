@@ -31,3 +31,5 @@ character:
   level: 6
   alignment: -20
   gold: 5
+  items:
+    - itemid: 10026
