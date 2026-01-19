@@ -22,6 +22,7 @@ nouns:
     and the occasional crude drawing.
 stash:
 - itemid: 30001
+  difficulty: 1
 idlemessages:
 - Someone on stage tells a joke. Nobody laughs.
 - Scattered applause, possibly sarcastic.

@@ -34,3 +34,4 @@ nouns:
     seems slightly loose.
 stash:
 - itemid: 30001
+  difficulty: 1

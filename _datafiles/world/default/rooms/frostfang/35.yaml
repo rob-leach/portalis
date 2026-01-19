@@ -46,6 +46,7 @@ nouns:
     at the power they hold when unfurled.
 stash:
 - itemid: 103
+  difficulty: 1
 idlemessages:
 - You hear the wind howling outside the gate.
 - The wind whistles through the arrow slits in the watchtowers.

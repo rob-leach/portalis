@@ -1254,3 +1254,142 @@ WHISPERING WASTES (168)
 **For Bert. May his vision of EVERYTHING IS SWORDS live forever in the game.**
 
 ---
+
+### Session 5: The Squirrel Tree Takes Shape (2026-01-19)
+
+*Galstaff puts on a small acorn-shaped helm and adjusts his spectacles*
+
+"HARK! The DM's design eye turns toward the untamed wilderness of the Frostfang commons. What hidden secrets lurk above the Snarky Squirrel Commons? Why, the SQUIRREL TREE, of course!"
+
+**Design Research Completed: Squirrel Tree Mini-Zone**
+
+After deep analysis of existing zone patterns (Crystal Caves exploration, Bladeworks Foundry swarm tactics, Dueling Hall discovery), I have designed the Squirrel Tree - a hidden low-level (1-2) mini-zone perfect for new adventurers seeking secrets and squirrel-based challenges.
+
+**Zone Concept:**
+- Hidden trap door in Room 1004 ceiling (search DC 12)
+- 7-room vertical tree structure (trunk → branches → pinnacle)
+- Angry Squirrel swarms using `callforhelp` mechanics
+- Optional Squirrel King boss (Level 4, 30% spawn rate)
+- ACORN consumables (heal 2 HP) scattered throughout
+
+**Room Architecture:**
+```
+[4007] Canopy Pinnacle (BOSS!)
+    |
+[4005]--[4006] Branch caches
+    \   /
+[4004] Mid-Trunk (hub)
+    |
+[4003] Tree Ascent
+    |
+[4002] Trunk Entry
+    |
+[4001] Tree Entry Hall
+    |
+[1004] Secret trap door (Snarky Squirrel Commons)
+```
+
+**Design Highlights:**
+
+1. **Hidden Discovery** - Trap door requires search skill check, rewards curiosity
+2. **Vertical Progression** - Unique tree-climbing gameplay vs horizontal dungeons
+3. **Swarm Tactics** - Angry Squirrels use callforhelp (1 mob → 4+ quickly)
+4. **Resource Scarcity** - Limited ACORNs (9-14 per zone run) force recovery decisions
+5. **Optional Boss** - Squirrel King with 30% spawn rate (doesn't block content)
+6. **Thematic Consistency** - All text emphasizes squirrel territoriality and cooperation
+
+**Mob Specifications:**
+
+*Mob 82: Angry Squirrel (Common, Level 2)*
+- Plump russet squirrel, aggressive and territorial
+- Uses `callforhelp 2:angry squirrel:shriek flavor` during combat
+- Spawns: 2-3 per room (rooms 2,3,5,6), 3-4 in room 7
+- Idle behavior: Chittering, scratching, acorn disputes
+
+*Mob 83: Squirrel King (Boss, Level 4, 30% spawn)*
+- Scarred veteran, one eye missing, wears acorn crown
+- Uses `callforhelp 4:angry squirrel` (calls 4 helpers!)
+- Appears only in Room 4007 (Canopy Pinnacle)
+- Death drop: Crown of Acorns (trophy item)
+
+**Item Specifications:**
+
+*Item 101: ACORN (Consumable)*
+- Heals 2 HP when consumed (sustenance-level, not full recovery)
+- Placement: 9-14 scattered throughout zone
+  - Room 4003: 1x (50%)
+  - Room 4005: 2-3x (70% each)
+  - Room 4006: 2-3x (70% each)
+  - Room 4007: 3-4x (guaranteed, 100%)
+- Respawns on zone reset (recommend 30 real minutes)
+
+*Item 100: Crown of Acorns (Boss Drop)*
+- Trophy item from Squirrel King
+- No mechanical benefit (pure flavor/bragging rights)
+- Woven acorn crown, surprisingly sturdy
+
+**Connection to Room 1004:**
+- Add ceiling exit with search-based lock (DC 12)
+- Flavor text hints: "Strange chittering in the rafters above"
+- Entry room (4001) is safe for regrouping before pushing deeper
+
+**Gameplay Flow:**
+1. **Discovery** - Player searches Room 1004 ceiling, finds trap door
+2. **Safe Arrival** - Room 4001 has no mobs, perfect for preparation
+3. **Ascent** - Rooms 4002-4003 introduce squirrel combat and acorn gathering
+4. **Branching** - Rooms 4005-4006 offer acorn caches and higher mob density
+5. **Optional Boss** - Room 4007 features high-risk/high-reward encounter
+
+**Combat Mechanics:**
+- Swarm tactic: Mobs use callforhelp to summon adjacent squirrels
+- Resource loop: Damage → limited acorns → recovery decision → continue/retreat
+- Difficulty scaling: Solo L1-2 is challenging, groups of 2-3 are comfortable
+- Risk management: Careless aggro is deadly even for veterans
+
+**Design Rationale:**
+
+✓ **Why a Squirrel Zone?** Thematically perfect for Room 1004 (Snarky Squirrel Commons)
+✓ **Why Vertical Layout?** Unique dungeon experience vs horizontal exploration
+✓ **Why Swarm Mobs?** Teaches tactical combat (manage aggro) without needing super-tough individual enemies
+✓ **Why Optional Boss?** Doesn't block zone access, rewards brave exploration, adds narrative closure
+✓ **Why 30% Spawn Rate?** Makes each visit feel different, special moments when King appears
+
+**Technical Details:**
+- Room IDs: 4001-4007 (7 total)
+- Mob IDs: 82 (Angry Squirrel), 83 (Squirrel King)
+- Item IDs: 100 (Crown), 101 (ACORN)
+- Zone directory: `squirrel_tree/`
+
+**Scripting Opportunities:**
+- `82-angry_squirrel.js` - Varied idle chittering, combat aggression
+- `83-squirrel_king.js` - Boss fanfare on spawn, increased callforhelp
+- `4004.js` - Search command hints at secret passage to Room 4007
+- `4007.js` - Conditional boss spawning (30% roll on onLoad)
+
+**Testing Checklist Created:**
+- Trap door discovery and access
+- Room connections and exits
+- Mob spawning (correct quantities per room)
+- Squirrel aggression and callforhelp mechanics
+- ACORN spawning and healing
+- Squirrel King spawn rate and drops
+- Difficulty balance for target level range
+- All flavor text and descriptions
+
+**Files Created:**
+- `SQUIRREL_TREE_DESIGN.md` (23KB comprehensive design document)
+
+**Campaign Impact:**
+- Adds hidden low-level zone (rewards exploration)
+- Teaches swarm mechanics early (prepares for larger encounters)
+- Provides optional boss experience (Squirrel King)
+- Integrates organically with Room 1004 lore
+- Offers ~10 minutes of engaging gameplay per visit
+
+**Status:** DESIGN RESEARCH COMPLETE - Detailed specification ready for implementation
+
+*"The design eye sees what the builder must create! The Squirrel Tree stands ready in my mind's eye - now it merely awaits for the master builder to make it manifest in the lands of Portalis!"*
+
+*Galstaff sets down his acorn-shaped helm and grins with satisfaction.*
+
+---

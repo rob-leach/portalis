@@ -70,14 +70,24 @@ func Search(rest string, user *users.UserRecord, room *rooms.Room, flags events.
 	}
 
 	if skillLevel >= 1 {
-		// Find stashed items (lowered from level 3 to level 1 for portalis)
+		// Find stashed items - check difficulty against skill level
 		stashedItems := []string{}
-		for _, item := range room.Stash {
-			if !item.IsValid() {
-				room.RemoveItem(item, true)
+		hasHarderItems := false
+		for _, stashItem := range room.Stash {
+			if !stashItem.IsValid() {
+				room.RemoveItem(stashItem.Item, true)
+				continue
 			}
-			name := item.DisplayName() + ` <ansi fg="item-stashed">(stashed)</ansi>`
-			stashedItems = append(stashedItems, name)
+			if stashItem.GetDifficulty() <= skillLevel {
+				name := stashItem.DisplayName() + ` <ansi fg="item-stashed">(stashed)</ansi>`
+				stashedItems = append(stashedItems, name)
+			} else {
+				hasHarderItems = true
+			}
+		}
+
+		if hasHarderItems {
+			user.SendText(`<ansi fg="yellow">You get the sense that there's something else here, but you are certain you cannot find it at your skill.</ansi>`)
 		}
 
 		hiddenPlayers := []string{}

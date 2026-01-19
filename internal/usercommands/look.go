@@ -577,14 +577,15 @@ func lookRoom(user *users.UserRecord, roomId int, secretLook bool) {
 	}
 
 	// Find stashed items
-	for _, item := range room.Stash {
-		if !item.IsValid() {
-			room.RemoveItem(item, true)
-		}
-		if item.StashedBy != user.UserId {
+	for _, stashItem := range room.Stash {
+		if !stashItem.IsValid() {
+			room.RemoveItem(stashItem.Item, true)
 			continue
 		}
-		name := item.DisplayName() + ` <ansi fg="item-stashed">(stashed)</ansi>`
+		if stashItem.StashedBy != user.UserId {
+			continue
+		}
+		name := stashItem.DisplayName() + ` <ansi fg="item-stashed">(stashed)</ansi>`
 		groundStuff = append(groundStuff, name)
 	}
 

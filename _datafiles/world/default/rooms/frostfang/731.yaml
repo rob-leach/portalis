@@ -26,3 +26,4 @@ nouns:
     useful among the refuse.
 stash:
 - itemid: 30001
+  difficulty: 1

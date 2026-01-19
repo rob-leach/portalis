@@ -25,3 +25,4 @@ nouns:
     colors still bright despite their age.
 stash:
 - itemid: 30001
+  difficulty: 1

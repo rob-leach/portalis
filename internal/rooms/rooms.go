@@ -80,7 +80,7 @@ type Room struct {
 	ExitsTemp         map[string]exit.TemporaryRoomExit `yaml:"-"`                                   // Temporary exits that will be removed after a certain time. Don't bother saving on sever shutting down.
 	Nouns             map[string]string                 `yaml:"nouns,omitempty"`                     // Interesting nouns to highlight in the room or reveal on succesful searches.
 	Items             []items.Item                      `yaml:"items,omitempty"`                     // Items on the floor
-	Stash             []items.Item                      `yaml:"stash,omitempty"`                     // list of items in the room that are not visible to players
+	Stash             []StashItem                       `yaml:"stash,omitempty"`                     // list of items in the room that are not visible to players (with search difficulty)
 	Corpses           []Corpse                          `yaml:"-"`                                   // Any corpses laying around from recent deaths
 	Gold              int                               `yaml:"gold,omitempty"`                      // How much gold is on the ground?
 	SpawnInfo         []SpawnInfo                       `yaml:"spawninfo,omitempty" instance:"skip"` // key is creature ID, value is spawn chance
@@ -102,6 +102,20 @@ type Room struct {
 type TrainingRange struct {
 	Min int
 	Max int
+}
+
+// StashItem represents a hidden item with a search difficulty
+type StashItem struct {
+	items.Item `yaml:",inline"`
+	Difficulty int `yaml:"difficulty,omitempty"` // Search skill level required (default 2)
+}
+
+// GetDifficulty returns the search difficulty, defaulting to 2 if not set
+func (s StashItem) GetDifficulty() int {
+	if s.Difficulty == 0 {
+		return 2 // Default difficulty
+	}
+	return s.Difficulty
 }
 
 func NewRoom(zone string) *Room {
@@ -821,11 +835,17 @@ func (r *Room) AddItem(item items.Item, stash bool) {
 	item.Validate()
 
 	if stash {
-		r.Stash = append(r.Stash, item)
+		r.Stash = append(r.Stash, StashItem{Item: item})
 	} else {
 		r.Items = append(r.Items, item)
 	}
 
+}
+
+// AddStashItem adds an item to stash with a specific search difficulty
+func (r *Room) AddStashItem(item items.Item, difficulty int) {
+	item.Validate()
+	r.Stash = append(r.Stash, StashItem{Item: item, Difficulty: difficulty})
 }
 
 func (r *Room) SetExitLock(exitName string, locked bool) {
@@ -942,7 +962,9 @@ func (r *Room) GetAllFloorItems(stash bool) []items.Item {
 	found := []items.Item{}
 
 	if stash {
-		found = append(found, r.Stash...)
+		for _, s := range r.Stash {
+			found = append(found, s.Item)
+		}
 	}
 
 	found = append(found, r.Items...)
@@ -1002,11 +1024,43 @@ func (r *Room) FindCorpse(searchName string) (Corpse, bool) {
 	return Corpse{}, false
 }
 
+// FindStashItem finds a stash item by name and returns it with difficulty info
+func (r *Room) FindStashItem(itemName string) (StashItem, bool) {
+	// extract items from StashItems for matching
+	stashItems := make([]items.Item, len(r.Stash))
+	for i, s := range r.Stash {
+		stashItems[i] = s.Item
+	}
+	closeMatchItem, matchItem := items.FindMatchIn(itemName, stashItems...)
+
+	// Find the original StashItem for the match
+	var foundItem items.Item
+	if matchItem.ItemId != 0 {
+		foundItem = matchItem
+	} else if closeMatchItem.ItemId != 0 {
+		foundItem = closeMatchItem
+	} else {
+		return StashItem{}, false
+	}
+
+	// Return the original StashItem with difficulty
+	for _, s := range r.Stash {
+		if s.Item.Equals(foundItem) {
+			return s, true
+		}
+	}
+	return StashItem{}, false
+}
+
 func (r *Room) FindOnFloor(itemName string, stash bool) (items.Item, bool) {
 
 	if stash {
-		// search the stash
-		closeMatchItem, matchItem := items.FindMatchIn(itemName, r.Stash...)
+		// search the stash - extract items from StashItems
+		stashItems := make([]items.Item, len(r.Stash))
+		for i, s := range r.Stash {
+			stashItems[i] = s.Item
+		}
+		closeMatchItem, matchItem := items.FindMatchIn(itemName, stashItems...)
 
 		if matchItem.ItemId != 0 {
 			return matchItem, true
