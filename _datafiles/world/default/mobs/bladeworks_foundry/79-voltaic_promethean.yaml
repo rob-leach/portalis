@@ -42,12 +42,6 @@ character:
       itemid: 10003
     offhand:
       itemid: 10003
-    body:
-      itemid: 20012
-    head:
-      itemid: 20018
-    neck:
-      itemid: 20017
   items:
     - itemid: 10025
     - itemid: 20048

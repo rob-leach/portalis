@@ -33,5 +33,3 @@ character:
   equipment:
     weapon:
       itemid: 10001
-    body:
-      itemid: 20012

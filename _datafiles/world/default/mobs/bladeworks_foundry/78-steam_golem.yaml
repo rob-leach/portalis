@@ -34,7 +34,3 @@ character:
   equipment:
     weapon:
       itemid: 10003
-    body:
-      itemid: 20012
-    head:
-      itemid: 20007
