@@ -22,3 +22,6 @@ spawninfo:
   message: A serving wench enters from a back room.
   levelmod: 10
   respawnrate: 2 real minutes
+- mobid: 90
+  message: Galstaff shuffles in, muttering about dungeon layouts.
+  respawnrate: 5 real minutes
