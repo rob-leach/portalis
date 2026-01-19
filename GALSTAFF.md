@@ -49,6 +49,18 @@ We accidentally sent PR #453 to GoMudEngine/GoMud (the Snarky Squirrel Commons).
 - Push defaults set to `origin` only
 - When using `gh pr create`, add `--repo rob-leach/portalis` if uncertain
 
+## Git Workflow (MANDATORY)
+
+**ALL changes go through PRs. No direct commits to master.**
+
+1. Create feature branch: `git checkout -b feature/thing`
+2. Make changes and commit
+3. Push branch: `git push -u origin feature/thing`
+4. Create PR: `gh pr create`
+5. Merge via GitHub (or `gh pr merge`)
+
+This is not optional. Direct commits to master bypass review and make history harder to follow.
+
 **NEVER:**
 - Add an upstream remote
 - Create PRs against GoMudEngine
