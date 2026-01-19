@@ -1,0 +1,30 @@
+roomid: 2017
+zone: Crystal Caves
+title: Matriarch's Antechamber
+description: The passage opens into a vast antechamber that takes your breath away.
+  The walls are covered in crystals of impossible size and complexity, formations
+  that must have taken millennia to grow. They spiral and twist in organic patterns,
+  creating natural archways and alcoves. The light here is different, warmer and
+  more golden, emanating from deep within the crystals themselves. The floor is
+  strewn with smaller crystal shards, some bearing what look like claw marks.
+  Ahead, a massive archway formed of interlocking crystals frames a passage into
+  an even greater chamber, where something immense and luminous moves.
+mapsymbol: 'A'
+maplegend: Antechamber
+biome: dungeon
+exits:
+  north:
+    roomid: 2016
+  south:
+    roomid: 2018
+spawninfo:
+- mobid: 69
+  message: A crystal guardian manifests to defend the passage.
+  respawnrate: 5 real minutes
+  maxcount: 2
+idlemessages:
+- The crystals ahead pulse with a rhythm like breathing.
+- A deep vibration passes through the floor, and the shards rattle.
+- Something massive moves beyond the archway, casting shifting shadows.
+- The golden light intensifies briefly, as if in warning.
+- Claw marks on a nearby crystal seem fresh, the stone still warm.

@@ -1,0 +1,41 @@
+roomid: 2018
+zone: Crystal Caves
+title: Matriarch's Throne
+description: You have entered the throne room of the Crystal Matriarch, a chamber
+  of staggering beauty and terrible power. Massive crystal pillars support a ceiling
+  lost in golden luminescence, each one humming with contained energy. The walls
+  are honeycombed with alcoves containing crystal eggs that pulse with inner light.
+  At the chamber's heart rises a throne of pure crystal, grown rather than carved,
+  its facets reflecting and amplifying the light until the very air seems to glow.
+  This is the heart of the caves, the source of all the crystalline life that
+  fills these depths. Here dwells the Matriarch, ancient beyond reckoning, who
+  has watched over these caves since before memory.
+mapsymbol: 'X'
+maplegend: Boss
+biome: dungeon
+exits:
+  north:
+    roomid: 2017
+spawninfo:
+- mobid: 70
+  message: The Crystal Matriarch rises from her throne, crystals singing in her wake.
+  respawnrate: 15 real minutes
+stash:
+- itemid: 20046
+  chance: 100
+- itemid: 20047
+  chance: 50
+idlemessages:
+- The crystal eggs pulse in unison, responding to some unheard signal.
+- Light cascades through the pillars like liquid gold.
+- The throne itself seems to breathe, its facets shifting imperceptibly.
+- An ancient voice seems to whisper from everywhere and nowhere at once.
+- The very air trembles with contained power.
+nouns:
+  eggs: The crystal eggs are warm to the touch, pulsing with life. Each contains
+    a nascent crystal entity, waiting to hatch in decades or centuries. Disturbing
+    them would surely anger their mother.
+  throne: The throne is grown from a single perfect crystal, its surface alive with
+    reflected light. It radiates warmth and power, the accumulated energy of ages.
+  pillars: The crystal pillars hum with contained energy, supporting not just the
+    ceiling but the magical matrix that sustains all life in these caves.

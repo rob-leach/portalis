@@ -1,0 +1,11 @@
+itemid: 28
+name: raw crystal geode
+namesimple: geode
+description: A fist-sized geode cracked open to reveal a sparkling interior of purple
+  and gold crystals. The formations inside pulse with faint inner light, and holding
+  it brings a subtle sense of clarity and calm. Scholars and alchemists prize these
+  natural formations for their magical properties, and merchants pay well for specimens
+  of this quality.
+type: object
+subtype: mundane
+value: 150

@@ -6,7 +6,7 @@ maxwander: 0
 groups:
   - frostfang-npc
   - squirrel-patrons
-activitylevel: 25
+activitylevel: 12
 idlecommands:
   - 'say BOO! That joke was worse than the rats in the alleys!'
   - 'say I have seen better performances in the CATACOMBS!'

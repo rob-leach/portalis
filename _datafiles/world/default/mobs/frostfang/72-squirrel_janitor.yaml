@@ -1,0 +1,30 @@
+mobid: 72
+zone: Frostfang
+itemdropchance: 0
+hostile: false
+maxwander: 0
+groups:
+  - frostfang-npc
+activitylevel: 10
+idlecommands:
+  - 'emote sweeps the floor slowly'
+  - 'emote wipes down a bench'
+  - 'emote picks up a crumpled paper and sighs'
+  - 'say You know what the comedian said last night? Something about the Rangers teaching tracking.'
+  - 'emote chuckles to himself'
+  - 'say The heckler was going on about the Magic Academy again. Funny stuff.'
+  - 'emote straightens a crooked chair'
+  - 'say I heard one about the Catacombs. Dark humor, they called it.'
+  - 'emote tests a squeaky floorboard'
+  - 'say The soldiers at the barracks - now THEY could teach you to fight, the comedian says.'
+  - 'emote polishes the edge of the stage'
+  - 'say Someone mentioned caves out west. Explorers getting lost or something.'
+character:
+  name: squirrel janitor
+  description: This weathered worker shuffles through the venue with a mop and a faraway
+    look. He has heard every bad joke performed here and seems to remember them all,
+    muttering punchlines and references to himself as he cleans. The comedians come
+    and go, but the janitor remains.
+  raceid: 1
+  level: 3
+  alignment: 0

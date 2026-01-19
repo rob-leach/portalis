@@ -1,0 +1,30 @@
+roomid: 2016
+zone: Crystal Caves
+title: Deep Hollow
+description: The passage descends sharply here, opening into a hollow carved from
+  dark obsidian-like crystal that absorbs rather than reflects light. The walls
+  are smooth and cold to the touch, and the only illumination comes from veins
+  of phosphorescent minerals that trace patterns like frozen lightning. The air
+  is noticeably colder, and your breath mists before you. Something about this
+  place feels old, primordial, as if you're descending into the very roots of
+  the mountain. A passage continues south, the darkness ahead broken only by a
+  distant, pulsing glow.
+mapsymbol: 'v'
+biome: dungeon
+exits:
+  north:
+    roomid: 2013
+  south:
+    roomid: 2017
+spawninfo:
+- mobid: 69
+  message: A crystal guardian emerges from the dark walls.
+  respawnrate: 6 real minutes
+- mobid: 68
+  message: A sporeling shuffles out of a shadowy alcove.
+  respawnrate: 5 real minutes
+idlemessages:
+- The phosphorescent veins pulse in sequence, leading downward.
+- A cold draft rises from below, carrying an unfamiliar scent.
+- The darkness seems to press in closer when you're not looking directly at it.
+- You hear something massive shift in the depths below.

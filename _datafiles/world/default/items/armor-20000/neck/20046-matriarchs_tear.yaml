@@ -1,0 +1,19 @@
+itemid: 20046
+name: Matriarch's Tear
+namesimple: crystal pendant
+description: This exquisite pendant contains a perfectly formed crystal that glows
+  with soft golden light. Legend holds it was formed from a tear shed by the Crystal
+  Matriarch herself, crystallized over millennia into this flawless gem. The pendant
+  pulses gently against the wearer's chest, and those who wear it report a heightened
+  awareness of their surroundings, as if the crystal shares its ancient perception
+  with them.
+type: neck
+subtype: wearable
+damagereduction: 5
+statmods:
+  perception: 8
+  mysticism: 4
+  vitality: 2
+value: 800
+wornbuffids:
+  - 29
