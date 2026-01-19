@@ -11,7 +11,7 @@ mapsymbol: E
 maplegend: Entrance
 biome: dungeon
 exits:
-  north:
+  up:
     roomid: 167
   south:
     roomid: 2002
