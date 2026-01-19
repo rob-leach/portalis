@@ -31,8 +31,3 @@ character:
   level: 6
   alignment: -20
   gold: 5
-  equipment:
-    weapon:
-      itemid: 10004
-    offhand:
-      itemid: 10004

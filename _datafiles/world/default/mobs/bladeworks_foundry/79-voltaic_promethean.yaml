@@ -37,11 +37,6 @@ character:
   level: 15
   alignment: -50
   gold: 200
-  equipment:
-    weapon:
-      itemid: 10003
-    offhand:
-      itemid: 10003
   items:
     - itemid: 10025
     - itemid: 20048

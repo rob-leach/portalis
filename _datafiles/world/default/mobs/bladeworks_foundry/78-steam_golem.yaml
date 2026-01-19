@@ -31,6 +31,3 @@ character:
   level: 11
   alignment: -30
   gold: 35
-  equipment:
-    weapon:
-      itemid: 10003
