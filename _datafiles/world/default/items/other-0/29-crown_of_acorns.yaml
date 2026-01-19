@@ -3,10 +3,12 @@ name: Crown of Acorns
 namesimple: crown
 description: A crude but surprisingly impressive crown woven from acorn caps and held
   together with bits of spider silk and bark. It once adorned the head of the Squirrel
-  King himself, ruler of the great tree above the Snarky Squirrel Commons. Though it
-  has no magical properties, it serves as proof that you bested the most territorial
-  rodent in all of Frostfang. Wearing it might earn you strange looks, but also perhaps
-  a measure of respect from those who know its origin.
-type: object
-subtype: mundane
+  King himself, ruler of the great tree above the Snarky Squirrel Commons. Wearing
+  it fills you with jittery, squirrel-like energy - your reflexes quicken but your
+  focus suffers. It earns strange looks, but also respect from those who know its origin.
+type: head
+subtype: wearable
 value: 50
+statmods:
+  speed: 3
+  perception: -2
