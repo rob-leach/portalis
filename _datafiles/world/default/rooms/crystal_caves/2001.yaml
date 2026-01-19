@@ -12,7 +12,7 @@ maplegend: Entrance
 biome: dungeon
 exits:
   up:
-    roomid: 167
+    roomid: 168
   south:
     roomid: 2002
 idlemessages:

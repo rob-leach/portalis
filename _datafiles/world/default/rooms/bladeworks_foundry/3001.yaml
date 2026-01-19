@@ -14,7 +14,7 @@ maplegend: Entrance
 biome: dungeon
 exits:
   north:
-    roomid: 168
+    roomid: 278
   south:
     roomid: 3002
 nouns:
