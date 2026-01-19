@@ -28,8 +28,9 @@ character:
     dancer was meant to demonstrate the foundry's products - now it demonstrates
     only violence.
   raceid: 22
-  level: 6
+  level: 12
   alignment: -20
   gold: 5
-  items:
-    - itemid: 10026
+  equipment:
+    weapon:
+      itemid: 10026

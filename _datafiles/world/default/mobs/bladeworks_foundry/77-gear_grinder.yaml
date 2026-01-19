@@ -27,7 +27,7 @@ character:
     its grinding maw. The gear grinder moves slowly but inexorably, and the
     screech of its internal mechanisms can be heard throughout the foundry.
     It no longer distinguishes between scrap metal and living intruders.
-  raceid: 22
-  level: 9
+  raceid: 16
+  level: 18
   alignment: -30
   gold: 6

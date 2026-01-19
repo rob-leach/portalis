@@ -31,9 +31,9 @@ character:
     way to the top of the tree through tooth and claw, and he will not suffer
     trespassers in his domain.
   raceid: 10
-  level: 7
+  level: 8
   alignment: -10
-  gold: 25
+  gold: 10
   items:
     - itemid: 29
 hates:

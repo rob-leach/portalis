@@ -34,11 +34,13 @@ character:
     too powerful to control, too intelligent to serve. Now it rules the Hall
     of Endless Blades, a steel god awaiting challengers.
   raceid: 22
-  level: 15
+  level: 28
   alignment: -50
   gold: 50
+  equipment:
+    weapon:
+      itemid: 10025
   items:
-    - itemid: 10025
     - itemid: 20048
 hates:
   - thieves

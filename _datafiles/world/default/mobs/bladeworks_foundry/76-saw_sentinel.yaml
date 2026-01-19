@@ -27,8 +27,9 @@ character:
     give it 360-degree awareness. The saw sentinel was meant to guard high-value
     areas - and it still does, though its masters are long gone.
   raceid: 22
-  level: 8
+  level: 15
   alignment: -20
   gold: 5
-  items:
-    - itemid: 10022
+  equipment:
+    weapon:
+      itemid: 10022

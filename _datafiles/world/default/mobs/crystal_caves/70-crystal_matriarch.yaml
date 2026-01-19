@@ -32,7 +32,7 @@ character:
   raceid: 16
   level: 12
   alignment: 30
-  gold: 100
+  gold: 40
   equipment:
     body:
       itemid: 20012

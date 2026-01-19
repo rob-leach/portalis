@@ -31,7 +31,7 @@ character:
   raceid: 22
   level: 18
   alignment: 0
-  gold: 35
+  gold: 15
   equipment:
     weapon:
       itemid: 10010
