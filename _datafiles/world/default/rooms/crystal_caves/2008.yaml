@@ -1,0 +1,34 @@
+roomid: 2008
+zone: Crystal Caves
+title: Glowcap Grove
+description: A forest of luminescent mushrooms fills this expansive cavern, their
+  caps glowing in shades of teal and cyan that cast the entire space in an aquatic
+  light. The largest specimens tower overhead, their stems thick as tree trunks
+  and their caps broad enough to provide shelter. Smaller mushrooms carpet the
+  ground in clusters, creating a soft phosphorescent carpet that squishes gently
+  underfoot. The air smells of petrichor and something sweeter, almost honeyed,
+  and the temperature here is pleasantly warm. Paths wind between the fungal giants,
+  marked by trails of luminescent slime left by unknown creatures.
+mapsymbol: 'G'
+maplegend: Grove
+biome: dungeon
+exits:
+  north:
+    roomid: 2006
+  west:
+    roomid: 2007
+  south:
+    roomid: 2010
+spawninfo:
+- mobid: 67
+  message: A glowcap wanderer emerges from beneath a massive cap.
+  respawnrate: 3 real minutes
+  maxcount: 3
+- mobid: 68
+  message: A sporeling shuffles out from the fungal undergrowth.
+  respawnrate: 4 real minutes
+idlemessages:
+- A massive mushroom cap slowly rotates, following some unseen light source.
+- Bioluminescent trails on the ground pulse in sequence, like veins.
+- A cluster of small mushrooms suddenly brighten, then dim in unison.
+- Something moves through the grove in the distance, too far to see clearly.

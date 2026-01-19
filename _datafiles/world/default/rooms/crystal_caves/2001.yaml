@@ -1,0 +1,22 @@
+roomid: 2001
+zone: Crystal Caves
+title: Cave Entrance
+description: A yawning opening in the frost-covered hillside reveals a passage descending
+  into darkness. The walls transition from rough stone to smooth, crystalline surfaces
+  that catch and scatter the fading daylight from above. A constant draft of warm,
+  humid air rises from below, carrying the faint scent of minerals and something
+  almost... alive. Pale blue crystals embedded in the walls emit a soft glow, just
+  bright enough to see by, beckoning adventurers into the depths below.
+mapsymbol: E
+maplegend: Entrance
+biome: dungeon
+exits:
+  north:
+    roomid: 167
+  south:
+    roomid: 2002
+idlemessages:
+- A warm breeze rises from the depths, carrying strange whispers.
+- Tiny motes of light drift upward from the passage below.
+- The crystals in the walls pulse faintly, as if breathing.
+- You hear the distant sound of dripping water echoing from below.

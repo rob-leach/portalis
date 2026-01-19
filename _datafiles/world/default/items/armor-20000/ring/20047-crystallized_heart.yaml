@@ -1,0 +1,16 @@
+itemid: 20047
+name: crystallized heart
+namesimple: crystal ring
+description: This ring is carved from a single piece of rose-tinted crystal that
+  pulses with a slow, steady rhythm like a heartbeat. It is said to contain the
+  essence of the caves themselves, a fragment of the magical matrix that sustains
+  all crystal life in the depths. The wearer finds their own vitality enhanced,
+  wounds closing faster and stamina lasting longer, as if the crystal shares its
+  ancient life force.
+type: ring
+subtype: wearable
+damagereduction: 3
+statmods:
+  vitality: 3
+  strength: 1
+value: 1000

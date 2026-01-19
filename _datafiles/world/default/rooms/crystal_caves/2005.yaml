@@ -1,0 +1,30 @@
+roomid: 2005
+zone: Crystal Caves
+title: Crystal Stream
+description: A underground stream flows through this cavern, its waters so clear that
+  the crystalline bed beneath is perfectly visible. The stream has carved smooth
+  channels through formations of blue and white crystal, creating natural bridges
+  and stepping stones. Bioluminescent algae coat the rocks at the water's edge,
+  pulsing with a gentle green glow that reflects off the water's surface. The sound
+  of flowing water echoes soothingly off the crystal walls, and the air here is
+  cool and fresh, a relief from the humid passages above.
+mapsymbol: '~'
+maplegend: Stream
+biome: dungeon
+exits:
+  north:
+    roomid: 2003
+  south:
+    roomid: 2007
+  east:
+    roomid: 2006
+    secret: true
+spawninfo:
+- mobid: 65
+  message: A crystal beetle scuttles along the water's edge.
+  respawnrate: 5 real minutes
+idlemessages:
+- The stream gurgles softly as it flows over crystal formations.
+- A fish with scales like mirrors leaps from the water, then disappears.
+- The bioluminescent algae pulse brighter for a moment, then dim.
+- Ripples spread across the stream's surface from some unseen disturbance.

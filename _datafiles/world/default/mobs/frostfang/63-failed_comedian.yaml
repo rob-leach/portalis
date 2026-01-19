@@ -6,7 +6,7 @@ maxwander: 0
 groups:
   - frostfang-npc
   - squirrel-patrons
-activitylevel: 30
+activitylevel: 15
 idlecommands:
   - 'say You want to learn to fight with two weapons? Good luck finding THAT teacher.'
   - 'say The Rangers up north teach tracking. At least THEY appreciate talent.'

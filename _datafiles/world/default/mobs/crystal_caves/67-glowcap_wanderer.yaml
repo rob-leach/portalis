@@ -1,0 +1,28 @@
+mobid: 67
+zone: Crystal Caves
+itemdropchance: 10
+hostile: false
+maxwander: 4
+groups:
+  - crystal-caves-creature
+  - fungal-entity
+idlecommands:
+  - emote sways gently, releasing a puff of glowing spores.
+  - emote turns its cap toward a light source.
+  - ""
+  - ""
+activitylevel: 10
+character:
+  name: glowcap wanderer
+  description: This ambulatory fungus moves on a mass of root-like tendrils, its pace
+    slow but purposeful. Its cap is broad and dome-shaped, glowing with an intense
+    teal bioluminescence that pulses in a slow rhythm. The gills beneath the cap
+    continuously release drifting spores that sparkle in the air like fairy dust.
+    Its stem is thick and pale, marked with concentric rings that may indicate its
+    considerable age. Two darker patches on the stem give the unsettling impression
+    of eyes, though whether the creature can actually see is uncertain. It seems
+    peaceful unless provoked.
+  raceid: 12
+  level: 6
+  alignment: 0
+  gold: 3

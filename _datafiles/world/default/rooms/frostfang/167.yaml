@@ -8,15 +8,25 @@ description: Outside of the frost-covered gates to the west of Frostfang, the bi
   under the thick blanket of white. The howling wind carries faint, eerie whispers,
   hinting at the mysteries and dangers hidden within this relentless winter storm.
   To your left and right, the silhouettes of frozen structures emerge sporadically
-  from the blizzard, like ghostly sentinels watching over this desolate expanse. Here,
-  at the threshold of the Whispering Wastes, you feel a profound sense of isolation,
-  standing in a world where few dare to tread.
+  from the blizzard, like ghostly sentinels watching over this desolate expanse. To
+  the south, a frost-covered hillside features a dark opening from which a faint blue
+  glow and warm air emanate.
 biome: city
 exits:
   east:
     roomid: 35
+  south:
+    roomid: 2001
   west:
     roomid: 168
+nouns:
+  hillside: Looking south, you notice a frost-covered hillside with a dark opening
+    partially hidden by snow and ice. A faint blue glow emanates from within, and
+    warm air rises from the entrance, melting the snow around it.
+  opening: The opening in the hillside is just large enough to enter. Strange blue
+    light pulses from within. Local legends speak of crystal caves beneath the frozen ground.
+  cave: The cave entrance beckons with its strange blue glow. Warm air drifts out,
+    a stark contrast to the frozen landscape.
 idlemessages:
 - The icy wind envelopes you.
 - The gate creaks in the wind.

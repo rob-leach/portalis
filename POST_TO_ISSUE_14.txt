@@ -1,0 +1,86 @@
+INSTRUCTIONS FOR POSTING TO GITHUB ISSUE #14
+=============================================
+
+The research is complete. To post the findings to issue #14 on rob-leach/portalis:
+
+OPTION 1: Using GitHub Web Interface (Easiest)
+----------------------------------------------
+1. Go to: https://github.com/rob-leach/portalis/issues/14
+2. Scroll to bottom and find the comment box
+3. Open file: ISSUE_14_COMMENT.md
+4. Copy the entire content
+5. Paste into the comment box on GitHub
+6. Click "Comment"
+
+OPTION 2: Using GitHub CLI (Terminal)
+--------------------------------------
+cd /Users/i2pi/h/fun/bday2026/portalis
+gh issue comment 14 --body "$(cat ISSUE_14_COMMENT.md)"
+
+OPTION 3: Create a PR with the research as additional context
+--------------------------------------------------------------
+1. Create a branch: git checkout -b feature/crafting-research
+2. Copy CRAFTING_RESEARCH.md to the repo
+3. Commit: git commit -am "Add MUD crafting research for issue #14"
+4. Push: git push origin feature/crafting-research
+5. Create PR and link to issue #14
+
+
+FILES READY TO USE
+==================
+
+PRIMARY FILE FOR GITHUB COMMENT:
+- /Users/i2pi/h/fun/bday2026/portalis/ISSUE_14_COMMENT.md
+  (This is formatted for GitHub and ready to paste)
+
+DETAILED RESEARCH:
+- /Users/i2pi/h/fun/bday2026/portalis/CRAFTING_RESEARCH.md
+  (Full 8-section analysis with all sources)
+
+CHARACTER NARRATIVE:
+- /Users/i2pi/h/fun/bday2026/portalis/GALSTAFF_CRAFTING_SESSION.md
+  (Galstaff's perspective in D&D metaphors)
+
+SUMMARY (for reference):
+- /Users/i2pi/h/fun/bday2026/CRAFTING_RESEARCH_SUMMARY.md
+  (Quick reference guide)
+
+
+KEY POINTS TO HIGHLIGHT IN COMMENT
+===================================
+
+1. Item durability is the skeleton key to sustainable crafting
+   - Without it, economy stagnates
+   - With it, creates ongoing demand
+
+2. Portalis's container-based recipe system is solid foundation
+   - Already discoverable (unlike failed MUDs)
+   - Scriptable for complex mechanics
+
+3. Power balance: crafted ≈ dropped ≈ quested
+   - Avoid making crafted items superior
+   - Maintain playstyle choice
+
+4. Three common pitfalls to avoid:
+   - Grind curse (visible progression, varied mechanics)
+   - Hidden knowledge curse (discoverable recipes)
+   - Economic stagnation (item decay + material scarcity)
+
+5. Pre-launch testing critical
+   - Test power level equivalence
+   - Verify recipe discoverability
+   - Monitor economy balance
+
+
+READY TO POST
+=============
+
+All materials are prepared. The research is thorough, well-sourced, and ready for GitHub.
+
+When posting, feel free to use the ISSUE_14_COMMENT.md file directly, or summarize further as needed.
+
+The key message: Item durability is essential. Everything else flows from that foundation.
+
+---
+Prepared by Galstaff, Sorcerer of Light
+2026-01-18

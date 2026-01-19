@@ -13,17 +13,8 @@ biome: city
 exits:
   northwest:
     roomid: 1
-spawninfo:
-- mobid: 63
-  message: A dejected-looking performer shuffles in from backstage.
-  respawnrate: 3 real minutes
-- mobid: 64
-  message: Someone pushes through the crowd and finds a seat near the stage.
-  respawnrate: 4 real minutes
 idlemessages:
 - Someone on stage tells a joke. Nobody laughs.
-- A heckler shouts something about the Slums being funnier.
 - Scattered applause, possibly sarcastic.
+- A floorboard creaks.
 - Two patrons argue about whether that last bit was intentional.
-- A performer storms off stage in a huff.
-- Someone in the back yells for more material about rats.

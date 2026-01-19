@@ -1,0 +1,32 @@
+roomid: 2014
+zone: Crystal Caves
+title: Geode Chamber
+description: This chamber appears to be the inside of an enormous geode, its walls
+  completely covered in crystal formations that point inward like the teeth of some
+  great beast. The crystals here are predominantly deep purple and violet, shot
+  through with veins of gold that catch the light. The floor is relatively smooth,
+  worn by centuries of crystal dust accumulation, and small geodes are scattered
+  about, some split open to reveal sparkling interiors. The air smells of ozone
+  and ancient stone, and there's a subtle hum that seems to emanate from the very
+  walls themselves.
+mapsymbol: 'd'
+biome: dungeon
+exits:
+  east:
+    roomid: 2013
+spawninfo:
+- mobid: 69
+  message: A crystal guardian assembles from the surrounding formations.
+  respawnrate: 8 real minutes
+- mobid: 65
+  message: A crystal beetle emerges from a cracked geode.
+  respawnrate: 4 real minutes
+  maxcount: 2
+stash:
+- itemid: 28
+  chance: 50
+idlemessages:
+- A small geode cracks open on its own, spilling tiny crystals across the floor.
+- The golden veins in the walls seem to shift, forming different patterns.
+- The hum from the walls rises in pitch briefly, then settles.
+- Dust motes drift through the air, each one sparkling like a tiny gem.

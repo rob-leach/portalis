@@ -1,0 +1,12 @@
+name: Crystal Caves
+roomid: 2001
+autoscale:
+  minimum: 3
+  maximum: 8
+idlemessages:
+  - The crystals hum with a gentle, otherworldly resonance.
+  - Somewhere in the darkness, water drips into a still pool.
+  - Bioluminescent spores drift lazily through the air.
+  - A distant chime echoes through the crystal formations.
+musicfile: static/audio/music/crystal-caves.mp3
+defaultbiome: dungeon
