@@ -36,7 +36,7 @@ character:
   raceid: 22
   level: 15
   alignment: -50
-  gold: 200
+  gold: 50
   items:
     - itemid: 10025
     - itemid: 20048
