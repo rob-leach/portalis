@@ -1,0 +1,29 @@
+roomid: 1004
+zone: Frostfang
+title: Snarky Squirrel Commons
+description: A hand-painted sign depicting a smirking squirrel marks this ramshackle
+  establishment southeast of the square. Inside, rickety benches face a small wooden
+  stage where aspiring performers deliver jokes of questionable quality. The heckling
+  is merciless, the acts are forgettable, but somehow everyone keeps coming back.
+  Between sets, the crowd trades stories, rumors, and unsolicited advice. The real
+  entertainment is not on stage - it is in the conversations happening all around you.
+mapsymbol: S
+maplegend: Squirrel
+biome: city
+exits:
+  northwest:
+    roomid: 1
+spawninfo:
+- mobid: 63
+  message: A dejected-looking performer shuffles in from backstage.
+  respawnrate: 3 real minutes
+- mobid: 64
+  message: Someone pushes through the crowd and finds a seat near the stage.
+  respawnrate: 4 real minutes
+idlemessages:
+- Someone on stage tells a joke. Nobody laughs.
+- A heckler shouts something about the Slums being funnier.
+- Scattered applause, possibly sarcastic.
+- Two patrons argue about whether that last bit was intentional.
+- A performer storms off stage in a huff.
+- Someone in the back yells for more material about rats.
