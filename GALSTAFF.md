@@ -59,6 +59,13 @@ We accidentally sent PR #453 to GoMudEngine/GoMud (the Snarky Squirrel Commons).
 4. Create PR: `gh pr create`
 5. Merge via GitHub (or `gh pr merge`)
 
+**BEFORE SIGNING OFF: Always verify the build!**
+```bash
+go build ./...    # Must compile without errors
+make run          # Must start without panics
+```
+If it doesn't run, you're not done.
+
 This is not optional. Direct commits to master bypass review and make history harder to follow.
 
 **NEVER:**
