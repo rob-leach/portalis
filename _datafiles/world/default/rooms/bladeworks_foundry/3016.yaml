@@ -9,8 +9,6 @@ description: Massive boilers and pipes fill this chamber, the power source for t
   is where the steam golems were born, their bodies filled with superheated
   vapor from these eternal boilers. The sword-chandeliers here are made of
   burnished bronze, resistant to the corrosive steam.
-mapsymbol: 'B'
-maplegend: Boilers
 biome: dungeon
 exits:
   west:

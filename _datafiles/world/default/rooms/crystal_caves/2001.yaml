@@ -8,7 +8,6 @@ description: A yawning opening in the frost-covered hillside reveals a passage d
   almost... alive. Pale blue crystals embedded in the walls emit a soft glow, just
   bright enough to see by, beckoning adventurers into the depths below.
 mapsymbol: E
-maplegend: Entrance
 biome: dungeon
 exits:
   up:

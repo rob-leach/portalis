@@ -9,7 +9,6 @@ description: This chamber appears to be the inside of an enormous geode, its wal
   about, some split open to reveal sparkling interiors. The air smells of ozone
   and ancient stone, and there's a subtle hum that seems to emanate from the very
   walls themselves.
-mapsymbol: 'd'
 biome: dungeon
 exits:
   east:

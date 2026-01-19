@@ -9,8 +9,6 @@ description: This long hall is dominated by massive grinding wheels mounted alon
   finished swords arranged in a spiral pattern, turning slowly in the heat
   rising from below. Water troughs run along the base of the grinders, meant
   for cooling blades but now stagnant and rust-colored.
-mapsymbol: 'G'
-maplegend: Grinding
 biome: dungeon
 exits:
   north:

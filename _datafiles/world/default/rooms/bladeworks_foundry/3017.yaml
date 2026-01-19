@@ -9,8 +9,6 @@ description: This chamber defies explanation - thousands of swords grow from the
   grow, slowly filling the chamber over decades. Walking here requires extreme
   care, as blades sprout everywhere. The sword-chandeliers are unnecessary -
   the blade-flowers themselves catch and reflect light throughout the chamber.
-mapsymbol: 'W'
-maplegend: Garden
 biome: dungeon
 exits:
   east:

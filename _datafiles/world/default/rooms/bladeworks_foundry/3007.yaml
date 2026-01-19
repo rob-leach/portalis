@@ -8,8 +8,6 @@ description: This storage room once held the components needed to build the foun
   in the corner still has partially-assembled constructs lying upon it, frozen
   mid-creation. The sword-chandelier here is made entirely of discarded blade
   components - hilts, guards, and pommels arranged in artistic chaos.
-mapsymbol: 'S'
-maplegend: Storage
 biome: dungeon
 exits:
   west:

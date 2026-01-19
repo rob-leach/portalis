@@ -10,7 +10,6 @@ description: Reinforced steel walls surround this chamber, designed to contain
   sword-chandelier here is made of the foundry's finest work - masterwork
   blades that sing when air passes through them.
 mapsymbol: '$'
-maplegend: Merchant
 biome: dungeon
 exits:
   north:

@@ -10,8 +10,6 @@ description: This is the heart of the foundry's production floor - a massive
   of the line, each one holding progressively more complete blade forms, from
   raw metal to finished sword. This is where the constructs learned to build -
   and eventually, to fight.
-mapsymbol: 'A'
-maplegend: Assembly
 biome: dungeon
 exits:
   north:

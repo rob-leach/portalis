@@ -10,7 +10,6 @@ description: A massive iron door, scarred by countless blade-strikes, hangs half
   with the smell of old oil and hot metal. Faded signs warn of "AUTHORIZED
   ARTIFICERS ONLY" and "BLADE HAZARD ZONE."
 mapsymbol: E
-maplegend: Entrance
 biome: dungeon
 exits:
   north:

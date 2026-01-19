@@ -9,8 +9,6 @@ description: This vast chamber was where the foundry's most powerful constructs
   jammed or broken. The sword-chandeliers here are massive, holding great
   swords and battle axes instead of mere daggers. Viewing galleries line the
   upper walls, where artificers once watched their creations fight.
-mapsymbol: 'P'
-maplegend: Proving
 biome: dungeon
 exits:
   north:

@@ -9,8 +9,6 @@ description: A massive gateway marks the transition from the production floors t
   point are made of larger, more dangerous blades - clearly meant as weapons,
   not decorations. A warning plaque beside the gate reads "HALL OF ENDLESS
   BLADES - MASTER ARTIFICERS ONLY."
-mapsymbol: '#'
-maplegend: Gate
 biome: dungeon
 exits:
   north:

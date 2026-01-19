@@ -9,8 +9,6 @@ description: The passage opens into a vast antechamber that takes your breath aw
   strewn with smaller crystal shards, some bearing what look like claw marks.
   Ahead, a massive archway formed of interlocking crystals frames a passage into
   an even greater chamber, where something immense and luminous moves.
-mapsymbol: 'A'
-maplegend: Antechamber
 biome: dungeon
 exits:
   north:

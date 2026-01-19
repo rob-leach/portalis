@@ -9,8 +9,6 @@ description: You have found the heart of the Crystal Caves, a vast central chamb
   branch off in different directions, each one glowing with a distinct hue. The air
   here feels charged with energy, and the crystals seem to respond to your presence,
   brightening when you approach and dimming when you step away.
-mapsymbol: 'H'
-maplegend: Heart
 biome: dungeon
 exits:
   northwest:

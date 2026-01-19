@@ -9,8 +9,6 @@ description: Enormous furnaces line the walls of this sweltering chamber, their
   across the floor. The sword-chandeliers here are made of actual metal blades,
   their edges glinting wickedly in the forge-light. Catwalks crisscross overhead,
   leading to controls that no longer have operators.
-mapsymbol: 'F'
-maplegend: Forge
 biome: dungeon
 exits:
   north:

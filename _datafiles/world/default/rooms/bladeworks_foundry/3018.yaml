@@ -9,8 +9,6 @@ description: This chamber houses the magical and mechanical systems that control
   A massive central crystal, cracked and flickering, seems to be the source
   of the constructs' continued animation. The sword-chandeliers here incorporate
   crystal elements, their blades humming with residual magical energy.
-mapsymbol: 'C'
-maplegend: Control
 biome: dungeon
 exits:
   north:

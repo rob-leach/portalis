@@ -9,8 +9,6 @@ description: The crystal stream empties here into a perfectly still pool that ac
   below. The pool is ringed by smooth crystal formations that glow with an inner
   light, casting rippling reflections across the cavern walls. An otherworldly
   peace permeates this place.
-mapsymbol: 'O'
-maplegend: Pool
 biome: dungeon
 exits:
   north:

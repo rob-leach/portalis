@@ -9,8 +9,6 @@ description: This chamber was where the foundry's blades were tested and inspect
   rack displays blades that failed inspection - cracked, bent, or poorly
   tempered. The sword-chandelier overhead is made from broken blades, a fitting
   decoration for this chamber of imperfection.
-mapsymbol: 'Q'
-maplegend: QC
 biome: dungeon
 exits:
   north:

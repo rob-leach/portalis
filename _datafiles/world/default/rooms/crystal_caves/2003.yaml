@@ -8,8 +8,6 @@ description: You emerge into a breathtaking grotto where massive crystal spires 
   that sparkle like diamond dust, and the soft chiming of crystal against crystal
   creates an ethereal melody. A shallow stream of crystal-clear water winds between
   the formations, disappearing into a passage to the south.
-mapsymbol: '*'
-maplegend: Grotto
 biome: dungeon
 exits:
   northeast:

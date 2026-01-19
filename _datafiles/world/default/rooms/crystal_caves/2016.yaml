@@ -9,7 +9,6 @@ description: The passage descends sharply here, opening into a hollow carved fro
   place feels old, primordial, as if you're descending into the very roots of
   the mountain. A passage continues south, the darkness ahead broken only by a
   distant, pulsing glow.
-mapsymbol: 'v'
 biome: dungeon
 exits:
   north:

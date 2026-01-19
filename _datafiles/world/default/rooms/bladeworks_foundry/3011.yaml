@@ -8,8 +8,6 @@ description: This small office overlooks the tempering pools through thick glass
   sword-chandelier hangs from the ceiling, its glass blades more delicate than
   those in the production areas. This was where the foundry's foreman directed
   operations - before the constructs turned on their masters.
-mapsymbol: 'O'
-maplegend: Office
 biome: dungeon
 exits:
   north:

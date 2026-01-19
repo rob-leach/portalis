@@ -10,7 +10,6 @@ description: This secluded alcove is dominated by a massive crystal formation th
   of profound peace and clarity pervades this space, and you feel your thoughts
   becoming sharper, more focused.
 mapsymbol: '%'
-maplegend: Trainer
 biome: dungeon
 exits:
   west:

@@ -12,7 +12,6 @@ description: This elegant chamber stands in stark contrast to the industrial cha
   creations. Those who survived the deeper forges often came here to master
   fighting with two blades at once.
 mapsymbol: '%'
-maplegend: Trainer
 biome: dungeon
 exits:
   north:
