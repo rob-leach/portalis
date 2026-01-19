@@ -1,7 +1,7 @@
 mobid: 82
 zone: Squirrel Tree
 itemdropchance: 10
-hostile: false
+hostile: true
 maxwander: 2
 groups:
   - squirrel-tree-creature

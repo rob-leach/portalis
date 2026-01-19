@@ -89,7 +89,9 @@ func Suicide(rest string, mob *mobs.Mob, room *rooms.Room) (bool, error) {
 	})
 
 	// Allow per-mob XP override (e.g., for NPC comedy clubs)
-	if mob.ExperienceReward >= 0 {
+	// Only override if explicitly set to a positive value
+	// 0 (default) = use calculated XP, >0 = use that value
+	if mob.ExperienceReward > 0 {
 		mobXP = mob.ExperienceReward
 	}
 
