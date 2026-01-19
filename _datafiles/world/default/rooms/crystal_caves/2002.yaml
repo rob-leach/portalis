@@ -8,7 +8,6 @@ description: The passage descends at a gentle slope, the walls growing increasin
   arches high overhead, lost in shadow, while the floor has been worn smooth by
   centuries of underground streams. Two passages branch off ahead, one emanating
   a stronger blue glow, the other a softer green luminescence.
-mapsymbol: '.'
 biome: dungeon
 exits:
   north:

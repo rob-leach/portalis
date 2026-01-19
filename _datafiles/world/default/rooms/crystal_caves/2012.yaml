@@ -9,8 +9,6 @@ description: The underground river slows here, spreading into a wide, shallow la
   far shore is lost in a haze of luminescent mist, and the gentle lapping of
   waves creates a peaceful rhythm. Small creatures leave trails of light as they
   swim just beneath the surface.
-mapsymbol: 'B'
-maplegend: Beach
 biome: dungeon
 exits:
   north:

@@ -9,8 +9,6 @@ description: The cavern opens into a space of cathedral-like proportions, its ce
   light that bathes everything in warm amber. Smaller fungi cluster at its base
   like worshippers at an altar, and the air thrums with an almost palpable sense
   of ancient, patient life.
-mapsymbol: 'C'
-maplegend: Cathedral
 biome: dungeon
 exits:
   north:

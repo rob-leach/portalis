@@ -8,8 +8,6 @@ description: A underground stream flows through this cavern, its waters so clear
   pulsing with a gentle green glow that reflects off the water's surface. The sound
   of flowing water echoes soothingly off the crystal walls, and the air here is
   cool and fresh, a relief from the humid passages above.
-mapsymbol: '~'
-maplegend: Stream
 biome: dungeon
 exits:
   north:

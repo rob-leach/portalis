@@ -8,8 +8,6 @@ description: A swift underground river cuts through this cavern, its waters rush
   roar of the water echoes off the crystal walls, creating a constant white noise
   that drowns out subtler sounds. Mist rises from where the water tumbles over
   a series of small falls, catching the light and creating ephemeral rainbows.
-mapsymbol: '='
-maplegend: River
 biome: dungeon
 exits:
   north:

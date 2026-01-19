@@ -11,8 +11,7 @@ description: You have entered the legendary Hall of Endless Blades, the chamber
   fight, and think. Instead, it became their doom. The sword-chandelier above
   is the largest in the foundry - a spiral of a thousand blades descending from
   the ceiling, crackling with the same lightning that animates the Promethean.
-mapsymbol: 'X'
-maplegend: Boss
+mapsymbol: X
 biome: dungeon
 exits:
   west:

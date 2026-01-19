@@ -9,8 +9,6 @@ description: Rows of heavy iron shelves fill this chamber, holding countless bla
   everything, disturbed only by the tracks of wandering constructs. The
   sword-chandelier here is particularly ornate, featuring miniature replicas
   of famous legendary blades.
-mapsymbol: 'M'
-maplegend: Molds
 biome: dungeon
 exits:
   east:

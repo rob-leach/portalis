@@ -9,8 +9,6 @@ description: This chamber is filled with crystal formations of extraordinary pur
   deep bass tones. The effect is mesmerizing, a symphony of stone that seems to
   respond to your presence. The floor is strewn with smaller crystal shards that
   chime underfoot like wind chimes.
-mapsymbol: '!'
-maplegend: Singing
 biome: dungeon
 exits:
   north:

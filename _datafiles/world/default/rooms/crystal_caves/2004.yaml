@@ -9,8 +9,6 @@ description: The crystalline walls give way here to a verdant underground garden
   currents, and the earthy scent of growth mingles with a sweet, almost intoxicating
   fragrance. Small pools of condensation have collected in the hollows of larger
   mushroom caps.
-mapsymbol: 'M'
-maplegend: Mushrooms
 biome: dungeon
 exits:
   northwest:

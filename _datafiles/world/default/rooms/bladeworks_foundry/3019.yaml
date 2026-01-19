@@ -9,8 +9,6 @@ description: This was the private study of the foundry's master artificer, the
   One blueprint shows a three-bladed sword, its design revolutionary but
   incomplete. The sword-chandelier here is a personal masterwork, holding the
   artificer's own collection of experimental blades.
-mapsymbol: 'L'
-maplegend: Library
 biome: dungeon
 exits:
   north:

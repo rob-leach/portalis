@@ -9,8 +9,6 @@ description: A series of deep pools fill this chamber, once used for quenching
   into liquid. A massive sword-chandelier hangs directly over the central pool,
   its glass blades dripping with condensation from the steam that constantly
   rises from below.
-mapsymbol: 'T'
-maplegend: Tempering
 biome: dungeon
 exits:
   west:

@@ -10,8 +10,7 @@ description: You have entered the throne room of the Crystal Matriarch, a chambe
   This is the heart of the caves, the source of all the crystalline life that
   fills these depths. Here dwells the Matriarch, ancient beyond reckoning, who
   has watched over these caves since before memory.
-mapsymbol: 'X'
-maplegend: Boss
+mapsymbol: X
 biome: dungeon
 exits:
   north:

@@ -9,7 +9,6 @@ description: This cavernous chamber once received raw materials for the foundry'
   without purpose. A sword-chandelier hangs from chains above, its glass blades
   still intact and glowing faintly from the forge-light that filters in from
   the south.
-mapsymbol: '.'
 biome: dungeon
 exits:
   north:

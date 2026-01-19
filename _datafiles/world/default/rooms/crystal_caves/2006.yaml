@@ -8,8 +8,6 @@ description: This rounded chamber is dominated by massive shelf fungi that grow 
   accumulated organic matter, cushioning each footstep. Strange clicking sounds
   echo from somewhere in the darkness above, and occasionally a cluster of spores
   will suddenly glow brighter before releasing in a puff of luminescent cloud.
-mapsymbol: 'S'
-maplegend: Spores
 biome: dungeon
 exits:
   north:

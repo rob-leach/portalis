@@ -8,7 +8,6 @@ description: A narrow corridor connects the receiving bay to the storage areas.
   sporadically. Glass sword-sconces provide flickering illumination, several
   cracked and dark. The floor bears countless scratches from the passage of
   metal feet.
-mapsymbol: '-'
 biome: dungeon
 exits:
   west:

@@ -9,8 +9,6 @@ description: A forest of luminescent mushrooms fills this expansive cavern, thei
   underfoot. The air smells of petrichor and something sweeter, almost honeyed,
   and the temperature here is pleasantly warm. Paths wind between the fungal giants,
   marked by trails of luminescent slime left by unknown creatures.
-mapsymbol: 'G'
-maplegend: Grove
 biome: dungeon
 exits:
   north:
