@@ -88,9 +88,9 @@ func Suicide(rest string, mob *mobs.Mob, room *rooms.Room) (bool, error) {
 		PlayerDamage:  mob.Character.PlayerDamage,
 	})
 
-	// Non-hostile NPCs don't grant experience (prevents XP farming)
-	if !mob.Hostile {
-		mobXP = 0
+	// Allow per-mob XP override (e.g., for NPC comedy clubs)
+	if mob.ExperienceReward >= 0 {
+		mobXP = mob.ExperienceReward
 	}
 
 	xpVal := mobXP / 90

@@ -3,6 +3,7 @@ zone: Frostfang
 itemdropchance: 0
 hostile: false
 maxwander: 0
+experiencereward: 0
 groups:
   - frostfang-npc
   - squirrel-patrons
