@@ -1,0 +1,27 @@
+roomid: 5001
+zone: Great Crossroads
+title: Beyond the Foundry
+description: You emerge from the Hall of Endless Blades into a landscape scarred
+  by industry. The ground here is blackened by centuries of forge-ash and cooling
+  runoff from the foundry. Twisted metal spires jut from the earth like the
+  bones of dead constructs. The air grows cleaner as you move south, away from
+  the smoke-choked depths of the Bladeworks. A worn path leads toward distant
+  lands, marked by the footprints of those who conquered the foundry before you.
+mapsymbol: '*'
+biome: road
+exits:
+  north:
+    roomid: 3020
+  south:
+    roomid: 5002
+nouns:
+  spires: Twisted metal spires rise from the ashen ground - the remains of
+    constructs that wandered too far from the foundry's power source.
+  path: A worn dirt path leads south, away from the industrial nightmare
+    behind you. The footprints of past adventurers are visible in the ash.
+  foundry: The Bladeworks Foundry looms behind you, its smoke stacks still
+    belching black clouds into the sky.
+idlemessages:
+- Ash swirls in a gust of wind from the north.
+- A distant clang echoes from the foundry behind you.
+- The metal spires creak ominously in the wind.

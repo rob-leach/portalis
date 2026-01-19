@@ -1,0 +1,26 @@
+roomid: 5004
+zone: Great Crossroads
+title: The Iron Fields
+description: The ground here is studded with fragments of worked iron - old
+  weapons, construct parts, and unidentifiable machinery. This must have been
+  a battlefield or perhaps a dumping ground for failed foundry creations. Some
+  fragments have been arranged into crude cairns, perhaps by travelers seeking
+  to mark the path. The road ahead grows more traveled, the footprints more
+  recent. The sky brightens noticeably to the south.
+mapsymbol: '*'
+biome: road
+exits:
+  north:
+    roomid: 5003
+  south:
+    roomid: 5005
+nouns:
+  fragments: Iron fragments of every description cover the ground - weapons,
+    gears, plates, and things less identifiable.
+  cairns: Crude cairns of rusted metal mark the path, built by travelers
+    who came before you.
+  sky: The sky to the south is noticeably brighter, promising open lands ahead.
+idlemessages:
+- Metal fragments shift and clatter underfoot.
+- A cairn of rusted iron catches the light.
+- The path grows clearer as you approach the crossroads.

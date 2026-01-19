@@ -1,0 +1,26 @@
+roomid: 5002
+zone: Great Crossroads
+title: The Scarred Wastes
+description: The land here bears the wounds of the foundry's past excesses. Deep
+  gouges in the earth mark where automated mining constructs once harvested
+  ore before the uprising rendered them mindless. Rusted gears and broken cogs
+  litter the ground, half-buried in hardpan soil. The path continues south,
+  climbing a gentle rise toward cleaner lands. Behind you, the foundry's
+  silhouette grows smaller but never disappears completely.
+mapsymbol: '*'
+biome: road
+exits:
+  north:
+    roomid: 5001
+  south:
+    roomid: 5003
+nouns:
+  gouges: Deep trenches scar the landscape - the work of mining constructs
+    that once fed the foundry's endless hunger for ore.
+  gears: Rusted gears and broken mechanisms litter the ground, remnants of
+    the constructs that once labored here.
+  rise: A gentle rise to the south promises better lands ahead.
+idlemessages:
+- A rusted gear crunches underfoot.
+- Wind whistles through the gouged terrain.
+- Something metallic glints half-buried in the dirt.
