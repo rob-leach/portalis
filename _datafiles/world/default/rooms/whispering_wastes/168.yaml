@@ -17,5 +17,13 @@ exits:
     roomid: 167
   northwest:
     roomid: 169
+  south:
+    roomid: 3001
+nouns:
+  foundry: Through the swirling snow to the south, you can barely make out the massive
+    iron doors of an abandoned building. Strange heat emanates from within, and the
+    faint sound of grinding machinery can be heard.
+  building: The building to the south is clearly industrial in nature - iron walls,
+    smoke stacks, and massive doors. This must be the legendary Bladeworks Foundry.
 idlemessages:
 - The wind howls from every direction.

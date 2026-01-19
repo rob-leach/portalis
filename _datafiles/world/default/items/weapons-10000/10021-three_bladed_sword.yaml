@@ -1,0 +1,15 @@
+itemid: 10021
+name: three-bladed sword
+namesimple: unusual sword
+description: An impractical but undeniably impressive weapon featuring three parallel
+  blades welded to a single hilt. The merchant who sold this swore each blade was
+  worth exactly one hundred gold. The awkward balance makes it slower to swing, but
+  you have to admit - it looks absolutely magnificent.
+type: weapon
+hands: 1
+subtype: slashing
+damage:
+  diceroll: 1d6
+statmods:
+  speed: -2
+value: 300

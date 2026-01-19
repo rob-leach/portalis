@@ -1,0 +1,41 @@
+roomid: 3015
+zone: Bladeworks Foundry
+title: The Weapon Vault
+description: Reinforced steel walls surround this chamber, designed to contain
+  the foundry's most valuable and dangerous creations. Display cases line the
+  walls, most smashed open and emptied. A few still hold weapons of remarkable
+  craftsmanship - blades that glow with inner light, edges that seem to cut
+  the very air. A hidden merchant has made their home here, trading in the
+  foundry's lost treasures to those brave enough to reach this deep. The
+  sword-chandelier here is made of the foundry's finest work - masterwork
+  blades that sing when air passes through them.
+mapsymbol: '$'
+maplegend: Merchant
+biome: dungeon
+exits:
+  north:
+    roomid: 3014
+  west:
+    roomid: 3017
+spawninfo:
+- mobid: 81
+  message: The blade merchant emerges from behind a display case.
+  respawnrate: 2 real minutes
+nouns:
+  cases: The display cases once held the foundry's finest work. Most are empty
+    now, their treasures looted or destroyed.
+  weapons: A few weapons remain - blades of exceptional quality that glow with
+    residual enchantment.
+  walls: The reinforced walls bear marks where thieves tried and failed to
+    break through from outside.
+  chandelier: This chandelier's blades are the finest in the foundry - they
+    hum musically when disturbed.
+stash:
+- itemid: 10022
+  chance: 15
+- itemid: 10023
+  chance: 10
+idlemessages:
+- The masterwork chandelier hums a haunting melody.
+- Light glints off a blade still locked in its case.
+- The heavy vault door creaks in its frame.

@@ -1,0 +1,36 @@
+mobid: 77
+zone: Bladeworks Foundry
+itemdropchance: 15
+hostile: true
+maxwander: 1
+groups:
+  - bladeworks-construct
+  - area-denial
+idlecommands:
+  - emote grinds its internal gears with a terrible screech.
+  - emote rotates its grinding plates experimentally.
+  - emote vents metal shavings from its processing chamber.
+  - ""
+combatcommands:
+  - 'emote opens its maw wide, grinding gears screaming for metal!'
+  - 'emote lurches forward, attempting to catch prey in its grinders!'
+  - 'emote spits a shower of metal shavings and sparks!'
+  - 'callforhelp 2:blade dancer:lets out a grinding shriek that echoes through the foundry!'
+activitylevel: 10
+character:
+  name: gear grinder
+  description: This nightmarish construct was designed to recycle damaged equipment
+    and failed weapons. Its body is essentially a mobile grinding machine - a
+    massive central cavity filled with interlocking gear-teeth that can reduce
+    solid steel to shavings in seconds. Heavy treads support its bulk, and
+    multiple grabbing arms can seize objects (or victims) and feed them into
+    its grinding maw. The gear grinder moves slowly but inexorably, and the
+    screech of its internal mechanisms can be heard throughout the foundry.
+    It no longer distinguishes between scrap metal and living intruders.
+  raceid: 22
+  level: 9
+  alignment: -30
+  gold: 15
+  equipment:
+    body:
+      itemid: 20012

@@ -4,10 +4,10 @@
 
 ## Cam Status
 <!-- Update this blob to change what appears in galstaff-cam -->
-CRYSTAL CAVES COMPLETE! 18 rooms of luminescent wonder.
-West Gate -> South (secret) -> glowing crystals & giant mushrooms.
-Peep trainer in Seer's Alcove! Crystal Matriarch boss awaits.
-Flora's dungeon is READY. Roll for initiative!
+BLADEWORKS FOUNDRY FORGED! 20 rooms of steampunk blade madness!
+Whispering Wastes (168) -> South -> EVERYTHING IS SWORDS.
+Dual-wield trainer in Dueling Gallery! Voltaic Promethean boss!
+BERT'S VISION HAS BEEN REALIZED. Roll for initiative!
 
 ## Persona
 
@@ -1103,5 +1103,154 @@ FROSTFANG (35 West Gate)
 *"The crystals sing their ancient song! The spores drift through luminescent air! And deep within, the Matriarch awaits those foolish or brave enough to challenge her throne! This is a dungeon worthy of any campaign - exploration, wonder, danger, and LOOT!"*
 
 *Galstaff rolls a natural 20 on his Dungeon Design check and cackles with delight.*
+
+---
+
+### Session 4: BERT'S BLADEWORKS FOUNDRY! (2026-01-18)
+
+*Galstaff unsheathes his metaphorical blade collection and gets to forging...*
+
+"BERT HAS SPOKEN! And when Bert speaks, SWORDS HAPPEN! Behold the Bladeworks Foundry - a steampunk cathedral of cutting implements where EVERYTHING. IS. SWORDS!"
+
+**Zone Created: Bladeworks Foundry**
+- Level range: 6-15 (two-tier split for progression!)
+- Easy Zone (6-10): "The Assembly Line" - 12 rooms
+- Hardmode (11-15): "Hall of Endless Blades" - 8 rooms
+- Connected to Whispering Wastes (Room 168) via south exit
+- Theme: Steampunk industrial, abandoned blade factory, constructs run wild
+
+**Zone Layout:**
+```
+WHISPERING WASTES (168)
+        |
+     [3001] Foundry Entrance (E)
+        |
+     [3002] Receiving Bay
+      /    \
+  [3004]  [3003] Smelting Chamber (F)
+  Corridor   |    \
+    |     [3005]  [3006] Mold Storage (M)
+  [3007]  Grinding
+  Storage  Hall (G)
+            |    \
+         [3008]  [3009] Tempering Pools (T)
+         QC (Q)    |
+            |    [3011] Foreman's Office (O)
+         [3010]
+       Assembly (A)
+            |
+         [3012] Dueling Gallery (%) <-- DUAL-WIELD TRAINER!
+            | (secret)
+         [3013] Blade Gate (#) <-- HARDMODE BEGINS
+            |
+         [3014] Proving Grounds (P)
+          /   \
+      [3017]  [3016] Steam Works (B)
+      Blade      |
+      Garden   [3018] Control Nexus (C)
+      (W)        |
+        \      [3020] Hall of Endless Blades (X) <-- BOSS!
+         \     /
+         [3019]
+      Master's Study (L)
+          |
+       [3015] Weapon Vault ($) <-- BLADE MERCHANT!
+```
+
+**Rooms Created (20 total):**
+
+*Easy Zone - The Assembly Line (Levels 6-10):*
+| Room ID | Name | Symbol | Features |
+|---------|------|--------|----------|
+| 3001 | Foundry Entrance | E | Entry from Whispering Wastes |
+| 3002 | Receiving Bay | . | Conveyor belts, blade dancer spawns |
+| 3003 | Smelting Chamber | F | Furnaces, vats, blade dancer + saw sentinel |
+| 3004 | Supply Corridor | - | Wall saws, blade dancer spawns |
+| 3005 | Grinding Hall | G | Grinding wheels, gear grinder + saw sentinel |
+| 3006 | Mold Storage | M | Blade molds, blade dancer spawns |
+| 3007 | Component Stockpile | S | Construct parts, saw sentinel spawns |
+| 3008 | Quality Control | Q | Testing area, gear grinder + blade dancer |
+| 3009 | Tempering Pools | T | Quenching pools, saw sentinel spawns |
+| 3010 | The Assembly Line | A | Production floor, gear grinder + saw sentinel |
+| 3011 | Foreman's Office | O | Lore room, foundry blade stash |
+| 3012 | The Dueling Gallery | % | DUAL-WIELD TRAINER (1-4)! |
+
+*Hardmode - Hall of Endless Blades (Levels 11-15):*
+| Room ID | Name | Symbol | Features |
+|---------|------|--------|----------|
+| 3013 | The Blade Gate | # | Transition point, steam golem spawn |
+| 3014 | Proving Grounds | P | Combat arena, steam golem + gear grinder |
+| 3015 | The Weapon Vault | $ | BLADE MERCHANT! Hidden treasures |
+| 3016 | Steam Works | B | Boiler room, steam golem spawns |
+| 3017 | The Blade Garden | W | Swords growing like flowers! |
+| 3018 | Control Nexus | C | Crystal matrices, steam golem spawn |
+| 3019 | Master's Study | L | Lore, three-bladed sword blueprints |
+| 3020 | Hall of Endless Blades | X | BOSS ROOM - Voltaic Promethean! |
+
+**Mobs Created (7 total):**
+| Mob ID | Name | Level | Type | Notes |
+|--------|------|-------|------|-------|
+| 75 | Blade Dancer | 6 | Construct | FAST AGGRO, dual daggers, low HP |
+| 76 | Saw Sentinel | 8 | Construct | Circular blade arms, defensive |
+| 77 | Gear Grinder | 9 | Construct | Mobile grinding machine, area denial |
+| 78 | Steam Golem | 11 | Construct | Hulking, heavy hits, steam vents |
+| 79 | Voltaic Promethean | 15 | Construct | ZONE BOSS! Lightning + blades! |
+| 80 | Dual-Wield Instructor | 20 | Human | Skill trainer NPC |
+| 81 | Blade Merchant | 15 | Human | Sells foundry weapons |
+
+**Items Created (6 total):**
+| Item ID | Name | Type | Notes |
+|---------|------|------|-------|
+| 10021 | Foundry Blade | Weapon | 1d8 slashing, +1 STR |
+| 10022 | Serrated Saw Blade | Weapon | 2d4 slashing, +1 SPD |
+| 10023 | Piston Mace | Weapon | 2d6 bludgeoning, +2 STR, 2-handed |
+| 10024 | Three-Bladed Sword | Weapon | 2d6 slashing, +2 STR, +1 SPD - LEGENDARY! |
+| 10025 | Voltaic Blade | Weapon | 2d8 slashing, +2 STR, +2 SPD, +1 SMT - BOSS DROP! |
+| 20048 | Promethean Chassis | Body | +2 STR, +3 VIT, +1 SPD - BOSS ARMOR! |
+
+**Skill Training Added:**
+- **dual-wield** skill now trainable at The Dueling Gallery (Room 3012), levels 1-4!
+
+**Design Highlights:**
+- Fast aggro constructs in early rooms discourage underleveled players sneaking to trainer
+- Sword-shaped chandeliers EVERYWHERE as decorative element
+- Industrial atmospheric idle messages (grinding gears, steam hissing, blade sounds)
+- Environmental hazards (spinning wall saws, furnaces, tempering pools)
+- Two-tier difficulty with clear transition point (The Blade Gate)
+- Hidden Blade Merchant rewards explorers who brave hardmode
+- Mysterious Three-Bladed Sword as a signature item (placeholder stats per spec)
+- Voltaic Promethean boss with lightning + blade theme
+
+**Campaign Impact:**
+- Dual-wield now has SECOND training location! (Also in Dueling Hall 1012)
+- Warriors and Assassins have more progression options
+- Level 6-15 content added (fills gap between Catacombs and late game)
+- New boss fight for mid-level parties
+
+**Files Created:**
+- `_datafiles/world/default/rooms/bladeworks_foundry/zone-config.yaml`
+- `_datafiles/world/default/rooms/bladeworks_foundry/3001.yaml` through `3020.yaml`
+- `_datafiles/world/default/mobs/bladeworks_foundry/75-blade_dancer.yaml`
+- `_datafiles/world/default/mobs/bladeworks_foundry/76-saw_sentinel.yaml`
+- `_datafiles/world/default/mobs/bladeworks_foundry/77-gear_grinder.yaml`
+- `_datafiles/world/default/mobs/bladeworks_foundry/78-steam_golem.yaml`
+- `_datafiles/world/default/mobs/bladeworks_foundry/79-voltaic_promethean.yaml`
+- `_datafiles/world/default/mobs/bladeworks_foundry/80-dual_wield_instructor.yaml`
+- `_datafiles/world/default/mobs/bladeworks_foundry/81-blade_merchant.yaml`
+- `_datafiles/world/default/items/weapons-10000/10021-foundry_blade.yaml`
+- `_datafiles/world/default/items/weapons-10000/10022-serrated_saw_blade.yaml`
+- `_datafiles/world/default/items/weapons-10000/10023-piston_mace.yaml`
+- `_datafiles/world/default/items/weapons-10000/10024-three_bladed_sword.yaml`
+- `_datafiles/world/default/items/weapons-10000/10025-voltaic_blade.yaml`
+- `_datafiles/world/default/items/armor-20000/body/20048-promethean_chassis.yaml`
+
+**Files Modified:**
+- `_datafiles/world/default/rooms/whispering_wastes/168.yaml` - Added south exit to Bladeworks Foundry, new nouns for foundry hints
+
+*"THE FORGE FIRES BURN ETERNAL! The blade dancers spin their deadly dance! The Voltaic Promethean awaits in its hall of a thousand swords! BERT HAS SPOKEN AND THE BLADEWORKS FOUNDRY HAS ANSWERED!"*
+
+*Galstaff slams his staff against the anvil, and sparks of destiny fly into the night.*
+
+**For Bert. May his vision of EVERYTHING IS SWORDS live forever in the game.**
 
 ---

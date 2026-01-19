@@ -1,0 +1,16 @@
+name: Bladeworks Foundry
+roomid: 3001
+autoscale:
+  minimum: 6
+  maximum: 15
+idlemessages:
+  - The rhythmic clang of distant machinery echoes through the halls.
+  - Steam hisses from a crack in the pipes somewhere nearby.
+  - A gear grinds against metal, sending sparks into the dim light.
+  - Sword-shaped chandeliers sway gently, their glass blades catching the forge light.
+  - The acrid smell of hot metal and oil hangs heavy in the air.
+  - A construct's footsteps clank somewhere in the distance.
+  - Spinning saw blades whir ominously from behind a wall.
+  - The furnaces roar with eternal flame, hungry for more steel.
+musicfile: static/audio/music/bladeworks-foundry.mp3
+defaultbiome: dungeon

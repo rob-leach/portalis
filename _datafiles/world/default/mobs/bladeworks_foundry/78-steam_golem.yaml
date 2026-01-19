@@ -1,0 +1,40 @@
+mobid: 78
+zone: Bladeworks Foundry
+itemdropchance: 20
+hostile: true
+maxwander: 2
+groups:
+  - bladeworks-construct
+  - heavy-hitter
+idlecommands:
+  - emote vents steam from its shoulder joints with a hiss.
+  - emote takes heavy, clanking steps, shaking the floor.
+  - emote's pressure gauge needle twitches into the red.
+  - ""
+combatcommands:
+  - 'emote releases a scalding blast of steam from its vents!'
+  - 'emote swings a massive piston-driven fist!'
+  - 'emote roars with the sound of a hundred boilers!'
+  - 'emote overcharges its boiler, glowing red-hot!'
+activitylevel: 12
+character:
+  name: steam golem
+  description: The steam golem represents the pinnacle of the foundry's heavy
+    combat designs. Standing ten feet tall, its body is a walking boiler system
+    - brass and iron plates encase a superheated steam engine that powers its
+    every movement. Piston-driven arms can deliver crushing blows, and vents
+    throughout its body can release scalding steam as both weapon and defense.
+    A constant hiss accompanies its movements as pressure is vented and built
+    in an endless cycle. The steam golem's chest cavity glows orange with
+    internal heat, and its eye-lenses are fogged with its own moisture.
+  raceid: 22
+  level: 11
+  alignment: -30
+  gold: 35
+  equipment:
+    weapon:
+      itemid: 10003
+    body:
+      itemid: 20012
+    head:
+      itemid: 20007

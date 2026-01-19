@@ -1,0 +1,43 @@
+roomid: 3010
+zone: Bladeworks Foundry
+title: The Assembly Line
+description: This is the heart of the foundry's production floor - a massive
+  assembly line where components came together to form finished weapons. Conveyor
+  belts crisscross the chamber at multiple levels, some still moving. Mechanical
+  arms stand poised at each station, ready to attach hilts, wrap handles, or
+  sharpen edges. Racks of partially completed weapons line the walls in various
+  states of assembly. The sword-chandeliers here hang in a row down the center
+  of the line, each one holding progressively more complete blade forms, from
+  raw metal to finished sword. This is where the constructs learned to build -
+  and eventually, to fight.
+mapsymbol: 'A'
+maplegend: Assembly
+biome: dungeon
+exits:
+  north:
+    roomid: 3008
+  south:
+    roomid: 3012
+spawninfo:
+- mobid: 77
+  message: A gear grinder detaches from the assembly line and advances.
+  respawnrate: 4 real minutes
+  maxcount: 2
+- mobid: 76
+  message: A saw sentinel rolls off a conveyor belt, blades spinning to life.
+  respawnrate: 4 real minutes
+  maxcount: 1
+nouns:
+  conveyor: The conveyor belts move weapons through each assembly stage, an
+    endless loop of production gone wrong.
+  arms: Mechanical assembly arms stand frozen at their stations, tools still
+    gripped and ready.
+  racks: Racks of incomplete weapons line the walls - blades without hilts,
+    hilts without guards, guards without pommels.
+  chandeliers: The chandeliers tell the story of blade creation - each one
+    holds progressively more complete weapons.
+idlemessages:
+- A conveyor belt lurches forward, carrying unfinished weapons toward nowhere.
+- An assembly arm twitches, attempting to work on empty air.
+- Metal parts clatter as they fall from an overloaded rack.
+- The chandeliers sway in rhythm with the machinery's vibrations.
