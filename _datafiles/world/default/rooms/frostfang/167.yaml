@@ -11,7 +11,9 @@ description: Outside of the frost-covered gates to the west of Frostfang, the bi
   from the blizzard, like ghostly sentinels watching over this desolate expanse. To
   the south, a frost-covered hillside features a dark opening from which a faint blue
   glow and warm air emanate.
-biome: city
+mapsymbol: "○"
+maplegend: Outside
+biome: outdoors
 exits:
   east:
     roomid: 35
