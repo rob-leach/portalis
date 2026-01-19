@@ -1,0 +1,27 @@
+roomid: 5003
+zone: Great Crossroads
+title: Rusted Crossway
+description: An ancient road crosses your path here, its stones cracked and
+  overgrown with hardy weeds. This was once a major trade route connecting
+  the Bladeworks Foundry to distant markets, but commerce died when the
+  constructs rose. Rusted signposts point in directions whose destinations
+  are no longer readable. The path south continues toward a distant
+  intersection where the sky seems brighter.
+mapsymbol: '*'
+biome: road
+exits:
+  north:
+    roomid: 5002
+  south:
+    roomid: 5004
+nouns:
+  road: The ancient trade road is barely recognizable beneath years of
+    neglect. Stone pavers poke through packed dirt.
+  signposts: Rusted signposts point in various directions, but the names
+    of their destinations have long since weathered away.
+  weeds: Hardy weeds push through cracks in the ancient stonework,
+    reclaiming the road for nature.
+idlemessages:
+- A signpost creaks, pointing toward forgotten destinations.
+- Weeds rustle in the wind crossing the old road.
+- You imagine the merchants who once traveled this route.

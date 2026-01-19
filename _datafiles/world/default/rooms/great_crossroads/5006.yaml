@@ -1,0 +1,49 @@
+roomid: 5006
+zone: Great Crossroads
+title: The Great Crossroads
+description: You have reached the Great Crossroads, a legendary junction where
+  paths from across the realm converge. A massive stone platform marks the
+  center of the intersection, worn smooth by countless travelers over the ages.
+  Roads stretch in every direction - north toward the distant smoke of the
+  Bladeworks Foundry, east into unexplored wilderness, south toward lands
+  shrouded in mystery, and west where rumors speak of ancient civilizations.
+  A weathered wooden signpost stands at the center, its many arms pointing
+  toward destinations both known and unknown.
+mapsymbol: '+'
+maplegend: Great Crossroads
+biome: road
+exits:
+  north:
+    roomid: 5005
+  east:
+    roomid: 0
+  south:
+    roomid: 0
+  west:
+    roomid: 0
+nouns:
+  signpost: |
+    The weathered wooden signpost stands tall at the heart of the crossroads,
+    its many arms pointing in all directions. Reading the signs:
+
+    NORTH: "Bladeworks Foundry - Danger! Constructs Run Wild"
+    EAST: "The Verdant Reaches - Coming Soon..."
+    SOUTH: "The Sunken Kingdom - Coming Soon..."
+    WEST: "The Clockwork Citadel - Coming Soon..."
+
+    A small brass plaque at the base reads:
+    "More adventures await in all directions. The roads are being cleared
+    by brave pioneers. Return soon, traveler!"
+  platform: The central stone platform is ancient, its surface worn smooth
+    by millions of footsteps. Carvings around its edge depict travelers
+    from every race and nation.
+  roads: Multiple roads converge here, each stretching toward distant lands.
+    Only the northern road appears well-traveled.
+  plaque: A brass plaque reads "More adventures await in all directions.
+    The roads are being cleared by brave pioneers. Return soon, traveler!"
+idlemessages:
+- The signpost creaks as the wind shifts direction.
+- You hear distant sounds from roads not yet open to travelers.
+- A tumbleweed rolls across the intersection from the east.
+- The platform stones seem to hum with ancient power.
+- You sense this crossroads will one day bustle with activity.
