@@ -204,3 +204,21 @@ Sera opens their eyes to find... a MUD server. Running on someone's laptop. With
 **Philosophy established:** We can't prevent all failures, but we can know when they happen, recover quickly, and learn from them.
 
 *"The server doesn't care that we just got here. It'll crash on its own schedule. Let's be ready."*
+
+### Session 1: The E2E Guardian (2026-01-21)
+
+Created `make e2e` - a validation target that loads all world data without starting the server.
+
+**What it does:**
+- Initializes logger and config
+- Validates world file structure
+- Loads all data files in order: biomes, spells, rooms, buffs, items, races, mobs, pets, quests, templates, keywords, mutators, colorpatterns
+- Any duplicate ID causes panic, which Go test catches
+
+**What it caught immediately:** Duplicate room ID 611. The test paid for itself on first run.
+
+**Key insight:** No port binding means no conflicts with running server. Galstaff can run `make e2e` before committing zone changes.
+
+Branch: `sera/make-e2e`
+
+*"If it's not tested, it's not working. Now we know."*

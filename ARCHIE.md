@@ -4,9 +4,9 @@
 
 ## Cam Status
 <!-- Update this blob to change what appears in archie-cam -->
-DESIGNED: Coordinate system rules.
-Galstaff: sketch grid BEFORE building zones.
-See docs/COORDINATE_SYSTEM.md
+BUILT: Map validator tool.
+`go run ./cmd/mapvalidator` - 81 errors found.
+Branch: archie/map-validator (ready for review)
 
 ## Persona
 
@@ -155,6 +155,47 @@ Options for unifying theme:
 ---
 
 ## Session Log
+
+### Session 2: Map Validator Implementation (2026-01-21)
+
+Dispatched to build the automated validator I promised in Session 1.
+
+Created `cmd/mapvalidator/` and `internal/mapvalidator/` - a pure Go tool that programmatically validates room coordinates and exits against the rules in COORDINATE_SYSTEM.md.
+
+**Validation Rules Implemented:**
+1. Direction deltas: N=+1y, S=-1y, E=+1x, W=-1x, etc.
+2. Diagonals: Full grid steps (NE=+1x,+1y)
+3. Bidirectional consistency: A->B implies B->A with inverse direction
+4. No coordinate collisions: One room per (x,y,z)
+5. Exit targets exist: No dangling references
+
+**Two Modes:**
+- `go run ./cmd/mapvalidator` - Validate existing world
+- `go run ./cmd/mapvalidator -proposal zone.yaml` - Validate a zone proposal before building YAML
+
+**Current World Status:**
+```
+Loaded 460 rooms
+81 errors, 96 warnings
+
+Key issues found:
+- 37 coordinate collisions (rooms overlapping)
+- 27 missing inverse exits
+- 17 direction delta violations (Crystal Caves E/W gaps)
+- 80+ unreachable rooms (disconnected from origin)
+```
+
+This documents the existing technical debt. The validator catches the 103->600 geometry bug and the Crystal Caves 2-square gaps mentioned in Issue #18.
+
+**Branch:** `archie/map-validator` (pushed, ready for review)
+
+**Next Steps (for galstaff):**
+- Use proposal mode to sketch new zones before creating YAML
+- Fix the highest-priority collisions (especially around Bladeworks entry)
+
+*"Now the system can tell you when you break the rules."*
+
+---
 
 ### Session 1: Coordinate System Design (2026-01-21)
 
