@@ -13,5 +13,3 @@ maplegend: Garden Commons
 exits:
   south:
     roomid: 123
-  southeast:
-    roomid: 122

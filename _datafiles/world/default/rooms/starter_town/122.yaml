@@ -13,5 +13,3 @@ maplegend: Cottage
 exits:
   west:
     roomid: 120
-  northwest:
-    roomid: 124

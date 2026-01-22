@@ -30,7 +30,7 @@ This document maps all rooms in the portalis world to their x-y-z coordinates, c
 | 100 | Town Square | 0 | 0 | 0 | N:101, S:500, E:103, W:600, NE:105, SE:104, NW:102, SW:110 |
 | 101 | Training Yard | 0 | 1 | 0 | S:100, N:120 |
 | 102 | Wizard's Study | -1 | 1 | 0 | SE:100, W:130 |
-| 103 | Ranger Outpost | 1 | 0 | 0 | W:100, E:600(BF) |
+| 103 | Ranger Outpost | 1 | 0 | 0 | W:100 |
 | 104 | General Store | 1 | -1 | 0 | NW:100 |
 | 105 | The Snarky Squirrel Inn | 1 | 1 | 0 | SW:100, Up:400(ST) |
 | 110 | Market Street | -1 | -1 | 0 | NE:100, S:111, W:150, E:151 |
@@ -40,9 +40,9 @@ This document maps all rooms in the portalis world to their x-y-z coordinates, c
 | 114 | First Bank of Frostfell | -1 | -3 | 0 | N:111 |
 | 120 | Cobblestone Lane | 0 | 2 | 0 | S:101, N:121, E:122 |
 | 121 | Hearthstone Cottage | 0 | 3 | 0 | S:120, W:123 |
-| 122 | Wisteria Cottage | 1 | 2 | 0 | W:120, NW:124 |
+| 122 | Wisteria Cottage | 1 | 2 | 0 | W:120 |
 | 123 | Chapel of the Quiet Star | -1 | 3 | 0 | E:121, N:124 |
-| 124 | Garden Commons | -1 | 4 | 0 | S:123, SE:122 |
+| 124 | Garden Commons | -1 | 4 | 0 | S:123 |
 | 130 | Adventurer's Guild Hall | -2 | 1 | 0 | E:102, N:131, W:132 |
 | 131 | Quest Board Chamber | -2 | 2 | 0 | S:130 |
 | 132 | Guild Master's Office | -3 | 1 | 0 | E:130, N:133 |
@@ -108,12 +108,11 @@ Smith   MktSq   Armory
    - But 104 (General Store) is at (1, -1) via SE from 100
    - Room 151 should be at (0, -1), Room 104 at (1, -1) - NO CONFLICT
 
-2. **ISSUE**: Room 124 connection consistency
+2. **FIXED**: Room 124 connection consistency
    - 124 is N of 123 (placing it at -1, 4)
-   - 124 also has SE exit to 122 (which is at 1, 2)
+   - 124 previously had SE exit to 122 (which is at 1, 2)
    - SE from (-1, 4) should lead to (0, 3), NOT (1, 2)
-   - **CONFLICT**: The SE exit from 124 to 122 implies 122 is at (0, 3), but 122 is actually at (1, 2)
-   - **SEVERITY**: HIGH - This is a mapper-breaking coordinate mismatch
+   - **FIX**: Removed the 124↔122 connection entirely (rooms are 2+ squares apart, not adjacent)
 
 ---
 
@@ -307,14 +306,11 @@ Y
 
 ### Coordinate Validation Issues - Bladeworks Foundry
 
-1. **ISSUE**: Room 103 (Ranger Outpost) connection
+1. **FIXED**: Room 103 (Ranger Outpost) connection
    - Room 103 is at (1, 0) in Starter Town
-   - Room 103 has E exit to Room 600 (zone: Bladeworks Foundry)
-   - But Room 600 is at (-1, 0) from Town Square
-   - **CONFLICT**: Room 100 has W exit to 600, and Room 103 has E exit to 600
-   - This means 600 is both WEST of 100 AND EAST of 103
-   - But 103 is EAST of 100, so 600 cannot be EAST of 103
-   - **SEVERITY**: HIGH - Cross-zone connection error
+   - Room 103 previously had E exit to Room 600 (zone: Bladeworks Foundry)
+   - But Room 600 is at (-1, 0) from Town Square (via W exit from 100)
+   - **FIX**: Removed the impossible E exit from Room 103 to 600. Bladeworks Foundry is only accessible via the WEST exit from Town Square.
 
 2. **ISSUE**: Missing Room 5001
    - Room 619 has S exit to room 5001 (no zone specified)
@@ -329,7 +325,7 @@ Y
 |-----------|-----------|-----------|---------|---------|--------|
 | Starter Town | 100 | South | Crystal Caves | 500 | OK |
 | Starter Town | 100 | West | Bladeworks Foundry | 600 | OK |
-| Starter Town | 103 | East | Bladeworks Foundry | 600 | **ERROR** |
+| Starter Town | 103 | East | Bladeworks Foundry | 600 | **REMOVED** |
 | Starter Town | 105 | Up | Squirrel Tree | 400 | OK |
 | Crystal Caves | 500 | North | Starter Town | 100 | OK |
 | Bladeworks Foundry | 600 | East | Starter Town | 100 | OK |
@@ -339,26 +335,20 @@ Y
 
 ## Summary of Issues Found
 
-### HIGH Severity
+### HIGH Severity - FIXED
 1. **Room 124 to 122 diagonal**: SE from 124 should reach (0,3), but 122 is at (1,2)
+   - **FIX APPLIED**: Removed the 124↔122 connection (rooms are not adjacent)
 2. **Room 103 to 600 connection**: 600 cannot be both W of 100 and E of 103
+   - **FIX APPLIED**: Removed E exit from Room 103 to 600
 
 ### MEDIUM Severity
 1. **Crystal Caves lateral connections**: Rooms 504-505, 506-507, 508-509 have 2-square gaps
    - E/W exits skip a grid square, which may cause mapper display issues
+   - **STATUS**: Intentional design - secret passages may span multiple squares
 
 ### LOW Severity
 1. **Room 619 to 5001**: Target room doesn't exist (planned expansion)
-
----
-
-## Recommendations
-
-1. **Fix Room 103**: Remove the E exit to 600, or add an intermediate corridor
-2. **Fix Room 124**: Either:
-   - Change SE exit to just S (pointing to 122 at a new coordinate), or
-   - Add intermediate room at (0,3) between 124 and 122
-3. **Review Crystal Caves**: Decide if 2-square lateral passages are intentional or need intermediate rooms
+   - **STATUS**: Known placeholder for future zone
 
 ---
 

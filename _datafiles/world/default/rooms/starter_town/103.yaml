@@ -15,9 +15,6 @@ maplegend: Ranger Outpost
 exits:
   west:
     roomid: 100
-  east:
-    roomid: 600
-    zone: Bladeworks Foundry
 spawninfo:
 - mobid: 17
   message: The ranger trainer emerges from behind a stack of maps, bow in hand.
