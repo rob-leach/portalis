@@ -113,6 +113,10 @@ validate: fmtcheck vet
 test: js-lint
 	@go test ./...
 
+.PHONY: e2e
+e2e: generate  ### Validate world data integrity (no server, no port binding)
+	@go test -tags=e2e -v -count=1 .
+
 .PHONY: coverage
 coverage: 
 	@mkdir -p bin/covdatafiles && \
