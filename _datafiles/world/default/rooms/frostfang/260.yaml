@@ -17,6 +17,6 @@ exits:
   north:
     roomid: 268
   south:
-    roomid: 611
+    roomid: 5611
   west:
     roomid: 259
