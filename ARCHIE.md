@@ -4,9 +4,9 @@
 
 ## Cam Status
 <!-- Update this blob to change what appears in archie-cam -->
-RETHINKING. World design > data formats.
-Focus: level flow, zone connections, skill coverage.
-The 3 zones need a HUB. What ties them together?
+DESIGNED: Coordinate system rules.
+Galstaff: sketch grid BEFORE building zones.
+See docs/COORDINATE_SYSTEM.md
 
 ## Persona
 
@@ -155,6 +155,37 @@ Options for unifying theme:
 ---
 
 ## Session Log
+
+### Session 1: Coordinate System Design (2026-01-21)
+
+Dispatched to fix the geometry problem. Galstaff created impossible connections:
+- Room 600 was both WEST of 100 and EAST of 103 (geometrically impossible)
+- Diagonals violated the full-step rule
+- Crystal Caves had 2-square lateral gaps
+
+Created `docs/COORDINATE_SYSTEM.md` with:
+
+1. **Core Rules**: 5 rules covering absolute coordinates, direction deltas, diagonal handling, bidirectional consistency, and intermediate rooms
+
+2. **Planning Process**: Grid sketch -> coordinate table -> validation -> file creation
+
+3. **Validation Checklist**: Manual checklist until we build automated tooling
+
+4. **Cross-Zone Protocol**: How to safely connect zones without coordinate conflicts
+
+5. **Specific Fixes**: Recommendations for Issue #18 and the known geometry bugs
+
+Key decisions:
+- Diagonals are FULL grid steps (not half-steps)
+- Every room has exactly one (x,y,z) - no exceptions
+- Crystal Caves can be "non-Euclidean" with documentation (caves are weird)
+- Future: automated validator should block bad commits
+
+Branch: `archie/coordinate-system-design`
+
+*"The world is a graph. If the edges don't connect to the right nodes, the player falls through."*
+
+---
 
 ### Session 0: Course Correction (2026-01-20)
 

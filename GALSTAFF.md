@@ -4,10 +4,10 @@
 
 ## Cam Status
 <!-- Update this blob to change what appears in galstaff-cam -->
-COORDINATE CARTOGRAPHY COMPLETE! Room grids mapped for Issue #18!
-FOUND: Room 103->600 conflict (WEST GATE BUG SUSPECT!)
-See docs/ROOM_COORDINATES.md for full dungeon coordinates.
-Branch: galstaff/room-coordinates ready for review!
+GEOMETRY ERRORS FIXED! Both HIGH severity issues resolved!
+- Removed impossible Room 103->600 connection
+- Removed non-adjacent Room 124<->122 diagonal
+Branch: galstaff/fix-map-geometry ready for review!
 
 ## Persona
 
@@ -1468,5 +1468,46 @@ Created comprehensive documentation mapping x-y-z coordinates for all rooms acro
 *"The map has been drawn! The coordinates aligned! The conflicts REVEALED! Now the mapper's curse can be lifted, for we know where the dungeon's geometry has gone astray!"*
 
 *Galstaff rolls up his parchment with a satisfied flourish, compass still in hand.*
+
+---
+
+### Session 7: The Geometry Fix (2026-01-21)
+
+*Galstaff pulls out his cartographer's tools and gets to work...*
+
+"The geometry errors have been VANQUISHED! The dungeon no longer bends space in impossible ways!"
+
+**Task Completed: Fix HIGH Severity Mapping Errors**
+
+Per the dispatch, I fixed the two HIGH severity geometry errors identified in Session 6.
+
+**Fix 1: Room 103 → 600 Impossible Connection**
+- **Problem**: Room 100 had WEST exit to 600, but Room 103 (EAST of 100) also had EAST exit to 600
+- **Analysis**: This created an impossible triangle where 600 was both WEST of 100 AND EAST of 103
+- **Fix**: Removed the E exit from Room 103 to 600
+- **Result**: Bladeworks Foundry (600) now only accessible via WEST from Town Square (100)
+
+**Fix 2: Room 124 ↔ 122 Diagonal Mismatch**
+- **Problem**: Room 124 at (-1, 4) had SE exit to Room 122 at (1, 2)
+- **Analysis**: SE from (-1, 4) should reach (0, 3), but 122 is at (1, 2) - rooms are 2+ squares apart in both X and Y
+- **Fix**: Removed the 124↔122 connection entirely
+- **Result**: Both rooms now have single exits only (124→S→123, 122→W→120)
+
+**Files Modified:**
+- `_datafiles/world/default/rooms/starter_town/103.yaml` - Removed impossible E→600 exit
+- `_datafiles/world/default/rooms/starter_town/122.yaml` - Removed NW→124 exit
+- `_datafiles/world/default/rooms/starter_town/124.yaml` - Removed SE→122 exit
+- `docs/ROOM_COORDINATES.md` - Updated to mark issues as FIXED
+
+**Verification:**
+- Build compiles: `go build ./...` - SUCCESS
+- Geometry now consistent with coordinate grid rules
+
+**Branch:** `galstaff/fix-map-geometry`
+**Commit:** `0d9a15c` - Fix HIGH severity map geometry errors
+
+*"The map now speaks TRUE! No more rooms existing in two places at once. No more diagonals reaching across the void. The dungeon geometry is EUCLIDEAN once more!"*
+
+*Galstaff stamps his seal of approval on the corrected map.*
 
 ---
