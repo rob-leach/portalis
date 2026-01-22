@@ -1,0 +1,23 @@
+roomid: 110
+zone: Starter Town
+title: Market Street
+description: A bustling cobblestone lane stretches before you, lined with colorful
+  merchant stalls and shop fronts. The air hums with the clamor of commerce - vendors
+  hawking wares, coins changing hands, and the occasional argument over prices. Striped
+  awnings in red and gold provide shade from the sun, while hand-painted signs swing
+  overhead advertising everything from exotic spices to enchanted trinkets. To the
+  west, aromatic smoke curls from a shop marked by a bubbling cauldron sign. Across
+  the way to the east stands a sturdy stone building bearing the seal of the First
+  Bank. The street continues south toward the heart of the market district.
+biome: city
+mapsymbol: "="
+maplegend: Market Street
+exits:
+  northeast:
+    roomid: 100
+  south:
+    roomid: 111
+  west:
+    roomid: 150
+  east:
+    roomid: 151

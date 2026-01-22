@@ -1,0 +1,32 @@
+roomid: 605
+zone: Bladeworks Foundry
+title: Mold Storage
+description: Rows of heavy iron shelves fill this chamber, holding countless blade
+  molds of every conceivable design. Swords, daggers, axes, spears - the foundry
+  could produce any edged weapon imaginable. Some molds lie broken on the floor,
+  their forms cracked and useless. Others still hold cooled metal, half-formed
+  blades frozen in the process of creation. A thick layer of dust covers
+  everything, disturbed only by the tracks of wandering constructs. The
+  sword-chandelier here is particularly ornate, featuring miniature replicas
+  of famous legendary blades.
+biome: dungeon
+exits:
+  east:
+    roomid: 602
+spawninfo:
+- mobid: 40
+  message: A blade dancer steps out from between the shelves, weapons drawn.
+  respawnrate: 3 real minutes
+  maxcount: 2
+nouns:
+  shelves: Iron shelving units hold hundreds of blade molds, organized by weapon
+    type and size.
+  molds: The molds are made of hardened iron, shaped in negative to create
+    perfect blade forms.
+  blades: Half-finished blades sit forgotten in their molds, never to be completed.
+  chandelier: This chandelier holds tiny replicas of legendary swords - you
+    recognize the shapes of Excalibur, Durendal, and other mythic weapons.
+idlemessages:
+- A mold clatters as it falls from an unstable shelf.
+- Dust motes dance in the dim light filtering through the chamber.
+- Something scrapes against metal deeper in the storage area.

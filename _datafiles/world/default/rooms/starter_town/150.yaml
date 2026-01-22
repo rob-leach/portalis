@@ -1,0 +1,22 @@
+roomid: 150
+zone: Starter Town
+title: The Bubbling Cauldron
+description: Glass vials of every color line the shelves of this aromatic apothecary.
+  The air is thick with the mingled scents of dried herbs, exotic roots, and something
+  faintly sulfurous bubbling away in a massive iron cauldron at the room's center.
+  Bundles of lavender and sage hang from the rafters, and a workbench cluttered with
+  mortars, pestles, and stained recipe cards occupies one corner. Amber light filters
+  through bottles of mysterious liquids, casting rainbow patterns across the worn
+  wooden floor.
+biome: city
+mapsymbol: "+"
+maplegend: Potion Shop
+exits:
+  east:
+    roomid: 110
+storesold:
+  - itemid: 30001
+  - itemid: 30002
+spawninfo:
+  - mobid: 12
+    respawnrate: 1 real minutes

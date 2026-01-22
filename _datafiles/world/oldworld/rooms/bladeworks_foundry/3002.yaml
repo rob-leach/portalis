@@ -1,0 +1,35 @@
+roomid: 3002
+zone: Bladeworks Foundry
+title: The Receiving Bay
+description: This cavernous chamber once received raw materials for the foundry's
+  hungry forges. Rusted conveyor belts stretch across the floor like metal
+  serpents, some still jerking forward in fits and starts. Crates of unprocessed
+  ore and ingots lie scattered about, many torn open by mechanical claws. Along
+  the walls, sorting machines click and whir mindlessly, their gears grinding
+  without purpose. A sword-chandelier hangs from chains above, its glass blades
+  still intact and glowing faintly from the forge-light that filters in from
+  the south.
+biome: dungeon
+exits:
+  north:
+    roomid: 3001
+  south:
+    roomid: 3003
+  east:
+    roomid: 3004
+spawninfo:
+- mobid: 75
+  message: A blade dancer whirs out from behind a crate, daggers spinning.
+  respawnrate: 3 real minutes
+  maxcount: 2
+nouns:
+  conveyor: The conveyor belts move in sporadic bursts, still trying to fulfill
+    some long-forgotten sorting directive.
+  crates: The crates have been violently torn open. Raw ore and metal ingots
+    spill across the floor.
+  machines: The sorting machines continue their work endlessly, clicking and
+    whirring as they sort nothing at all.
+idlemessages:
+- A conveyor belt lurches forward with a grinding screech.
+- Metal ingots rattle in their crates as machinery vibrates.
+- A sorting machine whirs, then clicks in disappointment at finding nothing.

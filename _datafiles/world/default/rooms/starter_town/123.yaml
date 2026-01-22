@@ -1,0 +1,17 @@
+roomid: 123
+zone: Starter Town
+title: Chapel of the Quiet Star
+description: A modest chapel stands at the end of the residential lane, its simple
+  wooden doors worn smooth by countless hands seeking solace. A small bell tower
+  rises above the peaked roof, housing a bronze bell that marks the hours with
+  gentle chimes. Stained glass windows depict a single silver star against a deep
+  blue sky, casting colored light across the stone threshold. The air here feels
+  peaceful, hushed, as though the very walls hold space for contemplation.
+biome: city
+mapsymbol: "+"
+maplegend: Chapel
+exits:
+  east:
+    roomid: 121
+  north:
+    roomid: 124

@@ -1,0 +1,41 @@
+roomid: 1004
+zone: Frostfang
+title: Snarky Squirrel Commons
+description: A hand-painted sign depicting a smirking squirrel marks this ramshackle
+  establishment southeast of the square. Inside, rickety benches face a small wooden
+  stage where aspiring performers deliver jokes of questionable quality. The heckling
+  is merciless, the acts are forgettable, but somehow everyone keeps coming back.
+  Between sets, the crowd trades stories, rumors, and unsolicited advice. The real
+  entertainment is not on stage - it is in the conversations happening all around you.
+  Strange chittering occasionally echoes from the rafters above, though the regulars
+  seem to pay it no mind.
+mapsymbol: S
+maplegend: Squirrel
+biome: city
+exits:
+  northwest:
+    roomid: 1
+  up:
+    roomid: 4001
+nouns:
+  bar: The bar is cluttered with half-empty mugs and suspicious stains. The bartender
+    keeps one eye on the stage and one on the crowd.
+  stage: A rickety wooden platform where dreams go to die. The boards are worn smooth
+    by countless hopeful feet.
+  benches: The benches have seen better days, their wood scarred with carved initials
+    and the occasional crude drawing.
+  rafters: The rafters are dark and dusty, but you catch glimpses of movement up there.
+    A trap door is barely visible among the beams, leading up into what appears to
+    be a hollow tree trunk.
+  ceiling: Looking up, you notice a trap door hidden among the rafters. It leads up
+    into darkness, and angry chittering echoes from beyond.
+stash:
+- itemid: 30001
+  difficulty: 1
+idlemessages:
+- Someone on stage tells a joke. Nobody laughs.
+- Scattered applause, possibly sarcastic.
+- A floorboard creaks.
+- Two patrons argue about whether that last bit was intentional.
+- Chittering echoes from the rafters above.
+- An acorn drops from the ceiling and rolls across the floor.

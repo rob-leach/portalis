@@ -1,0 +1,32 @@
+roomid: 3007
+zone: Bladeworks Foundry
+title: Component Stockpile
+description: This storage room once held the components needed to build the foundry's
+  construct workforce. Now it serves as a graveyard for damaged and defunct
+  machines. Piles of gears, springs, and mechanical limbs litter the floor.
+  Shelves hold jars of lubricating oils, most dried or congealed. A workbench
+  in the corner still has partially-assembled constructs lying upon it, frozen
+  mid-creation. The sword-chandelier here is made entirely of discarded blade
+  components - hilts, guards, and pommels arranged in artistic chaos.
+biome: dungeon
+exits:
+  west:
+    roomid: 3004
+spawninfo:
+- mobid: 76
+  message: A saw sentinel assembles itself from spare parts and rises to attack.
+  respawnrate: 5 real minutes
+  maxcount: 1
+nouns:
+  gears: Gears of every size litter the floor, from tiny watch-springs to
+    massive drive wheels.
+  workbench: The workbench holds partially assembled constructs, their empty
+    eye-sockets staring at nothing.
+  shelves: Shelves of oils and lubricants line the walls, most containers
+    cracked or empty.
+  chandelier: This chandelier is assembled from sword components - hilts,
+    guards, and pommels forming an abstract sculpture.
+idlemessages:
+- Gears shift and settle, disturbed by vibrations from distant machinery.
+- A jar of oil slowly drips onto the floor with a soft plop.
+- One of the partial constructs on the workbench twitches, then falls still.

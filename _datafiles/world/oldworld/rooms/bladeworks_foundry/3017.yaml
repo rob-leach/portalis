@@ -1,0 +1,38 @@
+roomid: 3017
+zone: Bladeworks Foundry
+title: The Blade Garden
+description: This chamber defies explanation - thousands of swords grow from the
+  floor like metal flowers, their blades reaching toward the ceiling in eerie
+  stillness. This was an experiment by the foundry's master artificers, an
+  attempt to grow weapons rather than forge them. The experiment succeeded
+  beyond their wildest dreams - and worst nightmares. The blades continue to
+  grow, slowly filling the chamber over decades. Walking here requires extreme
+  care, as blades sprout everywhere. The sword-chandeliers are unnecessary -
+  the blade-flowers themselves catch and reflect light throughout the chamber.
+biome: dungeon
+exits:
+  east:
+    roomid: 3015
+  south:
+    roomid: 3019
+spawninfo:
+- mobid: 78
+  message: A steam golem carefully picks its way through the blade garden.
+  respawnrate: 5 real minutes
+  maxcount: 1
+- mobid: 77
+  message: A gear grinder crushes through the blade-flowers, destroying several.
+  respawnrate: 5 real minutes
+  maxcount: 1
+nouns:
+  blades: The blade-flowers grow in impossibly delicate formations, their
+    edges sharp enough to cut on contact.
+  floor: The floor is barely visible beneath the forest of growing blades.
+    Each step must be planned carefully.
+  experiment: Signs of the original experiment remain - alchemical residue,
+    growth chambers, and notes about "metallurgical botany."
+idlemessages:
+- A blade-flower grows a fraction of an inch with a soft ringing sound.
+- Light dances across the chamber, reflected by countless edges.
+- A gentle chime rings as blades touch in the stillness.
+- New blade-buds push up through the floor with tiny metallic pings.

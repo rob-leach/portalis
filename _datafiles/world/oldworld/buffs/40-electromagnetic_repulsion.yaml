@@ -1,0 +1,10 @@
+buffid: 40
+name: Electromagnetic Repulsion
+description: A powerful electromagnetic force is pushing you away!
+secret: false
+triggernow: true
+triggerrate: 1 round
+triggercount: 1
+flags:
+  - no-flee
+  - cancel-on-water

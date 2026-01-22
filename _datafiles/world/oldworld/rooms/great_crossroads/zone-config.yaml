@@ -1,0 +1,11 @@
+name: Great Crossroads
+roomid: 5001
+autoscale:
+  minimum: 10
+  maximum: 20
+idlemessages:
+  - The wind carries the faint scent of distant lands.
+  - A worn signpost creaks in the breeze.
+  - The road stretches endlessly in multiple directions.
+  - Travelers' footprints mark the dusty path.
+defaultbiome: road

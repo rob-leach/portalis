@@ -1,0 +1,15 @@
+itemid: 10026
+name: foundry blade
+namesimple: blade
+description: A well-crafted sword forged in the Bladeworks Foundry. Its edge is
+  remarkably sharp and its balance perfect, a testament to the foundry's
+  legendary quality control. The blade bears a small maker's mark - crossed
+  hammers over an anvil.
+type: weapon
+hands: 1
+subtype: slashing
+damage:
+  diceroll: 1d8
+value: 150
+statmods:
+  strength: 1

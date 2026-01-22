@@ -1,0 +1,45 @@
+roomid: 619
+zone: Bladeworks Foundry
+title: The Hall of Endless Blades
+description: You have entered the legendary Hall of Endless Blades, the chamber
+  that gave this dungeon its fearsome reputation. The walls, floor, and ceiling
+  are covered - no, MADE of blades. Swords of every design interlock to form
+  the very structure of the room. In the center stands the Voltaic Promethean,
+  the foundry's ultimate creation - a towering construct of gleaming steel and
+  crackling lightning, its form a perfect fusion of blade and electricity. This
+  was meant to be the foundry's masterpiece, a construct that could forge,
+  fight, and think. Instead, it became their doom. The sword-chandelier above
+  is the largest in the foundry - a spiral of a thousand blades descending from
+  the ceiling, crackling with the same lightning that animates the Promethean.
+  A breach in the southern wall leads to lands beyond the foundry.
+mapsymbol: X
+biome: dungeon
+exits:
+  west:
+    roomid: 618
+  north:
+    roomid: 617
+  south:
+    roomid: 5001
+spawninfo:
+- mobid: 44
+  message: The Voltaic Promethean awakens, lightning arcing across its blade-covered form!
+  respawnrate: 15 real minutes
+nouns:
+  walls: The walls are constructed entirely from interlocking swords - a feat
+    of engineering that borders on madness.
+  promethean: The Voltaic Promethean stands fifteen feet tall, its body a
+    fusion of finest steel and living lightning.
+  chandelier: A thousand blades spiral down from the ceiling, crackling with
+    electrical energy that links to the Promethean below.
+stash:
+- itemid: 10025
+  chance: 100
+- itemid: 20048
+  chance: 50
+idlemessages:
+- Lightning arcs between the blade-walls with a deafening crack.
+- The Promethean's eyes glow brighter, scanning for threats.
+- Electricity dances down the spiral chandelier.
+- The entire room hums with barely contained power.
+- Blades in the walls vibrate with resonant energy.

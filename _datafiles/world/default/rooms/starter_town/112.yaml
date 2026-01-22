@@ -1,0 +1,18 @@
+roomid: 112
+zone: Starter Town
+title: Ironheart Smithy
+description: Waves of heat wash over you as you enter this well-worn forge. A massive
+  brick furnace dominates the back wall, its coals glowing a fierce orange-red. Racks
+  of weapons line the walls - swords, axes, maces, and daggers of varying quality
+  and design. Anvils of different sizes stand ready for work, their surfaces pocked
+  and scarred from countless hammer blows. The burly smith works tirelessly, muscles
+  gleaming with sweat as sparks fly from the blade taking shape beneath their hammer.
+biome: house
+mapsymbol: "S"
+maplegend: Smithy
+exits:
+  east:
+    roomid: 111
+spawninfo:
+  - mobid: 3
+    respawnrate: 1 real minutes

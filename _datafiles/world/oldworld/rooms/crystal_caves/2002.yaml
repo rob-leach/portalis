@@ -1,0 +1,27 @@
+roomid: 2002
+zone: Crystal Caves
+title: Twilight Passage
+description: The passage descends at a gentle slope, the walls growing increasingly
+  crystalline as you venture deeper. Pale amethyst and rose quartz formations jut
+  from the walls like frozen flowers, their surfaces catching and refracting the
+  bioluminescent glow that seems to come from everywhere and nowhere. The ceiling
+  arches high overhead, lost in shadow, while the floor has been worn smooth by
+  centuries of underground streams. Two passages branch off ahead, one emanating
+  a stronger blue glow, the other a softer green luminescence.
+biome: dungeon
+exits:
+  north:
+    roomid: 2001
+  southwest:
+    roomid: 2003
+  southeast:
+    roomid: 2004
+spawninfo:
+- mobid: 65
+  message: A crystal beetle scuttles out from behind a formation.
+  respawnrate: 3 real minutes
+  maxcount: 2
+idlemessages:
+- The crystals chime softly as air currents pass through them.
+- A luminescent moth flutters past, leaving a trail of glowing dust.
+- You feel a subtle vibration through the floor, as if the caves themselves are humming.

@@ -1,0 +1,39 @@
+roomid: 3008
+zone: Bladeworks Foundry
+title: Quality Control Chamber
+description: This chamber was where the foundry's blades were tested and inspected.
+  Target dummies made of straw and leather stand in rows, all thoroughly
+  shredded by countless blade tests. Mechanical arms mounted on rails can swing
+  weapons at various speeds and angles, testing edge retention and balance.
+  Several arms still hold rusted blades, frozen mid-swing. Along one wall, a
+  rack displays blades that failed inspection - cracked, bent, or poorly
+  tempered. The sword-chandelier overhead is made from broken blades, a fitting
+  decoration for this chamber of imperfection.
+biome: dungeon
+exits:
+  north:
+    roomid: 3005
+  south:
+    roomid: 3010
+spawninfo:
+- mobid: 77
+  message: A gear grinder rolls out from testing station, grinding blades spinning.
+  respawnrate: 5 real minutes
+  maxcount: 1
+- mobid: 75
+  message: A blade dancer drops from a testing arm, immediately attacking.
+  respawnrate: 3 real minutes
+  maxcount: 1
+nouns:
+  dummies: The target dummies have been reduced to ribbons and stuffing by
+    years of blade testing.
+  arms: Mechanical testing arms hold blades frozen in mid-swing, still waiting
+    for a command that will never come.
+  rack: A rack of failed blades shows the foundry's exacting standards - even
+    minor flaws meant rejection.
+  chandelier: This chandelier is made entirely from broken and rejected blades,
+    their flaws visible even from below.
+idlemessages:
+- A testing arm suddenly swings, slicing through empty air.
+- Straw drifts down from a shredded dummy.
+- A blade falls from the reject rack with a clatter.

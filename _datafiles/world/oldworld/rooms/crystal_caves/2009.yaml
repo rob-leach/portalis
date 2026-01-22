@@ -1,0 +1,31 @@
+roomid: 2009
+zone: Crystal Caves
+title: Singing Crystals
+description: This chamber is filled with crystal formations of extraordinary purity,
+  each one tuned by nature to resonate at a specific frequency. The slightest
+  movement of air causes them to sing, creating harmonies that shift and change
+  as you move through the space. Some crystals are slender needles that produce
+  high, clear notes, while others are massive resonating chambers that hum with
+  deep bass tones. The effect is mesmerizing, a symphony of stone that seems to
+  respond to your presence. The floor is strewn with smaller crystal shards that
+  chime underfoot like wind chimes.
+biome: dungeon
+exits:
+  north:
+    roomid: 2007
+  south:
+    roomid: 2011
+  east:
+    roomid: 2010
+spawninfo:
+- mobid: 65
+  message: A crystal beetle emerges, its shell harmonizing with the crystals.
+  respawnrate: 4 real minutes
+- mobid: 66
+  message: A cavern sprite manifests from the resonating harmonics.
+  respawnrate: 6 real minutes
+idlemessages:
+- The crystals shift to a minor key, creating a melancholy melody.
+- A sudden gust produces a crescendo that echoes through the chamber.
+- Two crystal formations seem to be singing to each other in harmony.
+- The song shifts, and for a moment you hear something almost like words.

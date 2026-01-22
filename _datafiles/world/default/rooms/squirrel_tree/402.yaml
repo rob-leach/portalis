@@ -1,0 +1,44 @@
+roomid: 402
+zone: Squirrel Tree
+title: Mid-Trunk Chamber
+description: The trunk widens here into a central chamber where multiple branches seem
+  to converge. The walls are honeycombed with small tunnels leading in every direction,
+  and the floor is carpeted with a thick layer of acorn shells and dried leaves. This
+  appears to be a major hub of squirrel activity - territorial markings cover every
+  surface, and the chittering has become a constant angry chorus. Paths lead up toward
+  the canopy above, with passages branching off to what appear to be storage caches
+  on either side.
+mapsymbol: '*'
+biome: dungeon
+exits:
+  down:
+    roomid: 401
+  up:
+    roomid: 403
+  east:
+    roomid: 404
+  west:
+    roomid: 405
+spawninfo:
+- mobid: 20
+  message: A territorial squirrel emerges from a tunnel!
+  respawnrate: 3 real minutes
+- mobid: 20
+  message: Another squirrel bounds out to defend its home!
+  respawnrate: 4 real minutes
+- mobid: 20
+  message: A third squirrel joins its companions!
+  respawnrate: 5 real minutes
+stash:
+- itemid: 30016
+  chance: 50
+idlemessages:
+- Squirrels dart between tunnels, always watching.
+- The constant chittering rises and falls like angry conversation.
+- Something cracks an acorn nearby.
+- Leaves rustle as unseen squirrels move through hidden passages.
+nouns:
+  tunnels: Small tunnels riddle the walls, each leading to unknown squirrel domains.
+    You could never fit through them.
+  markings: The territorial markings are... pungent. These squirrels take ownership
+    very seriously.

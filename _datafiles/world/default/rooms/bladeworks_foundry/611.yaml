@@ -1,0 +1,43 @@
+roomid: 611
+zone: Bladeworks Foundry
+title: The Dueling Gallery
+description: This elegant chamber stands in stark contrast to the industrial chaos
+  elsewhere in the foundry. Polished marble floors bear the scuffs of countless
+  practice bouts. Mirrors line the walls, allowing duelists to observe their
+  own form. Weapon racks hold an impressive array of training blades, many
+  designed for dual-wielding practice. At the far end, a raised platform serves
+  as an instructor's station. The sword-chandeliers here are masterworks -
+  actual functional blades suspended in perfect balance, ready to be drawn in
+  an emergency. This was where the foundry's artificers learned to TEST their
+  creations. Those who survived the deeper forges often came here to master
+  fighting with two blades at once.
+mapsymbol: '%'
+biome: dungeon
+exits:
+  north:
+    roomid: 609
+  south:
+    roomid: 612
+    secret: true
+spawninfo:
+- mobid: 45
+  message: The dual-wield instructor steps down from the training platform.
+  respawnrate: 2 real minutes
+nouns:
+  mirrors: The mirrors are remarkably intact, showing reflections of your
+    stance from every angle.
+  racks: Training weapons fill the racks - paired daggers, matched swords,
+    and exotic dual-blade configurations.
+  platform: The instructor's platform has seen years of use. Marks on the
+    floor show where countless students have stood.
+  chandeliers: These chandeliers hold actual weapons, suspended in perfect
+    balance. They could be drawn and used in battle.
+skilltraining:
+  dual-wield:
+    min: 1
+    max: 4
+idlemessages:
+- Your reflection multiplies in the surrounding mirrors.
+- A training blade falls from its rack with a clatter.
+- The chandeliers sway gently, their suspended blades gleaming.
+- Echoes of ancient dueling commands seem to whisper from the walls.

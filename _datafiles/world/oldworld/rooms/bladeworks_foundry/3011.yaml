@@ -1,0 +1,30 @@
+roomid: 3011
+zone: Bladeworks Foundry
+title: Foreman's Office
+description: This small office overlooks the tempering pools through thick glass
+  windows, now cracked and grimy. A heavy desk sits in the center, covered with
+  yellowed production orders and inventory lists. The walls are decorated with
+  blueprints for various blade designs and construct schematics. A small
+  sword-chandelier hangs from the ceiling, its glass blades more delicate than
+  those in the production areas. This was where the foundry's foreman directed
+  operations - before the constructs turned on their masters.
+biome: dungeon
+exits:
+  north:
+    roomid: 3009
+nouns:
+  desk: The foreman's desk is covered with old paperwork - production quotas,
+    maintenance schedules, and one ominous note about "unusual construct behavior."
+  windows: Thick glass windows overlook the tempering pools below. Cracks
+    spiderweb across their surface.
+  blueprints: Blueprints for blade designs and construct schematics paper the
+    walls, some torn or defaced.
+  chandelier: This chandelier is more elegant than the industrial versions,
+    befitting an office space.
+stash:
+- itemid: 10021
+  chance: 25
+idlemessages:
+- Papers rustle in a draft from a crack in the window.
+- The chair behind the desk creaks as if someone just stood up.
+- Dust motes dance in the light filtering through the grimy windows.

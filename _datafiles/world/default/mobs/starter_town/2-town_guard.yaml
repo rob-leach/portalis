@@ -1,0 +1,34 @@
+mobid: 2
+zone: Starter Town
+itemdropchance: 2
+hostile: false
+maxwander: 15
+groups:
+  - starter-town-law
+  - guards
+idlecommands:
+  - 'say Keep the peace, citizen.'
+  - 'emote scans the area watchfully'
+  - 'wander'
+  - ''
+combatcommands:
+  - 'callforhelp 5:puts their fingers to their mouth and whistles loudly.'
+activitylevel: 20
+character:
+  name: town guard
+  description: 'A sturdy guard clad in practical chainmail over a green tabard
+    bearing the town crest. Their well-maintained spear rests casually against
+    one shoulder, ready to be brought to bear at a moment''s notice. Keen eyes
+    constantly survey the surroundings from beneath a simple iron helm, watching
+    for any sign of trouble. Despite their vigilant demeanor, there''s a friendly
+    set to their jaw that suggests they''d rather share a drink than crack skulls.
+    Years of patrol have left them with an easy confidence and a reputation for
+    fair dealing.'
+  raceid: 1
+  level: 10
+  alignment: 30
+  gold: 5
+hates:
+  - rats
+  - vermin
+  - criminals

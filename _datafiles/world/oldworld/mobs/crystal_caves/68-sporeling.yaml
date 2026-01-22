@@ -1,0 +1,26 @@
+mobid: 68
+zone: Crystal Caves
+itemdropchance: 8
+hostile: false
+maxwander: 3
+groups:
+  - crystal-caves-creature
+  - fungal-entity
+idlecommands:
+  - emote wobbles unsteadily on its stubby legs.
+  - emote releases a small cloud of violet spores.
+  - ""
+activitylevel: 15
+character:
+  name: sporeling
+  description: This small fungal creature is clearly juvenile, its cap barely formed
+    and its locomotion uncertain. It toddles about on three stubby leg-tendrils,
+    frequently losing its balance and having to right itself. Its glow is dimmer
+    than the adult wanderers, a soft violet rather than bright teal, and its spore
+    production is erratic, releasing in sudden puffs rather than steady streams.
+    Despite its clumsy appearance, there's something almost endearing about the
+    little creature as it explores its environment with apparent curiosity.
+  raceid: 12
+  level: 4
+  alignment: 0
+  gold: 1

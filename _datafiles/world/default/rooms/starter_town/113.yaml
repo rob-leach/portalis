@@ -1,0 +1,19 @@
+roomid: 113
+zone: Starter Town
+title: Steelguard Armory
+description: Polished armor gleams from every corner of this meticulously organized
+  shop. Mannequins stand at attention wearing everything from simple leather jerkins
+  to elaborate plate mail etched with protective runes. Shields bearing various
+  crests hang on the walls alongside helmets, gauntlets, and greaves. The smell of
+  leather oil and metal polish fills the air. A dignified armorer examines each
+  piece with a jeweler's eye, ensuring every rivet and strap meets their exacting
+  standards before displaying it for sale.
+biome: house
+mapsymbol: "A"
+maplegend: Armory
+exits:
+  west:
+    roomid: 111
+spawninfo:
+  - mobid: 4
+    respawnrate: 1 real minutes

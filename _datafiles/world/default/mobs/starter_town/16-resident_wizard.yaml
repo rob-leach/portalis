@@ -1,0 +1,22 @@
+mobid: 16
+zone: Starter Town
+hostile: false
+idlecommands:
+  - 'emote traces arcane symbols in the air that briefly glow before fading'
+  - 'say The weave of magic is all around us, if you know how to see it.'
+  - 'emote mutters an incantation under their breath'
+  - ''
+activitylevel: 15
+character:
+  name: resident wizard
+  description: 'An elderly mage wrapped in flowing robes of deep blue, embroidered
+    with silver threads that form constellations when viewed from the right angle.
+    A long white beard cascades down their chest, occasionally sparking with residual
+    magical energy. Their eyes gleam with arcane knowledge, appearing to shift colors
+    from violet to gold depending on the light. Gnarled fingers adorned with several
+    rings of power gesture constantly as they speak, leaving trails of faint luminescence
+    in the air. They carry themselves with the quiet confidence of one who has mastered
+    the fundamental arts of spellcasting.'
+  raceid: 1
+  level: 25
+  alignment: 25

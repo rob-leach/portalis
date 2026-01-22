@@ -1,0 +1,19 @@
+roomid: 132
+zone: Starter Town
+title: Guild Master's Office
+description: Heavy velvet curtains frame tall windows that look out over the town
+  rooftops. An imposing desk of ancient oak dominates the room, its surface covered
+  with maps, ledgers, and a collection of stamped seals from a dozen different
+  kingdoms. Behind the desk hangs a portrait gallery of former guild masters, their
+  painted eyes seeming to follow your movements. A suit of ornate ceremonial armor
+  stands guard in one corner, its empty helm tilted as if listening. The current
+  guild master's chair sits empty more often than not—administrative duties tend
+  to bore the adventurous types who rise to such positions.
+biome: city
+mapsymbol: "g"
+maplegend: Guild Office
+exits:
+  east:
+    roomid: 130
+  north:
+    roomid: 133

@@ -1,0 +1,22 @@
+roomid: 105
+zone: Starter Town
+title: The Snarky Squirrel Inn
+description: A cozy warmth envelops you as you step into this charming tavern.
+  Thick wooden beams support a high ceiling, from which hang clusters of dried
+  herbs and the occasional lantern. Comfortable booths line the walls, their
+  cushions worn soft from years of use. A massive stone fireplace dominates one
+  wall, its cheerful flames casting dancing shadows across the room. The bar
+  itself is carved from a single enormous log, polished to a warm gleam. Above
+  the mantle hangs a painted sign depicting a squirrel with a distinctly smug
+  expression. Curiously, the rafters seem to rustle occasionally, and you could
+  swear you spot a bushy tail disappearing into the shadows above.
+biome: house
+mapsymbol: "I"
+maplegend: Inn
+exits:
+  southwest:
+    roomid: 100
+  up:
+    roomid: 400
+    zone: Squirrel Tree
+    secret: true

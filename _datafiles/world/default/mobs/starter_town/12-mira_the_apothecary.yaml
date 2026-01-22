@@ -1,0 +1,28 @@
+mobid: 12
+zone: Starter Town
+itemdropchance: 0
+hostile: false
+maxwander: 0
+groups:
+  - merchants
+  - shopkeepers
+idlecommands:
+  - 'emote carefully measures a viscous green liquid into a vial'
+  - 'emote stirs the bubbling cauldron with a long wooden spoon'
+  - 'say Potions for all ailments! Step right up!'
+  - 'emote squints at a faded recipe, muttering under their breath'
+  - ''
+activitylevel: 25
+character:
+  name: Mira the Apothecary
+  description: 'A wiry woman of indeterminate age, her silver-streaked hair pulled
+    back in a practical bun secured with a copper pin shaped like a serpent. Her
+    fingers are stained with countless reagents, and her sharp green eyes miss
+    nothing. She wears a heavy leather apron over simple homespun clothes, its
+    pockets bulging with corked vials and dried herbs. Despite her somewhat wild
+    appearance, there is a reassuring competence in her movements as she tends
+    to her bubbling concoctions.'
+  raceid: 1
+  level: 8
+  alignment: 15
+  gold: 50

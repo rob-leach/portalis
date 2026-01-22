@@ -1,0 +1,33 @@
+roomid: 3019
+zone: Bladeworks Foundry
+title: The Master's Study
+description: This was the private study of the foundry's master artificer, the
+  genius who designed the constructs and dreamed of a world where weapons forged
+  themselves. Bookshelves line the walls, filled with treatises on metallurgy,
+  construct animation, and blade enchantment. A massive desk holds unfinished
+  designs - the last projects the master was working on before the uprising.
+  One blueprint shows a three-bladed sword, its design revolutionary but
+  incomplete. The sword-chandelier here is a personal masterwork, holding the
+  artificer's own collection of experimental blades.
+biome: dungeon
+exits:
+  north:
+    roomid: 3017
+  east:
+    roomid: 3020
+nouns:
+  bookshelves: The shelves hold the accumulated knowledge of generations of
+    artificers - a priceless library of bladecraft.
+  desk: The desk is covered with half-finished designs, including one for a
+    revolutionary three-bladed weapon.
+  blueprints: The blueprints show weapons of incredible complexity - some
+    clearly impossible, others merely very difficult.
+  chandelier: This chandelier holds the artificer's personal collection -
+    blades of unique design found nowhere else.
+stash:
+- itemid: 10024
+  chance: 5
+idlemessages:
+- A book falls open, its pages yellowed with age.
+- Dust motes dance in the light from the crystal chandelier.
+- The designs on the desk seem to rearrange themselves when you look away.

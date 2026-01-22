@@ -1,0 +1,12 @@
+itemid: 30016
+name: acorn
+namesimple: acorn
+description: A plump acorn with a perfectly formed cap. The squirrels clearly value
+  these highly, but a hungry adventurer might find it makes a decent snack. It is
+  surprisingly filling for its size.
+type: food
+subtype: edible
+uses: 1
+value: 5
+buffids:
+- 42

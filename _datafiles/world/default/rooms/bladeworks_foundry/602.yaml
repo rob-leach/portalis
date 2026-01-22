@@ -1,0 +1,42 @@
+roomid: 602
+zone: Bladeworks Foundry
+title: The Smelting Chamber
+description: Enormous furnaces line the walls of this sweltering chamber, their
+  fires still burning despite years of abandonment. Vats of molten metal glow
+  orange and red, bubbling with eternal heat. Mechanical arms hang from the
+  ceiling on tracks, designed to pour molten steel into blade molds below.
+  Some arms still jerk and twitch, splashing dangerous drops of liquid metal
+  across the floor. The sword-chandeliers here are made of actual metal blades,
+  their edges glinting wickedly in the forge-light. Catwalks crisscross overhead,
+  leading to controls that no longer have operators.
+biome: dungeon
+exits:
+  north:
+    roomid: 601
+  south:
+    roomid: 604
+  west:
+    roomid: 605
+spawninfo:
+- mobid: 40
+  message: A blade dancer drops from a catwalk, landing in a combat stance.
+  respawnrate: 4 real minutes
+  maxcount: 1
+- mobid: 41
+  message: A saw sentinel rolls out from behind a furnace, blades spinning.
+  respawnrate: 5 real minutes
+  maxcount: 1
+nouns:
+  furnaces: The furnaces burn with supernatural intensity. Whatever fuel powers
+    them has not run out in all these years.
+  vats: Vats of molten metal bubble and churn. The heat is nearly unbearable
+    this close.
+  arms: The mechanical arms twitch and jerk, occasionally pouring molten metal
+    into nothing at all.
+  catwalks: Iron catwalks span the chamber above, providing access to control
+    stations along the walls.
+idlemessages:
+- A furnace roars as its flames surge higher.
+- Molten metal bubbles and pops in the vats.
+- A mechanical arm swings overhead, dripping liquid steel.
+- The heat makes the air shimmer and dance.

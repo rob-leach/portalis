@@ -1,0 +1,29 @@
+mobid: 66
+zone: Crystal Caves
+itemdropchance: 8
+hostile: false
+maxwander: 5
+groups:
+  - crystal-caves-creature
+idlecommands:
+  - emote flutters in a spiral, leaving trails of light.
+  - say The crystals remember everything, you know...
+  - emote giggles and vanishes briefly, reappearing nearby.
+  - ""
+activitylevel: 20
+character:
+  name: cavern sprite
+  description: This diminutive being appears to be made of condensed light and crystal
+    dust. It flutters on wings of translucent crystal, each wingbeat releasing a shower
+    of luminescent particles. Its body is humanoid but tiny, no larger than your hand,
+    with features that shift and change like light through a prism. Its eyes are deep
+    pools of violet light, ancient and knowing despite its playful demeanor. The sprite
+    leaves a faint trail of sparkles wherever it flies, and the air around it carries
+    a faint tinkling sound, like distant wind chimes.
+  raceid: 15
+  level: 5
+  alignment: 70
+  gold: 5
+  equipment:
+    head:
+      itemid: 20018

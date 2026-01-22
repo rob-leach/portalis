@@ -1,0 +1,20 @@
+roomid: 130
+zone: Starter Town
+title: Adventurer's Guild Hall
+description: You step through an arched stone doorway into the grand entrance hall
+  of the Adventurer's Guild. Polished marble floors reflect the light from ornate
+  iron chandeliers hanging overhead. The walls are lined with trophy cases displaying
+  relics from legendary expeditions—a dragon's scale here, a demon lord's helm there.
+  A reception desk carved from dark mahogany sits near the entrance, perpetually
+  unmanned. The air carries the faint scent of leather and old parchment, mingled
+  with the distant clink of tankards from somewhere deeper within.
+biome: city
+mapsymbol: "G"
+maplegend: Guild Hall
+exits:
+  east:
+    roomid: 102
+  north:
+    roomid: 131
+  west:
+    roomid: 132

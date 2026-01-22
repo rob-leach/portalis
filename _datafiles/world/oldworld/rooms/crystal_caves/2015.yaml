@@ -1,0 +1,29 @@
+roomid: 2015
+zone: Crystal Caves
+title: Seer's Alcove
+description: This secluded alcove is dominated by a massive crystal formation that
+  has grown into a shape remarkably like a throne. The crystal is perfectly clear,
+  its interior filled with swirling motes of light that move with apparent purpose.
+  Smaller crystals cluster around the base like attendants, each one glowing with
+  soft pastel hues. The alcove itself seems designed for contemplation, its walls
+  carved with ancient symbols that glow faintly when observed directly. A sense
+  of profound peace and clarity pervades this space, and you feel your thoughts
+  becoming sharper, more focused.
+mapsymbol: '%'
+biome: dungeon
+exits:
+  west:
+    roomid: 2013
+spawninfo:
+- mobid: 71
+  message: The Crystalseer manifests from the light within the great crystal.
+  respawnrate: 2 real minutes
+skilltraining:
+  peep:
+    min: 1
+    max: 4
+idlemessages:
+- The motes of light within the great crystal swirl faster, then slow.
+- One of the wall symbols flares brightly for a moment.
+- You feel a presence brush against your mind, curious but not invasive.
+- The smaller crystals chime softly, as if in conversation.

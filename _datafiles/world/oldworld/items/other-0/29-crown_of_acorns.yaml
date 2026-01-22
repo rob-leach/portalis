@@ -1,0 +1,14 @@
+itemid: 29
+name: Crown of Acorns
+namesimple: crown
+description: A crude but surprisingly impressive crown woven from acorn caps and held
+  together with bits of spider silk and bark. It once adorned the head of the Squirrel
+  King himself, ruler of the great tree above the Snarky Squirrel Commons. Wearing
+  it fills you with jittery, squirrel-like energy - your reflexes quicken but your
+  focus suffers. It earns strange looks, but also respect from those who know its origin.
+type: head
+subtype: wearable
+value: 50
+statmods:
+  speed: 3
+  perception: -2

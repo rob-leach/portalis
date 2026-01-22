@@ -1,0 +1,34 @@
+roomid: 103
+zone: Starter Town
+title: Ranger Outpost
+description: A rustic wooden building stands at the edge of town, its walls
+  adorned with maps, animal pelts, and various wilderness survival tools. Large
+  windows face outward toward the surrounding lands, offering an excellent view
+  of approaching travelers and wildlife alike. A heavy table dominates the room,
+  covered with detailed regional maps marked with trails, hunting grounds, and
+  points of interest. Quivers of arrows hang from pegs, and the faint scent of
+  pine and leather permeates the air. A weathered ranger sits in the corner,
+  their keen eyes suggesting years of experience tracking through untamed wilderness.
+biome: house
+mapsymbol: "R"
+maplegend: Ranger Outpost
+exits:
+  west:
+    roomid: 100
+  east:
+    roomid: 600
+    zone: Bladeworks Foundry
+spawninfo:
+- mobid: 17
+  message: The ranger trainer emerges from behind a stack of maps, bow in hand.
+  respawnrate: 2 real minutes
+skilltraining:
+  map:
+    min: 1
+    max: 4
+  search:
+    min: 1
+    max: 4
+  track:
+    min: 1
+    max: 4

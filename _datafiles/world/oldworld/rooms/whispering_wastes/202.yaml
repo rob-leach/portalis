@@ -1,0 +1,42 @@
+roomid: 202
+zone: Whispering Wastes
+title: Stormwatchers Keep
+description: Standing at the edge of the Stormwatchers Keep, the world unfolds in
+  a breathtaking panorama. The landscape stretches into the horizon, but the way
+  north into the Keep itself has been barricaded. Where once a large iron door
+  offered entry to the formidable fortress, now a massive construction barrier has
+  been erected, completely sealing the passage. The barrier is covered in warning
+  signs and pulsing arcane lights, and chains as thick as an arm crisscross its
+  surface. Through gaps in the plating, you can see only swirling mist where the
+  Keep interior should be.
+mapsymbol: K
+maplegend: Keep (Blocked)
+biome: snow
+exits:
+  southwest:
+    roomid: 201
+nouns:
+  barrier: The construction barrier completely blocks access to the Keep. It has
+    been built directly over the old iron door, which can still be glimpsed beneath
+    layers of new plating and warning signs.
+  barricade: :barrier
+  door: The old iron door is still visible beneath the barrier, but it has been
+    welded shut and covered with additional plating. Whatever is happening inside,
+    they clearly do not want visitors.
+  chains: Massive chains have been wrapped around the barrier, their links glowing
+    faintly with containment runes. These are not just keeping people out - they
+    might be keeping something in.
+  signs: The signs warn of TEMPORAL REALIGNMENT IN PROGRESS and that the KEEP
+    INTERIOR CURRENTLY EXISTS IN MULTIPLE TIMESTREAMS. Entry may result in paradox.
+  mist: Through the gaps in the barrier, swirling mist is all that is visible. It
+    moves in patterns that seem to defy the wind, as if time itself flows
+    differently on the other side.
+spawninfo:
+- mobid: 61
+  message: A belligerent construction robot stomps out from a maintenance shed, snow shaking from its frame.
+  respawnrate: 8 real minutes
+idlemessages:
+- The wind howls from every direction, carrying strange whispers.
+- The chains on the barrier pulse with a faint blue light.
+- You hear the grinding of gears from somewhere nearby.
+- The mist beyond the barrier swirls in impossible patterns.

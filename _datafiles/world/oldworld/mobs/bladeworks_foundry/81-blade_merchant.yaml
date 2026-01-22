@@ -1,0 +1,52 @@
+mobid: 81
+zone: Bladeworks Foundry
+itemdropchance: 2
+hostile: false
+maxwander: 0
+groups:
+  - bladeworks-npc
+idlecommands:
+  - 'say Type <ansi fg="command">list</ansi> to see my wares.'
+  - 'say I deal in the foundry''s finest creations. Quality has a price.'
+  - emote polishes a blade with a soft cloth.
+  - 'say The Three-Bladed Sword? Ah, yes. A masterwork of the old artificers.'
+  - emote glances nervously toward the exits.
+  - 'say I risk my life to sell these treasures. The least you can do is buy something.'
+activitylevel: 15
+character:
+  name: blade merchant
+  description: This cloaked figure has made a dangerous living salvaging and selling
+    weapons from the depths of the Bladeworks Foundry. Their face is hidden beneath
+    a deep hood, and their hands are covered in thick leather gloves scarred by
+    countless small cuts. A massive pack on their back clinks with metal, filled
+    with blades of every description. They move with the careful, quiet steps
+    of someone who has learned to avoid the attention of constructs. Despite
+    the danger, they seem almost cheerful - the foundry's lost treasures fetch
+    incredible prices, and they have exclusive access to the supply. The blade
+    merchant knows every safe route through the foundry, every hiding spot, and
+    every construct patrol pattern.
+  raceid: 1
+  level: 15
+  alignment: 0
+  gold: 500
+  shop:
+    - itemid: 10004
+      quantitymax: 5
+    - itemid: 10007
+      quantitymax: 3
+    - itemid: 10021
+      quantity: 3
+      quantitymax: 3
+      restockrate: 100 years
+      price: 300
+    - itemid: 10022
+      quantitymax: 2
+    - itemid: 10023
+      quantitymax: 1
+  equipment:
+    weapon:
+      itemid: 10005
+    body:
+      itemid: 20030
+    neck:
+      itemid: 20002

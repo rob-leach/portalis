@@ -1,0 +1,52 @@
+roomid: 406
+zone: Squirrel Tree
+title: Canopy Pinnacle
+description: You have reached the very top of the great tree, emerging into a chamber
+  woven from living branches and leaves. Sunlight filters through the canopy above,
+  dappling everything in shifting green and gold. This is the throne room of the
+  squirrel kingdom - a great nest of twigs, leaves, and stolen cloth dominates the
+  center, clearly the seat of whoever rules this arboreal domain. The chittering
+  here is deafening, a chorus of fury at your trespass into the heart of their territory.
+  Acorns are scattered everywhere, offerings to whatever power holds court here. This
+  is the end of the road - there is nowhere left to climb.
+mapsymbol: X
+biome: dungeon
+exits:
+  down:
+    roomid: 403
+spawninfo:
+- mobid: 20
+  message: An elite squirrel guard defends the pinnacle!
+  respawnrate: 3 real minutes
+- mobid: 20
+  message: Another squirrel warrior joins the defense!
+  respawnrate: 3 real minutes
+- mobid: 20
+  message: A third defender emerges from the nest!
+  respawnrate: 4 real minutes
+- mobid: 21
+  message: The Squirrel King emerges from his throne of twigs, acorn crown gleaming!
+  respawnrate: 10 real minutes
+  chance: 30
+stash:
+- itemid: 30016
+  chance: 100
+- itemid: 30016
+  chance: 100
+- itemid: 30016
+  chance: 100
+- itemid: 30016
+  chance: 75
+idlemessages:
+- The throne of twigs shifts as something settles deeper into it.
+- Squirrel war-cries echo through the canopy.
+- Sunlight glints off scattered acorns like offerings at an altar.
+- The entire tree seems to tremble with squirrel fury.
+- A crown of woven acorn caps rests upon the throne.
+nouns:
+  nest: The great nest is woven from countless twigs, leaves, and bits of stolen cloth.
+    It is clearly the seat of squirrel royalty.
+  throne: The throne of twigs dominates the chamber, a surprisingly impressive
+    construction for such small builders.
+  canopy: The living canopy above filters the sunlight into shifting patterns of
+    green and gold.

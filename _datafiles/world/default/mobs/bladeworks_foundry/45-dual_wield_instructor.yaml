@@ -1,0 +1,40 @@
+mobid: 45
+zone: Bladeworks Foundry
+itemdropchance: 2
+hostile: false
+maxwander: 0
+groups:
+  - bladeworks-npc
+idlecommands:
+  - 'say I can help you <ansi fg="command">train</ansi> in the art of dual-wielding.'
+  - 'say Two blades are better than one, if you know how to use them.'
+  - emote demonstrates a complex dual-blade technique.
+  - emote parries an imaginary strike with one blade while riposting with the other.
+  - 'say The constructs here make excellent practice. Fast, aggressive, predictable.'
+  - 'say I survived the foundry''s fall. Now I teach others to do the same.'
+activitylevel: 20
+character:
+  name: dual-wield instructor
+  description: This weathered warrior is one of the few survivors of the Bladeworks
+    Foundry's catastrophic fall. Her arms bear the scars of countless blade wounds,
+    yet she moves with fluid grace that speaks of decades of training. She wears
+    practical leather armor reinforced with metal plates scavenged from destroyed
+    constructs. At her hips hang twin swords of exceptional quality, their edges
+    mirror-bright despite years of use. Her eyes constantly scan for threats,
+    a habit born of surviving in a place where everything wants to kill you.
+    She remained here not out of madness, but out of purpose - the Dueling
+    Gallery is the finest training ground for dual-wielding in the known world,
+    and she will not abandon it to the machines.
+  raceid: 1
+  level: 20
+  alignment: 25
+  gold: 50
+  equipment:
+    weapon:
+      itemid: 10007
+    offhand:
+      itemid: 10007
+    body:
+      itemid: 20030
+    feet:
+      itemid: 20003

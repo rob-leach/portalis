@@ -1,0 +1,9 @@
+biomeid: foundry
+name: Foundry
+symbol: ⚒
+description: Industrial workshops lit by forges, furnaces, and magical lighting.
+darkarea: false
+litarea: true
+requireditemid: 0
+usesitem: false
+burns: false

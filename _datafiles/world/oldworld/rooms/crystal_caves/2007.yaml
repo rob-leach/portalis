@@ -1,0 +1,28 @@
+roomid: 2007
+zone: Crystal Caves
+title: Reflecting Pool
+description: The crystal stream empties here into a perfectly still pool that acts
+  as a flawless mirror, reflecting the crystal formations above with such clarity
+  that it's difficult to tell where reality ends and reflection begins. Massive
+  stalactites of pale blue crystal hang from the ceiling, their tips nearly touching
+  the water's surface, while their reflections seem to rise from impossible depths
+  below. The pool is ringed by smooth crystal formations that glow with an inner
+  light, casting rippling reflections across the cavern walls. An otherworldly
+  peace permeates this place.
+biome: dungeon
+exits:
+  north:
+    roomid: 2005
+  east:
+    roomid: 2008
+  south:
+    roomid: 2009
+spawninfo:
+- mobid: 66
+  message: A cavern sprite rises from the pool's reflection.
+  respawnrate: 6 real minutes
+idlemessages:
+- The pool's surface ripples without any apparent cause.
+- For a moment, your reflection seems to move independently of you.
+- A crystal stalactite chimes softly as a drop of water falls from its tip.
+- The reflected crystals seem to glow brighter than the real ones.

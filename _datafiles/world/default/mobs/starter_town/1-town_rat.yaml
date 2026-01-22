@@ -1,0 +1,30 @@
+mobid: 1
+zone: Starter Town
+itemdropchance: 10
+hostile: true
+maxwander: 5
+groups:
+  - rats
+  - vermin
+idlecommands:
+  - 'emote sniffs around for scraps'
+  - 'emote squeaks menacingly'
+  - 'wander'
+  - ''
+activitylevel: 15
+character:
+  name: town rat
+  description: 'A scruffy rat the size of a small cat, its matted brown fur
+    patched with bald spots and scars from countless scuffles. Beady red eyes
+    gleam with malevolent cunning as it surveys its surroundings, whiskers
+    twitching constantly. Its yellowed teeth look sharp enough to gnaw through
+    leather, and a long naked tail drags behind it like a pink worm. This
+    vermin has clearly grown bold from scavenging in town, showing no fear
+    of adventurers who cross its path.'
+  level: 1
+  raceid: 10
+  stats:
+    vitality:
+      training: -2
+    strength:
+      training: -2

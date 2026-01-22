@@ -1,0 +1,29 @@
+roomid: 2013
+zone: Crystal Caves
+title: Crystal Heart
+description: You have found the heart of the Crystal Caves, a vast central chamber
+  where all paths converge. A massive geode dominates the center, split open to
+  reveal an interior of breathtaking amethyst crystals that pulse with inner light.
+  The walls are encrusted with formations in every color imaginable, creating a
+  kaleidoscope of luminescence that shifts and changes as you move. Multiple passages
+  branch off in different directions, each one glowing with a distinct hue. The air
+  here feels charged with energy, and the crystals seem to respond to your presence,
+  brightening when you approach and dimming when you step away.
+biome: dungeon
+exits:
+  northwest:
+    roomid: 2011
+  northeast:
+    roomid: 2012
+  west:
+    roomid: 2014
+  east:
+    roomid: 2015
+  south:
+    roomid: 2016
+idlemessages:
+- The great geode pulses with light, and all the crystals pulse in response.
+- Colors shift across the walls like aurora borealis frozen in stone.
+- The air crackles with energy, raising the hairs on your arms.
+- You feel an ancient awareness briefly focus on you, then look away.
+- The crystals hum in perfect harmony, a sound felt more than heard.

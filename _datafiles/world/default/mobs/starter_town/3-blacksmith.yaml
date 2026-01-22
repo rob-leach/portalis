@@ -1,0 +1,43 @@
+mobid: 3
+zone: Starter Town
+itemdropchance: 2
+hostile: false
+maxwander: 0
+groups:
+  - starter-town-npc
+  - merchants
+idlecommands:
+  - 'say Type <ansi fg="command">list</ansi> to see my wares.'
+  - 'say Every blade that leaves this forge is tempered with pride.'
+  - emote hammers a glowing blade on the anvil, sending sparks flying.
+  - emote wipes sweat from their brow with a soot-stained rag.
+  - 'say Need something sharper? I''ve got just the thing.'
+  - emote examines a newly forged sword with a critical eye.
+activitylevel: 15
+character:
+  name: blacksmith
+  description: A barrel-chested smith with arms like tree trunks, their muscles
+    rippling beneath skin darkened by years of forge-work. Soot streaks their
+    leather apron and thick protective gloves, while beads of sweat glisten on
+    their bald head. Despite the intimidating physique, warm brown eyes and a
+    quick smile suggest a craftsman who takes genuine pride in their work. A
+    massive hammer rests within easy reach, more tool than weapon but certainly
+    capable of cracking skulls if needed.
+  raceid: 1
+  level: 15
+  alignment: 20
+  gold: 200
+  shop:
+    - itemid: 10001
+      quantitymax: 10
+    - itemid: 10004
+      quantitymax: 5
+    - itemid: 10002
+      quantitymax: 3
+    - itemid: 10010
+      quantitymax: 3
+equipment:
+  weapon:
+    itemid: 10010
+  body:
+    itemid: 20008

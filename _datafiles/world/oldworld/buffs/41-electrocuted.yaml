@@ -1,0 +1,9 @@
+buffid: 41
+name: Electrocuted
+description: Electrical current surges through your body!
+secret: false
+triggernow: true
+triggerrate: 2 rounds
+triggercount: 3
+flags:
+  - cancel-on-water

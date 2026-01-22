@@ -1,0 +1,32 @@
+roomid: 603
+zone: Bladeworks Foundry
+title: Supply Corridor
+description: A narrow corridor connects the receiving bay to the storage areas.
+  The walls are lined with racks that once held tools and components, now mostly
+  empty or scattered across the floor. Spinning saw blades are embedded in the
+  walls at regular intervals, part of an old security system that still activates
+  sporadically. Glass sword-sconces provide flickering illumination, several
+  cracked and dark. The floor bears countless scratches from the passage of
+  metal feet.
+biome: dungeon
+exits:
+  west:
+    roomid: 601
+  east:
+    roomid: 606
+spawninfo:
+- mobid: 40
+  message: A blade dancer emerges from the shadows, daggers at the ready.
+  respawnrate: 3 real minutes
+  maxcount: 2
+nouns:
+  racks: Empty tool racks line the walls. Whatever was stored here has long
+    since been taken or destroyed.
+  saws: Circular saw blades spin in wall-mounted housings, a deadly security
+    measure that still functions erratically.
+  sconces: The glass sconces are shaped like upturned swords, their pommels
+    holding small flames.
+idlemessages:
+- A wall-mounted saw blade suddenly spins to life, then stops.
+- Glass crunches underfoot from a shattered sconce.
+- Something metallic scrapes against stone in the distance.

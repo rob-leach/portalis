@@ -1,0 +1,36 @@
+roomid: 615
+zone: Bladeworks Foundry
+title: Steam Works
+description: Massive boilers and pipes fill this chamber, the power source for the
+  entire foundry. Steam vents from countless joints and valves, creating a
+  perpetual fog that obscures vision. The heat is nearly unbearable, and the
+  constant hiss of escaping pressure makes communication difficult. Catwalks
+  span the pipes at multiple levels, many rusted through and dangerous. This
+  is where the steam golems were born, their bodies filled with superheated
+  vapor from these eternal boilers. The sword-chandeliers here are made of
+  burnished bronze, resistant to the corrosive steam.
+biome: dungeon
+exits:
+  west:
+    roomid: 613
+  south:
+    roomid: 617
+spawninfo:
+- mobid: 43
+  message: A steam golem emerges from the clouds of vapor.
+  respawnrate: 4 real minutes
+  maxcount: 2
+nouns:
+  boilers: The massive boilers burn with an eternal flame, producing steam
+    that powers the entire foundry.
+  pipes: A maze of pipes carries steam throughout the facility, many leaking
+    or burst.
+  catwalks: Rusted catwalks provide precarious access to the upper machinery.
+    Several have collapsed entirely.
+  vents: Steam vents release pressure at random intervals, creating scalding
+    geysers.
+idlemessages:
+- A steam vent releases with a deafening hiss.
+- Condensation drips from every surface.
+- The boilers rumble ominously, pressure building.
+- Visibility drops as a wave of steam rolls through.

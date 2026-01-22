@@ -1,0 +1,42 @@
+roomid: 3014
+zone: Bladeworks Foundry
+title: The Proving Grounds
+description: This vast chamber was where the foundry's most powerful constructs
+  were tested in actual combat. The floor is scarred with blade marks and
+  gouged by heavy impacts. Destroyed constructs litter the edges of the room,
+  pushed aside to clear the fighting space. Blade-walls - spinning barriers
+  of razor-sharp metal - can emerge from slots in the floor, though most are
+  jammed or broken. The sword-chandeliers here are massive, holding great
+  swords and battle axes instead of mere daggers. Viewing galleries line the
+  upper walls, where artificers once watched their creations fight.
+biome: dungeon
+exits:
+  north:
+    roomid: 3013
+  south:
+    roomid: 3015
+  east:
+    roomid: 3016
+spawninfo:
+- mobid: 78
+  message: A steam golem rises from the wreckage, ready for battle.
+  respawnrate: 5 real minutes
+  maxcount: 2
+- mobid: 77
+  message: A gear grinder rolls into the proving grounds, gears screaming.
+  respawnrate: 4 real minutes
+  maxcount: 1
+nouns:
+  floor: The floor bears the scars of countless battles - blade gouges, impact
+    craters, and rust stains that might be oil or blood.
+  constructs: Destroyed constructs are piled at the room's edges, a graveyard
+    of failed experiments.
+  galleries: Viewing galleries overlook the proving grounds, their seats dusty
+    and abandoned.
+  blade-walls: Slots in the floor once deployed spinning blade barriers. Most
+    are jammed, but some still twitch dangerously.
+idlemessages:
+- A blade-wall slot sparks and tries to deploy, then jams.
+- Metal debris shifts as something moves beneath the wreckage.
+- The great sword chandelier sways, its massive blades groaning.
+- Echoes of ancient battles seem to ring through the chamber.
