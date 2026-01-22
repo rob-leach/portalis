@@ -1,0 +1,17 @@
+roomid: 104
+zone: Starter Town
+title: General Store
+description: Shelves packed with supplies line the walls of this modest but
+  well-stocked shop. Lanterns, ropes, rations, and countless other necessities
+  for the aspiring adventurer fill every available space. A glass counter near
+  the entrance displays an assortment of basic weapons and armor, their prices
+  clearly marked on small tags. The wooden floor creaks underfoot, worn smooth
+  by generations of customers. A portly shopkeeper stands behind the counter,
+  a welcoming smile on their face as they polish a dagger with a well-used cloth.
+  A small sign reads "Everything an adventurer needs - fair prices guaranteed!"
+biome: house
+mapsymbol: "$"
+maplegend: General Store
+exits:
+  northwest:
+    roomid: 100

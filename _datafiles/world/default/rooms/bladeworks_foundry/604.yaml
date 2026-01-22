@@ -1,0 +1,42 @@
+roomid: 604
+zone: Bladeworks Foundry
+title: The Grinding Hall
+description: This long hall is dominated by massive grinding wheels mounted along
+  both walls. Some still spin slowly, their stone surfaces worn smooth from
+  sharpening countless blades. Sparks occasionally fly as errant metal scraps
+  are caught in the wheels. The floor is thick with metal filings that crunch
+  underfoot like iron snow. Overhead, a magnificent chandelier holds dozens of
+  finished swords arranged in a spiral pattern, turning slowly in the heat
+  rising from below. Water troughs run along the base of the grinders, meant
+  for cooling blades but now stagnant and rust-colored.
+biome: dungeon
+exits:
+  north:
+    roomid: 602
+  south:
+    roomid: 607
+  east:
+    roomid: 608
+spawninfo:
+- mobid: 42
+  message: A gear grinder emerges from the metal filings, gears spinning ominously.
+  respawnrate: 5 real minutes
+  maxcount: 1
+- mobid: 41
+  message: A saw sentinel rolls forward, drawn by the sound of intruders.
+  respawnrate: 4 real minutes
+  maxcount: 1
+nouns:
+  wheels: The grinding wheels spin endlessly, their purpose forgotten but their
+    motion eternal.
+  filings: Metal filings coat the floor inches deep, the accumulated shavings
+    of countless sharpened blades.
+  chandelier: Dozens of finished swords hang in a spiral pattern, rotating
+    slowly like a deadly mobile.
+  troughs: Water troughs run rust-red, contaminated by years of iron filings
+    and neglect.
+idlemessages:
+- A grinding wheel screeches as it catches a metal scrap.
+- Sparks shower from a grinder, illuminating the gloom.
+- The sword chandelier turns, blades catching the light.
+- Metal filings shift and settle with a soft, metallic hiss.

@@ -1,0 +1,19 @@
+roomid: 120
+zone: Starter Town
+title: Cobblestone Lane
+description: A quiet residential street winds northward from the bustle of the
+  training yard. Worn cobblestones, smoothed by generations of footsteps, form
+  a gentle path between rows of modest cottages. Window boxes overflow with bright
+  geraniums and trailing ivy, adding splashes of color to whitewashed walls. The
+  distant clang of practice weapons fades here, replaced by the softer sounds of
+  domestic life and the occasional bark of a family dog.
+biome: city
+mapsymbol: "-"
+maplegend: Cobblestone Lane
+exits:
+  south:
+    roomid: 101
+  north:
+    roomid: 121
+  east:
+    roomid: 122

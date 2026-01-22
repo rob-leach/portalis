@@ -1,0 +1,27 @@
+roomid: 5005
+zone: Great Crossroads
+title: Waypoint Stones
+description: A circle of ancient standing stones marks a waypoint along the
+  road. Travelers have camped here for generations - fire pits and bedrolls
+  suggest this is a safe resting place. Carved into each stone are directions
+  and distances to various destinations, though some carvings are too weathered
+  to read. The Great Crossroads lies just ahead to the south, where multiple
+  paths converge from across the realm.
+mapsymbol: '*'
+biome: road
+exits:
+  north:
+    roomid: 5004
+  south:
+    roomid: 5006
+nouns:
+  stones: Standing stones form a protective circle around the waypoint.
+    Ancient carvings mark distances to various destinations.
+  firepits: Old fire pits show that travelers have camped here for
+    generations. The ashes are cold but recent.
+  carvings: The stone carvings list distances and directions, though
+    many destinations are no longer reachable.
+idlemessages:
+- Wind whistles between the standing stones.
+- You notice recent campfire ashes in one of the pits.
+- The carvings on the stones seem to shift in the fading light.

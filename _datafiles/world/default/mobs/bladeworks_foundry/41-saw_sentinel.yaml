@@ -1,0 +1,35 @@
+mobid: 41
+zone: Bladeworks Foundry
+itemdropchance: 15
+hostile: true
+maxwander: 2
+groups:
+  - bladeworks-construct
+  - defensive
+idlecommands:
+  - emote rotates its saw-arms slowly, testing their spin.
+  - emote scans the area with multiple optical sensors.
+  - emote rolls forward a few feet, then stops to listen.
+  - ""
+combatcommands:
+  - 'emote revs its circular blades to maximum speed!'
+  - 'emote interposes its spinning saws as a defensive barrier!'
+  - 'emote grinds forward relentlessly, sparks flying!'
+activitylevel: 15
+character:
+  name: saw sentinel
+  description: Built for defense and area denial, the saw sentinel is a rolling
+    fortress of spinning death. Its lower body is mounted on heavy treads that
+    allow it to move with surprising stability. Both arms terminate in massive
+    circular saw blades that can spin at tremendous speeds, creating an
+    impassable barrier of cutting edges. Its torso is heavily armored, designed
+    to withstand punishment while it holds its ground. Multiple optical sensors
+    give it 360-degree awareness. The saw sentinel was meant to guard high-value
+    areas - and it still does, though its masters are long gone.
+  raceid: 22
+  level: 15
+  alignment: -20
+  gold: 5
+  equipment:
+    weapon:
+      itemid: 10022

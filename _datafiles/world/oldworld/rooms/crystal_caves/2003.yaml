@@ -1,0 +1,28 @@
+roomid: 2003
+zone: Crystal Caves
+title: Luminous Grotto
+description: You emerge into a breathtaking grotto where massive crystal spires rise
+  from the floor like frozen geysers, their surfaces alive with an inner blue light.
+  The crystals range from the size of your fist to towering pillars twice your height,
+  creating a maze of shimmering pathways. The air here is thick with floating particles
+  that sparkle like diamond dust, and the soft chiming of crystal against crystal
+  creates an ethereal melody. A shallow stream of crystal-clear water winds between
+  the formations, disappearing into a passage to the south.
+biome: dungeon
+exits:
+  northeast:
+    roomid: 2002
+  south:
+    roomid: 2005
+spawninfo:
+- mobid: 65
+  message: A crystal beetle emerges from beneath a formation.
+  respawnrate: 4 real minutes
+  maxcount: 2
+- mobid: 66
+  message: A cavern sprite materializes from the crystalline glow.
+  respawnrate: 6 real minutes
+idlemessages:
+- Light refracts through a crystal spire, casting rainbow patterns on the walls.
+- The floating particles swirl in a sudden draft, creating a miniature galaxy.
+- A particularly large crystal pulses with inner light, then dims.

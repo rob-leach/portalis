@@ -1,0 +1,17 @@
+roomid: 121
+zone: Starter Town
+title: Hearthstone Cottage
+description: A cozy stone cottage stands here, its thatched roof slightly crooked
+  with age but meticulously maintained. Smoke curls lazily from a squat chimney,
+  carrying the comforting scent of wood fire and fresh-baked bread. A low wooden
+  fence surrounds a small garden where herbs and vegetables grow in orderly rows.
+  The weathered door bears a carved hearthstone symbol, marking this as a home of
+  simple contentment.
+biome: city
+mapsymbol: "H"
+maplegend: Cottage
+exits:
+  south:
+    roomid: 120
+  west:
+    roomid: 123

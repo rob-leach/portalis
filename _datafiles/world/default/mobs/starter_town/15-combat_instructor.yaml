@@ -1,0 +1,21 @@
+mobid: 15
+zone: Starter Town
+hostile: false
+idlecommands:
+  - 'emote demonstrates a powerful jab on a training dummy'
+  - 'say Keep your guard up and your fists ready.'
+  - 'emote cracks their knuckles menacingly'
+  - ''
+activitylevel: 15
+character:
+  name: combat instructor
+  description: 'A grizzled veteran with numerous battle scars crisscrossing their
+    weathered face and thick forearms. Their nose has been broken more times than
+    they can count, and calloused knuckles speak to decades of bare-fisted combat.
+    Despite their fearsome appearance, their eyes hold a patient wisdom earned through
+    countless training sessions. A sleeveless tunic reveals corded muscles that still
+    ripple with dangerous power. They watch newcomers with an appraising eye, ready
+    to teach the fundamentals of brawling to those willing to learn.'
+  raceid: 1
+  level: 20
+  alignment: 20

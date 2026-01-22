@@ -1,0 +1,28 @@
+mobid: 13
+zone: Starter Town
+itemdropchance: 0
+hostile: false
+maxwander: 0
+groups:
+  - merchants
+  - bankers
+idlecommands:
+  - 'emote carefully counts a stack of gold coins'
+  - 'emote stamps an official-looking document with a heavy seal'
+  - 'say Your deposits are safe with us, guaranteed by the Merchant Guild.'
+  - 'emote adjusts their spectacles and reviews a ledger'
+  - ''
+activitylevel: 20
+character:
+  name: Aldric the Banker
+  description: 'A portly gentleman in immaculate attire, his dark wool coat
+    buttoned precisely over a crisp white shirt. Gold-rimmed spectacles perch
+    on his bulbous nose, and his thinning hair is slicked back with fragrant
+    pomade. Ink-stained fingers speak to long hours with ledgers and contracts,
+    while a heavy ring of keys hangs at his belt. His expression maintains
+    professional neutrality, though his eyes light up at the mention of
+    substantial deposits.'
+  raceid: 1
+  level: 6
+  alignment: 10
+  gold: 200

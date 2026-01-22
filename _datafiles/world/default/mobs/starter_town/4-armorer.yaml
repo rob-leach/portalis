@@ -1,0 +1,53 @@
+mobid: 4
+zone: Starter Town
+itemdropchance: 2
+hostile: false
+maxwander: 0
+groups:
+  - starter-town-npc
+  - merchants
+idlecommands:
+  - 'say Type <ansi fg="command">list</ansi> to see my wares.'
+  - 'say Protection is an investment in your future. A future where you''re alive.'
+  - emote adjusts a piece of armor on a nearby mannequin.
+  - emote polishes a shield until it gleams like a mirror.
+  - 'say I fit armor for adventurers of all sizes. Even the... unusually proportioned.'
+  - emote inspects the stitching on a leather jerkin with practiced scrutiny.
+activitylevel: 15
+character:
+  name: armorer
+  description: A dignified craftsperson with silver-streaked hair pulled back in
+    a practical bun. Sharp grey eyes miss nothing as they assess each customer,
+    mentally calculating measurements before a word is spoken. Their hands are
+    surprisingly delicate for someone who works with metal and leather, each
+    finger bearing the calluses of precision work rather than brute labor. A
+    measuring tape drapes around their neck like a badge of office, and their
+    immaculate leather vest displays an array of specialized tools in neat loops.
+  raceid: 1
+  level: 15
+  alignment: 20
+  gold: 300
+  shop:
+    - itemid: 20008
+      quantitymax: 5
+    - itemid: 20006
+      quantitymax: 5
+    - itemid: 20003
+      quantitymax: 5
+    - itemid: 20007
+      quantitymax: 5
+    - itemid: 20004
+      quantitymax: 3
+    - itemid: 20009
+      quantitymax: 5
+    - itemid: 20016
+      quantitymax: 3
+    - itemid: 20002
+      quantitymax: 3
+equipment:
+  body:
+    itemid: 20008
+  legs:
+    itemid: 20006
+  feet:
+    itemid: 20003

@@ -1,0 +1,38 @@
+roomid: 404
+zone: Squirrel Tree
+title: Eastern Cache
+description: This chamber branches off from the main trunk, carved into the heartwood
+  by generations of squirrel claws. The walls are lined with hollows stuffed full of
+  acorns - this is clearly a major food storage area. Mountains of nuts are piled in
+  every corner, some so old they have begun to sprout where they sit. The squirrels
+  guard these caches zealously, and you can feel their beady eyes tracking your every
+  movement from the shadows.
+mapsymbol: '*'
+biome: dungeon
+exits:
+  west:
+    roomid: 402
+spawninfo:
+- mobid: 20
+  message: A cache guardian scurries forth!
+  respawnrate: 3 real minutes
+- mobid: 20
+  message: A squirrel emerges from behind an acorn pile!
+  respawnrate: 4 real minutes
+stash:
+- itemid: 30016
+  chance: 70
+- itemid: 30016
+  chance: 70
+- itemid: 30016
+  chance: 50
+idlemessages:
+- A squirrel counts its acorns obsessively.
+- Nuts shift and tumble in their piles.
+- The scent of stored food fills the air.
+- Something chittersw angrily as you glance at its hoard.
+nouns:
+  acorns: Mountains of acorns fill this chamber. The squirrels have been hoarding for
+    years, perhaps generations.
+  hollows: Each hollow in the wall is packed to bursting with stored nuts. This is
+    squirrel wealth beyond measure.

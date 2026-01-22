@@ -1,0 +1,17 @@
+itemid: 20048
+name: promethean chassis
+namesimple: chassis
+description: This suit of armor was forged from salvaged plates of the Voltaic
+  Promethean's body. The interlocking blade-panels provide exceptional
+  protection while allowing full range of motion. Residual electrical energy
+  crackles across its surface, and the armor seems to repair minor damage
+  on its own over time. Wearing it fills you with a strange confidence,
+  as if the Promethean's indomitable will has become your own.
+type: body
+subtype: wearable
+damagereduction: 15
+value: 3500
+statmods:
+  strength: 2
+  vitality: 3
+  speed: 1

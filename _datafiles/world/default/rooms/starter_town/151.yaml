@@ -1,0 +1,20 @@
+roomid: 151
+zone: Starter Town
+title: First Bank of Starter Town
+description: Marble columns support the vaulted ceiling of this secure financial
+  institution. Heavy iron bars separate the lobby from the vault area beyond, where
+  rows of locked strongboxes glint in the torchlight. A long oak counter runs the
+  length of the room, its surface worn smooth by countless transactions. Brass
+  plaques on the walls proclaim the bank's founding charter and guarantee the safety
+  of all deposits. The faint smell of ink and parchment mingles with the metallic
+  tang of coin.
+biome: city
+mapsymbol: "$"
+maplegend: Bank
+exits:
+  west:
+    roomid: 110
+hasbank: true
+spawninfo:
+  - mobid: 13
+    respawnrate: 1 real minutes

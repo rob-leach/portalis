@@ -1,0 +1,23 @@
+mobid: 17
+zone: Starter Town
+hostile: false
+idlecommands:
+  - 'emote studies a regional map intently, making small notations'
+  - 'say The wilderness holds many secrets for those patient enough to find them.'
+  - 'emote glances out the window, tracking something unseen in the distance'
+  - ''
+activitylevel: 15
+character:
+  name: ranger trainer
+  description: 'A lean, weathered ranger clad in practical leathers dyed in mottled
+    greens and browns. Their keen eyes miss nothing, constantly scanning their
+    surroundings with the practiced awareness of one who has spent years tracking
+    prey through untamed wilderness. A longbow rests within easy reach, its wood
+    worn smooth from countless hunts. Various pouches and tools hang from their belt -
+    a compass, lengths of cord, dried herbs, and a well-worn hunting knife. Faded
+    scars on their hands tell of close encounters with wild beasts, while their
+    quiet demeanor suggests a preference for observation over conversation. They
+    are clearly an expert in navigation, tracking, and wilderness survival.'
+  raceid: 1
+  level: 20
+  alignment: 15

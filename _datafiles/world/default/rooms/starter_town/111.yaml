@@ -1,0 +1,21 @@
+roomid: 111
+zone: Starter Town
+title: Market Square
+description: The lane opens into a lively market square where commerce thrives under
+  the open sky. A weathered stone well sits at the center, surrounded by merchants
+  selling fresh produce, cloth, and curiosities from distant lands. The rhythmic
+  clang of hammer on metal echoes from a smithy to the west, while the gleam of
+  polished armor beckons from a shop to the east. A sturdy stone building to the
+  south bears the unmistakable crest of the Merchant's Guild.
+biome: city
+mapsymbol: "M"
+maplegend: Market Square
+exits:
+  north:
+    roomid: 110
+  south:
+    roomid: 114
+  east:
+    roomid: 113
+  west:
+    roomid: 112

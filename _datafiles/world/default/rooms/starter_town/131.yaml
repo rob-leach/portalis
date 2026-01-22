@@ -1,0 +1,17 @@
+roomid: 131
+zone: Starter Town
+title: Quest Board Chamber
+description: A circular chamber dominated by an enormous corkboard that spans nearly
+  the entire north wall. Hundreds of parchment notices flutter gently despite the
+  still air—job postings, bounties, pleas for help, and the occasional cryptic
+  riddle. Worn leather chairs are scattered about, occupied by adventurers studying
+  contracts or arguing over party splits. A tired-looking clerk sits at a small
+  desk in the corner, stamping completed quest vouchers with mechanical precision.
+  Red ink marks the high-priority postings; black crosses strike through those
+  already claimed.
+biome: city
+mapsymbol: "Q"
+maplegend: Quest Board
+exits:
+  south:
+    roomid: 130

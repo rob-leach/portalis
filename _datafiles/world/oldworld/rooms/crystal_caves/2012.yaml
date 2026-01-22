@@ -1,0 +1,31 @@
+roomid: 2012
+zone: Crystal Caves
+title: Bioluminescent Beach
+description: The underground river slows here, spreading into a wide, shallow lake
+  that laps against a beach of fine crystal sand. The sand itself glows faintly,
+  a mixture of crushed crystal and bioluminescent organisms that sparkle like
+  stars beneath your feet. The lake is dotted with small islands of fused crystal,
+  each one hosting clusters of glowing fungi or delicate crystal formations. The
+  far shore is lost in a haze of luminescent mist, and the gentle lapping of
+  waves creates a peaceful rhythm. Small creatures leave trails of light as they
+  swim just beneath the surface.
+biome: dungeon
+exits:
+  north:
+    roomid: 2010
+  west:
+    roomid: 2011
+  southwest:
+    roomid: 2013
+spawninfo:
+- mobid: 66
+  message: A cavern sprite emerges from the glowing mist over the water.
+  respawnrate: 5 real minutes
+- mobid: 68
+  message: A sporeling wanders out from behind a crystal island.
+  respawnrate: 4 real minutes
+idlemessages:
+- A wave washes up the beach, leaving a trail of glowing foam.
+- Schools of luminescent fish dart beneath the surface in synchronized patterns.
+- The mist over the lake shifts, briefly revealing strange silhouettes.
+- Bubbles rise from somewhere in the lake, each one glowing softly.

@@ -1,0 +1,32 @@
+roomid: 2006
+zone: Crystal Caves
+title: Spore Hollow
+description: This rounded chamber is dominated by massive shelf fungi that grow in
+  spiraling tiers up the walls, creating natural platforms and ledges. The fungi
+  glow with an intense violet light, and the air is thick with drifting spores
+  that catch the light and sparkle like amethyst dust. The floor is soft with
+  accumulated organic matter, cushioning each footstep. Strange clicking sounds
+  echo from somewhere in the darkness above, and occasionally a cluster of spores
+  will suddenly glow brighter before releasing in a puff of luminescent cloud.
+biome: dungeon
+exits:
+  north:
+    roomid: 2004
+  south:
+    roomid: 2008
+  west:
+    roomid: 2005
+    secret: true
+spawninfo:
+- mobid: 67
+  message: A glowcap wanderer steps out from behind a massive shelf fungus.
+  respawnrate: 4 real minutes
+  maxcount: 2
+- mobid: 68
+  message: A sporeling shuffles into view, trailing glowing particles.
+  respawnrate: 5 real minutes
+idlemessages:
+- A shelf fungus releases a cloud of spores that drift upward like smoke.
+- The clicking from above grows louder, then suddenly stops.
+- The violet glow intensifies briefly, casting strange shadows.
+- Something small and fast scuttles across one of the upper platforms.

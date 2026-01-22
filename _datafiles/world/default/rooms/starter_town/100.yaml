@@ -1,0 +1,33 @@
+roomid: 100
+zone: Starter Town
+title: Town Square
+description: You stand in the heart of Starter Town, a bustling square where
+  cobblestone paths converge around a grand central fountain. Crystal-clear water
+  cascades down marble tiers, catching the light and filling the air with a
+  pleasant mist. Vendors line the edges of the square, their colorful stalls
+  offering everything from fresh bread to mysterious trinkets. Benches carved
+  from polished oak invite weary travelers to rest, while cheerful banners
+  flutter from lampposts overhead. The atmosphere is warm and welcoming, a
+  perfect haven for those just beginning their adventures.
+biome: city
+mapsymbol: "T"
+maplegend: Town Square
+exits:
+  north:
+    roomid: 101
+  south:
+    roomid: 500
+    zone: Crystal Caves
+  east:
+    roomid: 103
+  west:
+    roomid: 600
+    zone: Bladeworks Foundry
+  northeast:
+    roomid: 105
+  southeast:
+    roomid: 104
+  northwest:
+    roomid: 102
+  southwest:
+    roomid: 110

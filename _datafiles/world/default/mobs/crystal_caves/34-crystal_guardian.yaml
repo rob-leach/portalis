@@ -1,0 +1,32 @@
+mobid: 34
+zone: Crystal Caves
+itemdropchance: 15
+hostile: true
+maxwander: 2
+groups:
+  - crystal-caves-creature
+  - crystal-guardian
+combatcommands:
+  - 'emote shimmers and reforms, shrugging off the blow.'
+idlecommands:
+  - emote stands perfectly still, barely distinguishable from the surrounding crystals.
+  - emote slowly rotates, scanning the area.
+  - ""
+activitylevel: 5
+character:
+  name: crystal guardian
+  description: This construct appears to be an animate collection of crystal formations,
+    vaguely humanoid in shape but with no clear distinction between body and armor.
+    Its form is constantly shifting, crystals sliding and reforming to adapt to movement.
+    Where a face might be, there is only a smooth plane of crystal with a single
+    glowing point that serves as an eye. Its arms end in formations that could be
+    interpreted as hands or weapons, and when it moves, the sound is like a wind chime
+    played by a hurricane. This guardian has protected these caves since time beyond
+    memory, and it will not suffer intruders lightly.
+  raceid: 16
+  level: 8
+  alignment: 0
+  gold: 8
+  equipment:
+    body:
+      itemid: 20012

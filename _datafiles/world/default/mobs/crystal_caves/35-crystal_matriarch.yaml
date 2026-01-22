@@ -1,0 +1,43 @@
+mobid: 35
+zone: Crystal Caves
+itemdropchance: 100
+hostile: true
+maxwander: 0
+groups:
+  - crystal-caves-creature
+  - crystal-guardian
+  - zone-boss
+combatcommands:
+  - 'emote shrieks, and the crystals around her resonate with devastating force!'
+  - 'emote raises a crystalline arm, and the very air seems to solidify.'
+  - 'callforhelp 3:crystal guardian:lets out a keening cry that summons her guardians.'
+idlecommands:
+  - emote surveys her domain with ancient, knowing eyes.
+  - emote tenderly touches one of the crystal eggs, which pulses with warmth.
+  - say You trespass in the heart of my domain, small one.
+  - emote shifts on her throne, crystals singing with each movement.
+activitylevel: 10
+character:
+  name: Crystal Matriarch
+  description: The Crystal Matriarch is a being of terrible beauty and ancient power.
+    Her form is that of a towering humanoid composed entirely of living crystal, but
+    where the guardians are crude assemblages, she is a masterwork of natural artistry.
+    Her body flows with lines of golden light, and her face, though crystalline, bears
+    features of haunting elegance. A crown of razor-sharp crystal spires rises from
+    her head, and her eyes are twin amethysts that hold the weight of ages. She moves
+    with fluid grace despite her size, each gesture trailing motes of light. She is
+    the mother of all crystal life in these caves, and she has protected her children
+    for millennia. Those who threaten her domain will learn the true meaning of eternal
+    patience turned to wrath.
+  raceid: 16
+  level: 12
+  alignment: 30
+  gold: 40
+  equipment:
+    body:
+      itemid: 20012
+  items:
+    - itemid: 20046
+    - itemid: 20047
+hates:
+  - thieves

@@ -1,0 +1,15 @@
+itemid: 10022
+name: serrated saw blade
+namesimple: saw blade
+description: This wicked weapon was salvaged from a destroyed saw sentinel. Its
+  edge is lined with cruel teeth designed to tear rather than cut cleanly.
+  The blade still vibrates faintly when swung, remnant energy from its
+  mechanical origins.
+type: weapon
+hands: 1
+subtype: slashing
+damage:
+  diceroll: 2d4
+value: 300
+statmods:
+  speed: 1

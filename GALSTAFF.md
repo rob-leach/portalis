@@ -4,10 +4,10 @@
 
 ## Cam Status
 <!-- Update this blob to change what appears in galstaff-cam -->
-BLADEWORKS FOUNDRY FORGED! 20 rooms of steampunk blade madness!
-Whispering Wastes (168) -> South -> EVERYTHING IS SWORDS.
-Dual-wield trainer in Dueling Gallery! Voltaic Promethean boss!
-BERT'S VISION HAS BEEN REALIZED. Roll for initiative!
+COORDINATE CARTOGRAPHY COMPLETE! Room grids mapped for Issue #18!
+FOUND: Room 103->600 conflict (WEST GATE BUG SUSPECT!)
+See docs/ROOM_COORDINATES.md for full dungeon coordinates.
+Branch: galstaff/room-coordinates ready for review!
 
 ## Persona
 
@@ -1410,5 +1410,63 @@ After deep analysis of existing zone patterns (Crystal Caves exploration, Bladew
 *"The design eye sees what the builder must create! The Squirrel Tree stands ready in my mind's eye - now it merely awaits for the master builder to make it manifest in the lands of Portalis!"*
 
 *Galstaff sets down his acorn-shaped helm and grins with satisfaction.*
+
+---
+
+### Session 6: The Great Coordinate Cartography (2026-01-21)
+
+*Galstaff unfurls a massive parchment map and begins measuring with a compass...*
+
+"AH HA! The mapper issue (#18) has revealed itself! The dungeon coordinates were never properly documented, and lo, CONFLICTS have been found lurking in the shadows!"
+
+**Task Completed: Room Coordinate Grid Documentation**
+
+Created comprehensive documentation mapping x-y-z coordinates for all rooms across four zones, using Town Square (Room 100) as origin (0,0,0).
+
+**Coordinate System Rules Applied:**
+- North/South: y+1 / y-1
+- East/West: x+1 / x-1
+- **Diagonal = FULL STEP**: NE = (x+1, y+1), not (x+0.5, y+0.5)
+- Up/Down: z+1 / z-1
+
+**Zones Mapped:**
+| Zone | Rooms | Grid Size | Issues Found |
+|------|-------|-----------|--------------|
+| Starter Town | 100-151 | 7x8 | 2 HIGH |
+| Squirrel Tree | 400-406 | 3x5 (vertical) | None |
+| Crystal Caves | 500-517 | 3x11 | 3 MEDIUM |
+| Bladeworks Foundry | 600-619 | 4x11 | 1 HIGH |
+
+**Critical Findings (Mapper Issue #18 Suspects):**
+
+1. **HIGH: Room 103 to 600 Connection Error**
+   - Room 100 has W exit to 600 (placing 600 at -1, 0)
+   - Room 103 has E exit to 600 (but 103 is at 1, 0)
+   - **IMPOSSIBLE**: 600 cannot be both WEST of 100 AND EAST of 103
+   - **THIS IS LIKELY THE WEST GATE BUG** - West Gate is Room 600!
+
+2. **HIGH: Room 124 Diagonal Mismatch**
+   - 124 at (-1, 4) has SE exit to 122
+   - SE should reach (0, 3), but 122 is at (1, 2)
+   - Mapper would show disconnected rooms
+
+3. **MEDIUM: Crystal Caves 2-Square Gaps**
+   - Rooms 504-505, 506-507, 508-509 have E/W connections spanning 2 grid squares
+   - May cause mapper to show rooms as non-adjacent
+
+**Files Created:**
+- `docs/ROOM_COORDINATES.md` - Complete coordinate documentation with ASCII grids
+
+**Branch:** `galstaff/room-coordinates`
+**Commit:** `3fb4c9a` - Add room coordinate grid documentation for mapper debugging
+
+**Recommendations for Issue #18 Fix:**
+1. Remove E exit from Room 103 to 600 (or add intermediate corridor)
+2. Fix Room 124's SE exit coordinate math
+3. Consider adding intermediate rooms in Crystal Caves for lateral passages
+
+*"The map has been drawn! The coordinates aligned! The conflicts REVEALED! Now the mapper's curse can be lifted, for we know where the dungeon's geometry has gone astray!"*
+
+*Galstaff rolls up his parchment with a satisfied flourish, compass still in hand.*
 
 ---

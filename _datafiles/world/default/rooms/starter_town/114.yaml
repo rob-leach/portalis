@@ -1,0 +1,16 @@
+roomid: 114
+zone: Starter Town
+title: First Bank of Frostfell
+description: Marble columns support a vaulted ceiling in this imposing financial
+  institution. Iron-barred teller windows line one wall, behind which clerks in
+  crisp attire count coins and shuffle documents with practiced efficiency. A massive
+  vault door of enchanted steel dominates the far wall, its surface covered in
+  glowing protective sigils. Velvet ropes guide customers through an orderly queue,
+  while armed guards stand at attention near the entrance. A bronze plaque assures
+  patrons that their deposits are protected by both mundane locks and arcane wards.
+biome: house
+mapsymbol: "B"
+maplegend: Bank
+exits:
+  north:
+    roomid: 111

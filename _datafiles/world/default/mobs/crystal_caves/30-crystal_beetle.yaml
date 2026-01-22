@@ -1,0 +1,29 @@
+mobid: 30
+zone: Crystal Caves
+itemdropchance: 5
+hostile: false
+maxwander: 3
+groups:
+  - crystal-caves-creature
+idlecommands:
+  - emote clicks its crystalline mandibles.
+  - emote scuttles across the floor, leaving faint scratches.
+  - ""
+  - ""
+activitylevel: 15
+character:
+  name: crystal beetle
+  description: This beetle is unlike any surface-dwelling insect. Its carapace is composed
+    of interlocking crystal plates that catch and refract light, creating a constantly
+    shifting pattern of colors across its surface. Its legs are jointed crystal, clicking
+    against the stone floor as it moves, and its mandibles are razor-sharp formations
+    capable of shearing through rock. Most remarkably, its compound eyes glow with a
+    soft blue luminescence, suggesting some form of internal light source. Despite its
+    alien appearance, it moves with the purposeful efficiency common to all beetles.
+  raceid: 7
+  level: 4
+  alignment: 0
+  gold: 2
+  equipment:
+    body:
+      itemid: 20001

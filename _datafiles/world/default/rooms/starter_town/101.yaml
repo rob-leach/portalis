@@ -1,0 +1,27 @@
+roomid: 101
+zone: Starter Town
+title: Training Yard
+description: A spacious practice yard stretches before you, its packed dirt
+  floor marked by countless footprints and the occasional scorch mark. Wooden
+  training dummies stand in neat rows along the eastern wall, their surfaces
+  battered and splintered from years of use. Weapon racks line the perimeter,
+  holding an assortment of practice swords, staffs, and padded gloves. A gruff
+  instructor watches over the area, ready to teach the fundamentals of combat
+  to any willing student. The clang of practice weapons and determined grunts
+  fill the air as aspiring warriors hone their skills.
+biome: city
+mapsymbol: "%"
+maplegend: Training Yard
+exits:
+  south:
+    roomid: 100
+  north:
+    roomid: 120
+spawninfo:
+- mobid: 15
+  message: The combat instructor surveys the training yard with a critical eye.
+  respawnrate: 2 real minutes
+skilltraining:
+  brawling:
+    min: 1
+    max: 4

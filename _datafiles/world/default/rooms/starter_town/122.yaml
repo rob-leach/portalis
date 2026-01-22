@@ -1,0 +1,17 @@
+roomid: 122
+zone: Starter Town
+title: Wisteria Cottage
+description: Purple wisteria cascades over the arched doorway of this charming
+  cottage, its sweet fragrance perfuming the air. The building's honey-colored
+  walls glow warmly in the light, and lace curtains flutter behind mullioned
+  windows. A worn rocking chair sits on the small porch beside a basket of
+  knitting, suggesting the resident stepped away only moments ago. Wind chimes
+  fashioned from polished shells tinkle softly in the breeze.
+biome: city
+mapsymbol: "h"
+maplegend: Cottage
+exits:
+  west:
+    roomid: 120
+  northwest:
+    roomid: 124

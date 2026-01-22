@@ -1,0 +1,9 @@
+biomeid: crystal_cave
+name: Crystal Cave
+symbol: ◆
+description: Underground caverns lit by bioluminescent crystals and fungal growths.
+darkarea: false
+litarea: true
+requireditemid: 0
+usesitem: false
+burns: false

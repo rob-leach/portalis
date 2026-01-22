@@ -1,0 +1,27 @@
+roomid: 102
+zone: Starter Town
+title: Wizard's Study
+description: You enter a cramped but cozy study filled with towering bookshelves
+  that reach toward the vaulted ceiling. Leather-bound tomes crowd every available
+  surface, their spines inscribed with arcane symbols that seem to shimmer in
+  the candlelight. A massive oak desk dominates the center of the room, covered
+  in scrolls, inkwells, and mysterious crystalline apparatus. Wisps of colored
+  smoke curl lazily from a brazier in the corner, filling the air with the scent
+  of exotic incense. Floating motes of light drift near the ceiling, providing
+  an ethereal illumination that casts no shadows.
+biome: house
+mapsymbol: "W"
+maplegend: Wizard's Study
+exits:
+  southeast:
+    roomid: 100
+  west:
+    roomid: 130
+spawninfo:
+- mobid: 16
+  message: The resident wizard looks up from their studies, arcane energy crackling at their fingertips.
+  respawnrate: 2 real minutes
+skilltraining:
+  cast:
+    min: 1
+    max: 4

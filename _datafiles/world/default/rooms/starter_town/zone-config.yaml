@@ -1,0 +1,11 @@
+name: Starter Town
+roomid: 100
+autoscale:
+  minimum: 1
+  maximum: 5
+idlemessages:
+  - The fountain splashes gently in the square.
+  - A merchant calls out their wares nearby.
+  - Footsteps echo on the cobblestones.
+  - A bird chirps from a nearby rooftop.
+defaultbiome: city

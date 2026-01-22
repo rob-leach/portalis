@@ -1,0 +1,33 @@
+roomid: 509
+zone: Crystal Caves
+title: Fungal Cathedral
+description: The cavern opens into a space of cathedral-like proportions, its ceiling
+  lost in darkness far above. Enormous mushrooms grow here in concentric rings,
+  their caps forming natural tiers like the galleries of an amphitheater. The
+  central space is dominated by a single colossal fungus, its stem as wide as
+  a tower and its cap spreading out like a dome, glowing with an intense golden
+  light that bathes everything in warm amber. Smaller fungi cluster at its base
+  like worshippers at an altar, and the air thrums with an almost palpable sense
+  of ancient, patient life.
+biome: dungeon
+exits:
+  north:
+    roomid: 507
+  west:
+    roomid: 508
+  south:
+    roomid: 511
+spawninfo:
+- mobid: 32
+  message: A glowcap wanderer steps out from the fungal congregation.
+  respawnrate: 4 real minutes
+  maxcount: 2
+- mobid: 33
+  message: A sporeling emerges from beneath the great mushroom.
+  respawnrate: 5 real minutes
+  maxcount: 2
+idlemessages:
+- The great mushroom pulses with light, and the smaller ones pulse in response.
+- A wave of luminescence ripples outward from the central fungus.
+- The air seems to thicken with spores, then clears just as quickly.
+- You feel a subtle vibration through the floor, like a slow heartbeat.

@@ -1,0 +1,30 @@
+roomid: 3001
+zone: Bladeworks Foundry
+title: Foundry Entrance
+description: A massive iron door, scarred by countless blade-strikes, hangs half-open
+  on rusted hinges. Beyond lies the Bladeworks Foundry, a once-legendary weapons
+  manufactory now fallen to ruin and overrun by its own creations. The walls are
+  lined with decorative sword displays, though many blades have been torn from
+  their mounts. A sword-shaped chandelier hangs crookedly overhead, its glass
+  blade-arms casting fractured light across the dusty floor. The air is thick
+  with the smell of old oil and hot metal. Faded signs warn of "AUTHORIZED
+  ARTIFICERS ONLY" and "BLADE HAZARD ZONE."
+mapsymbol: E
+biome: dungeon
+exits:
+  north:
+    roomid: 278
+  south:
+    roomid: 3002
+nouns:
+  door: The iron door bears deep gouges from bladed weapons. Whatever happened
+    here, it was violent and sudden.
+  chandelier: A chandelier crafted entirely from sword-shaped glass hangs precariously.
+    Each glass blade catches the dim light, creating dancing reflections.
+  signs: Weathered signs warn of industrial hazards. One reads "Construct Testing
+    in Progress - Do Not Disturb."
+idlemessages:
+- The iron door creaks in an unseen draft.
+- A glass blade from the chandelier falls and shatters on the stone floor.
+- Something mechanical whirs to life deeper within the foundry.
+- The temperature rises noticeably, heat radiating from the south.

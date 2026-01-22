@@ -1,0 +1,17 @@
+roomid: 133
+zone: Starter Town
+title: Guild Vault Antechamber
+description: A narrow stone passage leads to this small, windowless chamber lit only
+  by everburning torches set in iron sconces. The walls are etched with protective
+  runes that pulse with a faint blue glow, their arcane patterns designed to ward
+  off thieves and scrying alike. A massive iron door dominates the far wall, its
+  surface covered in intricate locks and binding seals—the entrance to the guild
+  vault proper, which remains perpetually sealed to all but the most trusted members.
+  A single stone bench offers a place to wait for those summoned here on official
+  guild business.
+biome: city
+mapsymbol: "V"
+maplegend: Guild Vault
+exits:
+  south:
+    roomid: 132

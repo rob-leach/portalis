@@ -1,0 +1,27 @@
+roomid: 2011
+zone: Crystal Caves
+title: Underground River
+description: A swift underground river cuts through this cavern, its waters rushing
+  over beds of luminescent crystals that make the entire waterway glow like liquid
+  starlight. The river is perhaps twenty feet wide, too fast and deep to wade,
+  but a natural bridge of fused crystal formations arches over its center. The
+  roar of the water echoes off the crystal walls, creating a constant white noise
+  that drowns out subtler sounds. Mist rises from where the water tumbles over
+  a series of small falls, catching the light and creating ephemeral rainbows.
+biome: dungeon
+exits:
+  north:
+    roomid: 2009
+  east:
+    roomid: 2012
+  southeast:
+    roomid: 2013
+spawninfo:
+- mobid: 65
+  message: A crystal beetle crawls out from beneath the crystal bridge.
+  respawnrate: 5 real minutes
+idlemessages:
+- The river's roar seems to form words just beyond understanding.
+- Spray from the falls catches the light, creating a brief rainbow.
+- Something large moves beneath the surface of the river, then is gone.
+- The crystal bridge hums with vibration from the rushing water.

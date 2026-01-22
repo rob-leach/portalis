@@ -1,0 +1,34 @@
+roomid: 3013
+zone: Bladeworks Foundry
+title: The Blade Gate
+description: A massive gateway marks the transition from the production floors to
+  the deeper foundry. The gate itself is made entirely of interlocking swords,
+  their hilts forming the hinges and their blades the bars. It stands half-open,
+  jammed in place by the twisted body of a destroyed construct. Beyond, the air
+  grows hotter and the lighting more erratic. The sword-chandeliers past this
+  point are made of larger, more dangerous blades - clearly meant as weapons,
+  not decorations. A warning plaque beside the gate reads "HALL OF ENDLESS
+  BLADES - MASTER ARTIFICERS ONLY."
+biome: dungeon
+exits:
+  north:
+    roomid: 3012
+  south:
+    roomid: 3014
+spawninfo:
+- mobid: 78
+  message: A steam golem steps through the blade gate, venting hot vapor.
+  respawnrate: 6 real minutes
+  maxcount: 1
+nouns:
+  gate: The gate is an engineering marvel - hundreds of swords woven together
+    to form a functional barrier.
+  construct: A destroyed construct lies wedged in the gate, its metal body
+    twisted and torn.
+  plaque: The warning plaque's letters are scorched, as if emphasizing the
+    danger ahead.
+idlemessages:
+- The blade gate groans as the building settles.
+- Steam vents from somewhere beyond the gateway.
+- The destroyed construct creaks ominously in its metal grave.
+- Heat waves shimmer in the air beyond the gate.

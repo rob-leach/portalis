@@ -1,0 +1,19 @@
+itemid: 10025
+name: voltaic blade
+namesimple: blade
+description: This crackling sword was forged from the remains of the Voltaic
+  Promethean itself. Lightning constantly arcs along its edge, leaving
+  afterimages in the air with every swing. The blade seems almost alive,
+  humming with electrical energy that responds to its wielder's emotions.
+  Those who wield it report feeling a strange connection to the foundry
+  itself, as if the Promethean's consciousness lingers within the steel.
+type: weapon
+hands: 1
+subtype: slashing
+damage:
+  diceroll: 2d8
+value: 5000
+statmods:
+  strength: 2
+  speed: 2
+  smarts: 1

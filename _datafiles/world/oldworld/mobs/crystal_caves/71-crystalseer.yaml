@@ -1,0 +1,33 @@
+mobid: 71
+zone: Crystal Caves
+itemdropchance: 0
+hostile: false
+maxwander: 0
+groups:
+  - crystal-caves-npc
+  - trainer
+idlecommands:
+  - say The crystals see all, past and present. Would you learn their secrets?
+  - say To peep beyond the veil requires patience and clarity of mind.
+  - emote gazes into a small crystal, her eyes unfocusing momentarily.
+  - say I can teach you to see as the crystals see, to perceive what others cannot.
+  - ""
+activitylevel: 15
+character:
+  name: Crystalseer
+  description: The Crystalseer is an ancient sprite who has dwelt among the crystals for
+    so long that she has become partly crystalline herself. Her wings are lattices of
+    pure crystal, refracting light into rainbow patterns, and her skin has taken on a
+    translucent quality that reveals glimpses of inner light. Her eyes are the most
+    striking feature, faceted like perfectly cut gems, able to see not just the present
+    but echoes of past and future reflected in the crystals around her. She speaks in
+    a melodic voice that resonates like a singing bowl, and she possesses knowledge
+    accumulated over countless centuries. She is willing to share the art of crystal
+    sight with those who approach with respect and an open mind.
+  raceid: 15
+  level: 20
+  alignment: 70
+  gold: 0
+  equipment:
+    head:
+      itemid: 20018

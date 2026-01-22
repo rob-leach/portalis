@@ -1,0 +1,17 @@
+roomid: 124
+zone: Starter Town
+title: Garden Commons
+description: A small communal garden occupies this corner of the residential
+  quarter, where neighbors gather to tend shared plots of vegetables and flowers.
+  Stone benches sit beneath the spreading branches of an ancient oak, its gnarled
+  trunk carved with initials and dates spanning decades. A mossy well stands at
+  the garden's center, its wooden bucket worn smooth from daily use. This is where
+  the community gathers to exchange news, share harvests, and watch children play.
+biome: city
+mapsymbol: "G"
+maplegend: Garden Commons
+exits:
+  south:
+    roomid: 123
+  southeast:
+    roomid: 122

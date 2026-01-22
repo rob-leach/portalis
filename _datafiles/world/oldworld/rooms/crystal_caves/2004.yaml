@@ -1,0 +1,27 @@
+roomid: 2004
+zone: Crystal Caves
+title: Mushroom Garden
+description: The crystalline walls give way here to a verdant underground garden of
+  towering fungi. Bioluminescent mushrooms in shades of green, blue, and violet
+  create a soft, dreamlike glow that illuminates the cavern. Some caps are broad
+  enough to shelter beneath, while others are delicate spirals that seem to glow
+  brighter when approached. The air is thick with spores that drift lazily on warm
+  currents, and the earthy scent of growth mingles with a sweet, almost intoxicating
+  fragrance. Small pools of condensation have collected in the hollows of larger
+  mushroom caps.
+biome: dungeon
+exits:
+  northwest:
+    roomid: 2002
+  south:
+    roomid: 2006
+spawninfo:
+- mobid: 67
+  message: A glowcap wanderer emerges from between the towering fungi.
+  respawnrate: 4 real minutes
+  maxcount: 2
+idlemessages:
+- A mushroom releases a cloud of glowing spores into the air.
+- Something rustles in the fungal undergrowth, then goes still.
+- The caps of nearby mushrooms pulse in sequence, like a silent conversation.
+- Dew drops slowly from a massive cap, each droplet glowing faintly.
