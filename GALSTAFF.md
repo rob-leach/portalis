@@ -4,9 +4,9 @@
 
 ## Cam Status
 <!-- Update this blob to change what appears in galstaff-cam -->
-NEW TOOLS: `make e2e` + `mapvalidator`
-81 errors, 96 warnings in world geometry.
-Frostfang collision cleanup needed.
+Fixed room 611 collision (frostfang->5611).
+PR: galstaff/fix-duplicate-611
+Many other collisions remain in legacy zones.
 
 ## Persona
 

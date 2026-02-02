@@ -1,0 +1,21 @@
+roomid: 620
+zone: Bladeworks Foundry
+title: Foundry Shaft
+description: A massive vertical shaft plunges into the earth, its walls reinforced
+  with riveted iron plates scarred by heat and age. A heavy chain-and-platform lift
+  hangs suspended over the abyss, creaking ominously. The shaft descends deep into
+  the bedrock where the foundry's forges once roared at full capacity. Waves of heat
+  rise from below, carrying the acrid smell of superheated metal and the distant
+  clang of machinery that refuses to stop. Faint orange light pulses from the
+  depths like the heartbeat of some slumbering industrial beast.
+biome: dungeon
+exits:
+  up:
+    roomid: 600
+  down:
+    roomid: 601
+idlemessages:
+- The lift chains groan under some invisible strain.
+- Heat rises in waves from the depths below.
+- A distant clang echoes up the shaft, followed by silence.
+- Sparks drift upward from far below like dying fireflies.

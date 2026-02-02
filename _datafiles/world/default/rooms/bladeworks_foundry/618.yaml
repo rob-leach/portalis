@@ -14,7 +14,7 @@ exits:
   north:
     roomid: 616
   east:
-    roomid: 619
+    roomid: 621
 nouns:
   bookshelves: The shelves hold the accumulated knowledge of generations of
     artificers - a priceless library of bladecraft.

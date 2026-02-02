@@ -12,7 +12,7 @@ biome: city
 mapsymbol: "$"
 maplegend: Bank
 exits:
-  west:
+  down:
     roomid: 110
 hasbank: true
 spawninfo:

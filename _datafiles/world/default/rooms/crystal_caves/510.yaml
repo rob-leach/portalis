@@ -14,7 +14,7 @@ exits:
     roomid: 508
   east:
     roomid: 511
-  southeast:
+  south:
     roomid: 512
 spawninfo:
 - mobid: 30

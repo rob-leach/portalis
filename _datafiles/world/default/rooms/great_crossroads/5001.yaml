@@ -11,7 +11,7 @@ mapsymbol: '*'
 biome: road
 exits:
   north:
-    roomid: 3020
+    roomid: 619
   south:
     roomid: 5002
 nouns:

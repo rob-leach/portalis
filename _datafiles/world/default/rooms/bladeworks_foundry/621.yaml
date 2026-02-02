@@ -1,0 +1,22 @@
+roomid: 621
+zone: Bladeworks Foundry
+title: Blade Corridor
+description: A narrow passage connects the master's study to the Hall of Endless
+  Blades. The walls here are lined with display cases containing prototype weapons,
+  each more unusual than the last. A three-pronged sword, a blade that curves back
+  on itself, a dagger with gears built into its hilt. These were the master
+  artificer's experiments, preserved behind glass that has cracked but not broken.
+  The air crackles with residual energy from the Promethean's chamber ahead.
+biome: dungeon
+exits:
+  west:
+    roomid: 618
+  east:
+    roomid: 619
+nouns:
+  cases: The display cases hold prototype weapons of extraordinary design, each
+    one a testament to the artificer's brilliant but dangerous creativity.
+idlemessages:
+- One of the prototype blades vibrates in its case, resonating with energy from the east.
+- A crack in a display case widens slightly, letting out a whisper of old enchantment.
+- The air between the two chambers feels charged, almost electric.
