@@ -15,3 +15,5 @@ maplegend: Guild Vault
 exits:
   south:
     roomid: 132
+  west:
+    roomid: 134

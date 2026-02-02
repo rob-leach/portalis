@@ -1,0 +1,28 @@
+mobid: 37
+zone: Crystal Caves
+hostile: false
+maxwander: 0
+groups:
+  - crystal-caves-npc
+  - trainer
+idlecommands:
+  - say The crystals taught me to shield. I can teach you the same.
+  - 'emote raises a hand, and a shimmering barrier of light flickers into existence around her'
+  - say Protection is not about strength. It is about knowing where the blow will fall.
+  - 'say I can teach you to <ansi fg="command">train</ansi> in protection magic.'
+  - ''
+activitylevel: 10
+character:
+  name: crystal warden
+  description: Where the Crystalseer reads the future in crystal facets, the Crystal
+    Warden reads the geometry of violence. This stout dwarven woman has lived among
+    the crystal formations for decades, studying how they absorb and redirect force.
+    Her armor is an ingenious patchwork of crystal plates that hum with protective
+    resonance, and her shield is a single enormous crystal disc that seems to drink
+    in light. The scars on her hands tell of years spent learning to channel the
+    caves' protective energies, and her calm, steady gaze promises that she can teach
+    others to do the same.
+  raceid: 3
+  level: 18
+  alignment: 40
+  gold: 10

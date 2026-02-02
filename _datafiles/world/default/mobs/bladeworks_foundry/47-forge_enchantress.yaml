@@ -1,0 +1,27 @@
+mobid: 47
+zone: Bladeworks Foundry
+hostile: false
+maxwander: 0
+groups:
+  - bladeworks-npc
+idlecommands:
+  - 'say The constructs destroyed the foundry, but they couldn''t destroy the magic in these walls.'
+  - 'emote traces a glowing sigil in the air above a blade, watching it sink into the steel'
+  - 'say I can teach you to <ansi fg="command">train</ansi> in the art of enchantment.'
+  - 'emote examines a crystal shard, holding it up to the forge-light'
+  - ''
+activitylevel: 15
+character:
+  name: forge enchantress
+  description: This woman bears the scars of the foundry's fall - burn marks crawl
+    up her left arm, and her leather apron is scorched and patched. But her eyes burn
+    with an intensity that has nothing to do with fire. She was the foundry's chief
+    enchanter before the uprising, responsible for imbuing the finest blades with
+    magical properties. When the constructs turned, she survived by weaving protective
+    wards around herself, and in doing so discovered new depths to her craft. Now she
+    works alone in this alcove, perfecting the art of binding magic to metal, and she
+    will teach those who prove worthy of the knowledge.
+  raceid: 1
+  level: 20
+  alignment: 15
+  gold: 25

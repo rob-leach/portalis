@@ -1,0 +1,30 @@
+roomid: 519
+zone: Crystal Caves
+title: Beastcaller's Den
+description: This cozy alcove has been claimed by someone who clearly prefers the
+  company of creatures to people. The walls are covered in soft bioluminescent moss
+  rather than bare crystal, and small nests of woven fungal fiber are tucked into
+  every corner - homes for the cave creatures that frequent this place. A shallow
+  pool of crystal-clear water serves as a drinking spot for the local fauna, and
+  the air is rich with the earthy scent of mushrooms and the subtle musk of animal
+  life. Scratch marks on the walls suggest that many different creatures have passed
+  through here, all apparently welcome.
+biome: dungeon
+mapsymbol: "B"
+maplegend: Beastcaller
+exits:
+  west:
+    roomid: 503
+spawninfo:
+- mobid: 39
+  message: The fungal beastcaller looks up from feeding a small sporeling.
+  respawnrate: 2 real minutes
+skilltraining:
+  tame:
+    min: 1
+    max: 4
+idlemessages:
+- A tiny crystal beetle clicks across the floor, apparently at home here.
+- The moss on the walls pulses gently, responding to some unseen rhythm.
+- A sporeling waddles through the den, pausing to drink from the pool.
+- Soft chittering sounds come from one of the fungal-fiber nests.

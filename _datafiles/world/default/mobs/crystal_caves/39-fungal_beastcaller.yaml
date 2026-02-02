@@ -1,0 +1,30 @@
+mobid: 39
+zone: Crystal Caves
+hostile: false
+maxwander: 0
+groups:
+  - crystal-caves-npc
+  - trainer
+  - fungal-entity
+idlecommands:
+  - emote hums a low melody, and a nearby sporeling sways in response.
+  - say Every creature speaks, if you know how to listen.
+  - 'say I can teach you to <ansi fg="command">train</ansi> in the art of taming beasts.'
+  - emote feeds a luminescent mushroom cap to a tiny crystal beetle perched on her shoulder.
+  - ''
+activitylevel: 12
+character:
+  name: fungal beastcaller
+  description: This small, wiry gnome has lived so long among the cave's creatures
+    that she has become one of them in spirit. Her hair is woven with living
+    mycelium that pulses with a soft violet glow, and small sporelings follow
+    at her heels like devoted pets. Her clothing is stitched from shed beetle
+    carapaces and woven fungal fibers, and she carries no weapon - the creatures
+    of the cave are her protection. Her voice has a strange harmonic quality,
+    as though layered with subsonic tones that only animals can fully hear. She
+    claims she can teach anyone to speak the language of beasts, though she warns
+    it requires patience and genuine respect for all living things.
+  raceid: 7
+  level: 16
+  alignment: 50
+  gold: 5

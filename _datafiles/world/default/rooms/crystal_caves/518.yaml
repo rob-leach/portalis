@@ -1,0 +1,30 @@
+roomid: 518
+zone: Crystal Caves
+title: Ward Chamber
+description: This small chamber branches off from the geode, and its crystals are
+  arranged in distinctly unnatural patterns - concentric rings that radiate outward
+  from a central meditation stone. The crystals here glow with a steady amber light,
+  warmer than the cool blues and purples elsewhere in the caves. When you step
+  inside, you feel a subtle resistance, as though the air itself is denser here,
+  protective. The floor is worn smooth from years of someone sitting cross-legged
+  on the central stone, and the walls hum with a low, reassuring frequency that
+  seems to repel hostile intent.
+biome: dungeon
+mapsymbol: "P"
+maplegend: Ward Chamber
+exits:
+  north:
+    roomid: 513
+spawninfo:
+- mobid: 37
+  message: The crystal warden emerges from meditation, her shield humming with protective energy.
+  respawnrate: 2 real minutes
+skilltraining:
+  protection:
+    min: 1
+    max: 4
+idlemessages:
+- The concentric crystal rings pulse in sequence, like a heartbeat.
+- A warm amber glow suffuses the chamber, pushing back shadows.
+- The protective hum intensifies briefly, then settles.
+- You feel strangely safe here, as though no harm could reach you.

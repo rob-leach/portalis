@@ -13,6 +13,8 @@ biome: dungeon
 exits:
   east:
     roomid: 512
+  south:
+    roomid: 518
 spawninfo:
 - mobid: 34
   message: A crystal guardian assembles from the surrounding formations.

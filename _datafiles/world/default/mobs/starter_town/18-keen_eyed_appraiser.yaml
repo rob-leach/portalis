@@ -1,0 +1,23 @@
+mobid: 18
+zone: Starter Town
+hostile: false
+idlecommands:
+  - 'emote peers at a gemstone through a jeweler''s loupe'
+  - 'say Bring me any item and I''ll tell you what it''s truly worth.'
+  - 'emote polishes a magnifying lens on their sleeve'
+  - 'say The untrained eye sees only the surface. I can teach you to see deeper.'
+  - ''
+activitylevel: 15
+character:
+  name: keen-eyed appraiser
+  description: This sharp-featured individual wears a pair of brass-rimmed spectacles
+    perched on a hawk-like nose, each lens fitted with tiny magnification crystals
+    that glint in the light. Their fingers are stained with ink from years of
+    cataloguing rare artifacts, and a collection of jeweler's loupes hangs from a
+    chain around their neck. Every movement is precise and deliberate, the habits
+    of someone who has spent a lifetime studying the finest details of crafted
+    objects. Their eyes miss nothing, cataloguing every scratch, hallmark, and
+    hidden enchantment at a glance.
+  raceid: 1
+  level: 15
+  alignment: 10
