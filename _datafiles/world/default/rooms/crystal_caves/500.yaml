@@ -13,7 +13,7 @@ exits:
   north:
     roomid: 100
     zone: Starter Town
-  south:
+  down:
     roomid: 501
 idlemessages:
 - A warm breeze rises from the depths, carrying strange whispers.

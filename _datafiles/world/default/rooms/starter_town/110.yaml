@@ -7,8 +7,8 @@ description: A bustling cobblestone lane stretches before you, lined with colorf
   awnings in red and gold provide shade from the sun, while hand-painted signs swing
   overhead advertising everything from exotic spices to enchanted trinkets. To the
   west, aromatic smoke curls from a shop marked by a bubbling cauldron sign. Across
-  the way to the east stands a sturdy stone building bearing the seal of the First
-  Bank. The street continues south toward the heart of the market district.
+  the way, a broad marble staircase leads up to the First Bank, its seal
+  gleaming above the entrance. The street continues south toward the heart of the market district.
 biome: city
 mapsymbol: "="
 maplegend: Market Street
@@ -19,5 +19,5 @@ exits:
     roomid: 111
   west:
     roomid: 150
-  east:
+  up:
     roomid: 151

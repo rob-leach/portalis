@@ -10,11 +10,11 @@ description: The passage descends at a gentle slope, the walls growing increasin
   a stronger blue glow, the other a softer green luminescence.
 biome: dungeon
 exits:
-  north:
+  up:
     roomid: 500
   southwest:
     roomid: 502
-  southeast:
+  south:
     roomid: 503
 spawninfo:
 - mobid: 30

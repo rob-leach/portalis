@@ -15,12 +15,6 @@ biome: road
 exits:
   north:
     roomid: 5005
-  east:
-    roomid: 0
-  south:
-    roomid: 0
-  west:
-    roomid: 0
 nouns:
   signpost: |
     The weathered wooden signpost stands tall at the heart of the crossroads,

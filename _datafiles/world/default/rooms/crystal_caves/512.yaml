@@ -11,7 +11,7 @@ description: You have found the heart of the Crystal Caves, a vast central chamb
   brightening when you approach and dimming when you step away.
 biome: dungeon
 exits:
-  northwest:
+  north:
     roomid: 510
   northeast:
     roomid: 511

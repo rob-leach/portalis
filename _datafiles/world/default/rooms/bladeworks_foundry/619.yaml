@@ -16,7 +16,7 @@ mapsymbol: X
 biome: dungeon
 exits:
   west:
-    roomid: 618
+    roomid: 621
   north:
     roomid: 617
   south:

@@ -11,7 +11,7 @@ description: The crystalline walls give way here to a verdant underground garden
   mushroom caps.
 biome: dungeon
 exits:
-  northwest:
+  north:
     roomid: 501
   south:
     roomid: 505

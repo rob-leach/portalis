@@ -15,8 +15,8 @@ exits:
   east:
     roomid: 100
     zone: Starter Town
-  south:
-    roomid: 601
+  down:
+    roomid: 620
 nouns:
   door: The iron door bears deep gouges from bladed weapons. Whatever happened
     here, it was violent and sudden.

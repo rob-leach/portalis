@@ -11,8 +11,8 @@ description: This cavernous chamber once received raw materials for the foundry'
   the south.
 biome: dungeon
 exits:
-  north:
-    roomid: 600
+  up:
+    roomid: 620
   south:
     roomid: 602
   east:
