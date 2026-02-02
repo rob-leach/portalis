@@ -52,9 +52,39 @@ type MobForHire struct {
 }
 type MobId int // Creating a custom type to help prevent confusion over MobId and MobInstanceId
 
+type MobRank string
+
+const (
+	RankMinion   MobRank = "minion"
+	RankStandard MobRank = ""      // zero value = default, backward compatible
+	RankElite    MobRank = "elite"
+	RankBoss     MobRank = "boss"
+)
+
+type rankMultipliers struct {
+	HP   float64
+	Stat float64
+	XP   float64
+}
+
+var rankTable = map[MobRank]rankMultipliers{
+	RankMinion:   {HP: 0.6, Stat: 0.8, XP: 0.5},
+	RankStandard: {HP: 1.0, Stat: 1.0, XP: 1.0},
+	RankElite:    {HP: 1.5, Stat: 1.2, XP: 2.0},
+	RankBoss:     {HP: 3.0, Stat: 1.5, XP: 5.0},
+}
+
+func (r MobRank) Multipliers() rankMultipliers {
+	if m, ok := rankTable[r]; ok {
+		return m
+	}
+	return rankTable[RankStandard]
+}
+
 type Mob struct {
 	MobId            MobId
 	Zone             string   `yaml:"zone,omitempty"`
+	Rank             MobRank  `yaml:"rank,omitempty"`
 	ItemDropChance   int      // chance in 100
 	ActivityLevel    int      `yaml:"activitylevel,omitempty"` // 1-100%
 	InstanceId       int      `yaml:"-"`
@@ -169,7 +199,7 @@ func NewMobById(mobId MobId, homeRoomId int, forceLevel ...int) *Mob {
 		if len(forceLevel) > 0 && forceLevel[0] > 0 {
 			mob.Character.Level = forceLevel[0]
 		}
-		mob.Character.StatPoints = mob.Character.Level
+		mob.Character.StatPoints = int(math.Round(float64(mob.Character.Level) * mob.Rank.Multipliers().Stat))
 		mob.Character.Level--
 		mob.Character.Experience = mob.Character.XPTNL()
 		mob.Character.Level++
@@ -208,6 +238,16 @@ func NewMobById(mobId MobId, homeRoomId int, forceLevel ...int) *Mob {
 
 		mob.Validate()
 		mob.Character.Validate(true)
+
+		// Apply rank HP multiplier after final stat calculation
+		if hpMult := mob.Rank.Multipliers().HP; hpMult != 1.0 {
+			mob.Character.HealthMax.Value = int(math.Round(float64(mob.Character.HealthMax.Value) * hpMult))
+			if mob.Character.HealthMax.Value < 1 {
+				mob.Character.HealthMax.Value = 1
+			}
+		}
+		mob.Character.Health = mob.Character.HealthMax.Value
+		mob.Character.Mana = mob.Character.ManaMax.Value
 
 		// Save the mob instance
 		mobInstances[mob.InstanceId] = &mob
@@ -620,6 +660,13 @@ func (r *Mob) Id() int {
 }
 
 func (r *Mob) Validate() error {
+
+	switch r.Rank {
+	case RankMinion, RankStandard, RankElite, RankBoss:
+		// valid
+	default:
+		r.Rank = RankStandard
+	}
 
 	if r.ActivityLevel < 1 {
 		r.ActivityLevel = 10

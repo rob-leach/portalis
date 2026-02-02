@@ -95,6 +95,9 @@ func Suicide(rest string, mob *mobs.Mob, room *rooms.Room) (bool, error) {
 		mobXP = mob.ExperienceReward
 	}
 
+	// Apply rank XP multiplier
+	mobXP = int(math.Round(float64(mobXP) * mob.Rank.Multipliers().XP))
+
 	xpVal := mobXP / 90
 
 	xpVariation := xpVal / 100

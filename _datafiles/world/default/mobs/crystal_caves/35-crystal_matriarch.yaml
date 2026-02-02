@@ -1,5 +1,6 @@
 mobid: 35
 zone: Crystal Caves
+rank: boss
 itemdropchance: 100
 hostile: true
 maxwander: 0

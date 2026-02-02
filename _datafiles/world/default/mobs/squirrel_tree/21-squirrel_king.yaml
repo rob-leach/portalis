@@ -1,5 +1,6 @@
 mobid: 21
 zone: Squirrel Tree
+rank: boss
 itemdropchance: 100
 hostile: true
 maxwander: 0
