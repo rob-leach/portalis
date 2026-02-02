@@ -71,11 +71,12 @@ func Experience(rest string, user *users.UserRecord, room *rooms.Room, flags eve
 		mockChar.RaceId = chartRace
 		mockChar.Validate()
 
-		headers := []string{`Level`, `Experience`, `Str`, `Spd`, `Smt`, `Vit`, `Mys`, `Per`, `ALL`}
+		headers := []string{`Level`, `Tier`, `Experience`, `Str`, `Spd`, `Smt`, `Vit`, `Mys`, `Per`, `ALL`}
 		rows := [][]string{}
 
 		formatting := []string{
 			`<ansi fg="white-bold">%s</ansi>`,
+			`<ansi fg="cyan">%s</ansi>`,
 			`<ansi fg="red">%s</ansi>`,
 			`<ansi fg="yellow">%s</ansi>`,
 			`<ansi fg="yellow">%s</ansi>`,
@@ -124,7 +125,8 @@ func Experience(rest string, user *users.UserRecord, room *rooms.Room, flags eve
 
 			if i > 1 {
 
-				row := []string{fmt.Sprintf(`%d`, i), fmt.Sprintf(`%d`, tnlXP)}
+				tierName := tierLabel(i)
+				row := []string{fmt.Sprintf(`%d`, i), tierName, fmt.Sprintf(`%d`, tnlXP)}
 				gainStr := zeroStr
 				all := 0
 				for _, stat := range stats {
@@ -155,7 +157,7 @@ func Experience(rest string, user *users.UserRecord, room *rooms.Room, flags eve
 			}
 		}
 
-		row := []string{`Total`, fmt.Sprintf(`%d`, mockChar.XPTL(endLevel)-1500)}
+		row := []string{`Total`, ``, fmt.Sprintf(`%d`, mockChar.XPTL(endLevel)-1500)}
 		all := 0
 		for _, stat := range stats {
 			gain := totalG[stat]
@@ -197,4 +199,19 @@ func Experience(rest string, user *users.UserRecord, room *rooms.Room, flags eve
 	user.SendText(tplTxt)
 
 	return true, nil
+}
+
+func tierLabel(level int) string {
+	switch {
+	case level >= 41:
+		return "Mythic"
+	case level >= 31:
+		return "Paragon"
+	case level >= 21:
+		return "Warden"
+	case level >= 11:
+		return "Wayfarer"
+	default:
+		return "Greenhorn"
+	}
 }

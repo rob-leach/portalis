@@ -109,6 +109,20 @@ var (
 		"idsOtherThan": idsOtherThan,
 		"tnl":          TNL,
 		"pct":          pct,
+		"tier": func(level int) string {
+			switch {
+			case level >= 41:
+				return "Mythic"
+			case level >= 31:
+				return "Paragon"
+			case level >= 21:
+				return "Warden"
+			case level >= 11:
+				return "Wayfarer"
+			default:
+				return "Greenhorn"
+			}
+		},
 		"numberFormat": numberFormat,
 		"mod":          func(a, b int) int { return a % b },
 		"stringor":     stringOr,

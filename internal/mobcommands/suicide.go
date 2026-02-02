@@ -77,7 +77,15 @@ func Suicide(rest string, mob *mobs.Mob, room *rooms.Room) (bool, error) {
 		}
 	}
 
-	mobXP := mob.Character.XPTL(mob.Character.Level - 1)
+	// XP based on per-level delta (TNL), not cumulative total.
+	// This keeps kills-per-level flat across all levels.
+	mobLevel := mob.Character.Level
+	var mobXP int
+	if mobLevel <= 1 {
+		mobXP = mob.Character.XPTL(1)
+	} else {
+		mobXP = mob.Character.XPTL(mobLevel) - mob.Character.XPTL(mobLevel-1)
+	}
 
 	events.AddToQueue(events.MobDeath{
 		MobId:         int(mob.MobId),
@@ -98,7 +106,7 @@ func Suicide(rest string, mob *mobs.Mob, room *rooms.Room) (bool, error) {
 	// Apply rank XP multiplier
 	mobXP = int(math.Round(float64(mobXP) * mob.Rank.Multipliers().XP))
 
-	xpVal := mobXP / 90
+	xpVal := mobXP / 20
 
 	xpVariation := xpVal / 100
 	if xpVariation < 1 {
