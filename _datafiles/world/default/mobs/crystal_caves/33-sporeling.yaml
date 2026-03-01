@@ -1,5 +1,6 @@
 mobid: 33
 zone: Crystal Caves
+rank: minion
 itemdropchance: 8
 hostile: false
 maxwander: 3

@@ -1,0 +1,29 @@
+roomid: 134
+zone: Starter Town
+title: Appraiser's Nook
+description: A small side chamber opens off the vault antechamber, its walls lined
+  with glass-fronted display cases containing curious objects - a cracked gem that
+  still shimmers with inner light, a dagger whose blade seems to shift between
+  metals, a coin from a kingdom that no longer exists. A sturdy worktable dominates
+  the center of the room, covered with magnifying instruments, reference tomes, and
+  strips of silk used for handling delicate items. The appraiser's careful eye has
+  catalogued thousands of objects in this room, and the knowledge gained fills the
+  shelves floor to ceiling.
+biome: house
+mapsymbol: "I"
+maplegend: Appraiser
+exits:
+  east:
+    roomid: 133
+spawninfo:
+- mobid: 18
+  message: The keen-eyed appraiser adjusts their spectacles and looks up expectantly.
+  respawnrate: 2 real minutes
+skilltraining:
+  inspect:
+    min: 1
+    max: 4
+idlemessages:
+- Light glints off the display cases, illuminating curious artifacts.
+- A reference tome lies open to a page about gemstone grading.
+- The magnifying instruments on the table cast tiny rainbows on the walls.

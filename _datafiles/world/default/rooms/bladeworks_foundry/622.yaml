@@ -1,0 +1,36 @@
+roomid: 622
+zone: Bladeworks Foundry
+title: Enchantment Alcove
+description: Hidden behind the foreman's office is a small alcove that was once used
+  for quality testing enchanted blades. The walls are lined with metal shelves holding
+  crystal focus stones, vials of luminous reagents, and scrolls of binding formulae.
+  A compact forge sits against the far wall, smaller and more precise than the
+  industrial furnaces elsewhere in the foundry. Runic circles are etched into the
+  stone floor, their grooves still faintly glowing with residual magical energy.
+  This is where the art of enchantment lives on, tended by the one person who
+  survived the foundry's fall with her knowledge intact.
+biome: dungeon
+mapsymbol: "E"
+maplegend: Enchantment
+exits:
+  north:
+    roomid: 610
+spawninfo:
+- mobid: 47
+  message: The forge enchantress looks up from her work, arcane sparks dancing between her fingers.
+  respawnrate: 2 real minutes
+skilltraining:
+  enchant:
+    min: 1
+    max: 4
+nouns:
+  forge: This compact forge is designed for precision work rather than mass production.
+    Runes carved into its sides help channel magical energy during the enchanting process.
+  circles: Runic circles etched into the stone floor serve as focal points for
+    binding magical energy to physical objects.
+  reagents: Vials of luminous reagents line the shelves, each one labeled in a
+    precise hand. The colors range from deep crimson to electric blue.
+idlemessages:
+- The runic circles in the floor pulse with a faint warmth.
+- A crystal focus stone hums softly on its shelf.
+- The compact forge crackles with residual magical energy.

@@ -15,6 +15,8 @@ exits:
     roomid: 501
   south:
     roomid: 505
+  east:
+    roomid: 519
 spawninfo:
 - mobid: 32
   message: A glowcap wanderer emerges from between the towering fungi.

@@ -12,6 +12,8 @@ biome: dungeon
 exits:
   north:
     roomid: 608
+  south:
+    roomid: 622
 nouns:
   desk: The foreman's desk is covered with old paperwork - production quotas,
     maintenance schedules, and one ominous note about "unusual construct behavior."

@@ -22,17 +22,17 @@ const (
 	Cast        SkillTag = `cast`        // [LVL 1-4] Frostfang Magic Academy - ROOM 879
 	DualWield   SkillTag = `dual-wield`  // [LVL 1-4] Fishermans house - ROOM 758
 	Map         SkillTag = `map`         // [LVL 1-4] Frostwarden Rangers - ROOM 74
-	Enchant     SkillTag = `enchant`     // TODO
-	Peep        SkillTag = `peep`        // TODO
-	Inspect     SkillTag = `inspect`     // TODO
+	Enchant     SkillTag = `enchant`     // [LVL 1-4] Enchantment Alcove - ROOM 622
+	Peep        SkillTag = `peep`        // [LVL 1-4] Seer's Alcove - ROOM 514
+	Inspect     SkillTag = `inspect`     // [LVL 1-4] Appraiser's Nook - ROOM 134
 	Portal      SkillTag = `portal`      // [LVL 1] Touch the obelisk in ROOOM 871
 	Search      SkillTag = `search`      // [LVL 1-4] Frostwarden Rangers - ROOM 74
 	Track       SkillTag = `track`       // [LVL 1-4] Frostwarden Rangers - ROOM 74
 	Skulduggery SkillTag = `skulduggery` // [LVL 1-4] Thieves Den - ROOM 491
 	Brawling    SkillTag = `brawling`    // [LVL 1-4] Soldiers Training Yard - ROOM 829
 	Scribe      SkillTag = `scribe`      // [LVL 1-4] Dark Acolyte's Chamber - ROOM 160
-	Protection  SkillTag = `protection`  // TODO
-	Tame        SkillTag = `tame`        // [LVL 1-4] Give mushroom to fairie in ROOM 558, train in ROOM 830
+	Protection  SkillTag = `protection`  // [LVL 1-4] Ward Chamber - ROOM 518
+	Tame        SkillTag = `tame`        // [LVL 1-4] Beastcaller's Den - ROOM 519
 	Trading     SkillTag = `trading`     // TODO
 )
 

@@ -1,5 +1,6 @@
 mobid: 44
 zone: Bladeworks Foundry
+rank: boss
 itemdropchance: 100
 hostile: true
 maxwander: 0
